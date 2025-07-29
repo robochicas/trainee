@@ -29,7 +29,7 @@ $ nbdev_prepare
 ### Installation
 
 Install latest from the GitHub
-[repository](https://github.com/robochicas/trainee):
+[criador de readme](https://gprm.itsvg.in/#google_vignette):
 
 ``` sh
 $ pip install git+https://github.com/robochicas/trainee.git
