@@ -2,7 +2,7 @@
 
 d = { 'settings': { 'branch': 'main',
                 'doc_baseurl': '/trainee',
-                'doc_host': 'https://carolbalbs.github.io',
-                'git_url': 'https://github.com/carolbalbs/trainee',
+                'doc_host': 'https://robochicas.github.io',
+                'git_url': 'https://github.com/robochicas/trainee',
                 'lib_path': 'trainee'},
   'syms': {'trainee.core': {'trainee.core.foo': ('core.html#foo', 'trainee/core.py')}}}

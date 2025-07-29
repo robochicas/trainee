@@ -3,7 +3,7 @@ project:
 
 website:
   title: "trainee"
-  site-url: "https://carolbalbs.github.io/trainee"
-  description: "Documentação para onboarding trainee"
+  site-url: "https://robochicas.github.io/trainee"
+  description: "programa trainee"
   repo-branch: main
-  repo-url: "https://github.com/carolbalbs/trainee"
+  repo-url: "https://github.com/robochicas/trainee"

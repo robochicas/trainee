@@ -10,8 +10,13 @@ format:
   commonmark: default
 
 website:
+  title: "Practical Deep Learning for Coders"
+  description: "Learn Deep Learning with fastai and PyTorch, 2022"
   twitter-card: true
   open-graph: true
+  reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
   repo-actions: [issue]
   navbar:
     background: primary
