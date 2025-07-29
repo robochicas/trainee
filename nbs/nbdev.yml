@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "trainee"
+  site-url: "https://carolbalbs.github.io/trainee"
+  description: "Documentação para onboarding trainee"
+  repo-branch: main
+  repo-url: "https://github.com/carolbalbs/trainee"
