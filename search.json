@@ -1,0 +1,709 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "aulas/Aula 1.html",
+    "href": "aulas/Aula 1.html",
+    "title": "Conceitos Importantes",
+    "section": "",
+    "text": "Nesta aula você aprenderá os conceitos fundamentais de programação, incluindo o que são programas, lógica de programação, algoritmos, pseudocódigo e variáveis. Estes conceitos são essenciais para começar sua jornada em desenvolvimento de software.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#vídeo-de-apoio-geral",
+    "href": "aulas/Aula 1.html#vídeo-de-apoio-geral",
+    "title": "Conceitos Importantes",
+    "section": "Vídeo de Apoio Geral",
+    "text": "Vídeo de Apoio Geral",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#programa",
+    "href": "aulas/Aula 1.html#programa",
+    "title": "Conceitos Importantes",
+    "section": "1.1 Programa",
+    "text": "1.1 Programa\nÉ um conjunto de instruções que descrevem uma tarefa a ser realizada pelo computador.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#lógica-de-programação",
+    "href": "aulas/Aula 1.html#lógica-de-programação",
+    "title": "Conceitos Importantes",
+    "section": "1.2 Lógica de Programação",
+    "text": "1.2 Lógica de Programação\nA lógica de programação é a organização de ideias e instruções de forma lógica, com o objetivo de resolver problemas ou realizar tarefas de maneira automatizada. Ou seja, é o raciocínio usado para escrever um código que o computador consiga entender. Com a lógica de programação, conseguimos pensar passo a passo em uma solução e depois transformá-la em instruções.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#algoritmos",
+    "href": "aulas/Aula 1.html#algoritmos",
+    "title": "Conceitos Importantes",
+    "section": "1.3 Algoritmos",
+    "text": "1.3 Algoritmos\nOs algoritmos são uma sequência de passo a passo, com a finalidade de resolver um problema ou executar uma tarefa.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#pseudocódigo",
+    "href": "aulas/Aula 1.html#pseudocódigo",
+    "title": "Conceitos Importantes",
+    "section": "1.4 Pseudocódigo",
+    "text": "1.4 Pseudocódigo\nO pseudocódigo é uma forma de escrever um algoritmo usando uma linguagem similar à linguagem humana. Ela serve para planejar o raciocínio antes de programar.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#variáveis-e-constantes",
+    "href": "aulas/Aula 1.html#variáveis-e-constantes",
+    "title": "Conceitos Importantes",
+    "section": "1.5 Variáveis e Constantes",
+    "text": "1.5 Variáveis e Constantes\nA variável é um objeto que armazena os dados que precisamos no algoritmo, e o seu valor pode ser alterado durante a execução do programa. Já a constante, é uma valor que é pré definido no algoritmo. Ou seja, ela não muda na execução do programa.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 9.html",
+    "href": "aulas/Aula 9.html",
+    "title": "Bonus: Data ethics",
+    "section": "",
+    "text": "Because deep learning is such a powerful tool and can be used for so many things, it becomes particularly important that we consider the consequences of our choices. The philosophical study of ethics is the study of right and wrong, including how we can define those terms, recognize right and wrong actions, and understand the connection between actions and consequences.\nThe field of data ethics has been around for a long time, and there are many academics focused on this field. It is being used to help define policy in many jurisdictions; it is being used in companies big and small to consider how best to ensure good societal outcomes from product development; and it is being used by researchers who want to make sure that the work they are doing is used for good, and not for bad.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Bonus: Data ethics"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 9.html#video",
+    "href": "aulas/Aula 9.html#video",
+    "title": "Bonus: Data ethics",
+    "section": "Video",
+    "text": "Video\n\n\nThis lesson, taught by Dr Rachel Thomas, the founding director of the Center for Applied Data Ethics at the University of San Francisco, was recorded in 2020 during the previous iteration of this course. It discusses some useful ways of thinking about data ethics, particularly through the lens of a number of case studies. It is based partly on chapter 3 of the book.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Bonus: Data ethics"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 9.html#useful-links",
+    "href": "aulas/Aula 9.html#useful-links",
+    "title": "Bonus: Data ethics",
+    "section": "Useful links",
+    "text": "Useful links\n\nDatasheets for datasets\nWeapons of math destruction\nAI Generated Faces\nPapers/repos/tools on how to check for bias\nMarkkula Center - Ethical Toolkit\nThe Pollyannish Assumption\nUnderstanding the context and consequences of pre-trial detention\nFast.ai community ethics resources & discussion\nMontreal AI Ethics Institute Weekly Newsletter",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Bonus: Data ethics"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 7.html",
+    "href": "aulas/Aula 7.html",
+    "title": "7: Collaborative filtering",
+    "section": "",
+    "text": "You interact nearly every day with recommendation systems—algorithms which guess what products and services you might like, based on your past behavior. These systems largely rely on collaborative-filtering, an approach based on linear algebra that fills in the missing values in a matrix. Today we’ll see two ways to do this: one based on a classic linear algebra formulation, and one based on deep learning.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "7: Collaborative filtering"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 7.html#video",
+    "href": "aulas/Aula 7.html#video",
+    "title": "7: Collaborative filtering",
+    "section": "Video",
+    "text": "Video\n\n\nThis lesson is based partly on chapter 8 of the book.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "7: Collaborative filtering"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 7.html#resources",
+    "href": "aulas/Aula 7.html#resources",
+    "title": "7: Collaborative filtering",
+    "section": "Resources",
+    "text": "Resources\n\nNotebooks for this lesson:\n\nRoad to the top: part 3 and part 4\nCollaborative Filtering Deep Dive\n\nSpreadsheets for this lesson:\n\nSoftmax and cross-entropy\nCollaborative filterings and embeddings\n\nThings that confused me about cross-entropy by Chris Said\nLabel Smoothing Explained using Microsoft Excel by Aman Arora",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "7: Collaborative filtering"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 8.html",
+    "href": "aulas/Aula 8.html",
+    "title": "8: Convolutions (CNNs)",
+    "section": "",
+    "text": "Today we finish off our study of collaborative filtering by looking closely at embeddings—a critical building block of many deep learning algorithms. Then we’ll dive into convolutional neural networks (CNNs) and see how they really work. We’ve used plenty of CNNs through this course, but we haven’t peeked inside them to see what’s really going on in there. As well as learning about their most fundamental building block, the convolution, we’ll also look at pooling, dropout, and more.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "8: Convolutions (CNNs)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 8.html#video",
+    "href": "aulas/Aula 8.html#video",
+    "title": "8: Convolutions (CNNs)",
+    "section": "Video",
+    "text": "Video\n\n\nThis lesson is based partly on chapter 13 of the book.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "8: Convolutions (CNNs)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 8.html#resources",
+    "href": "aulas/Aula 8.html#resources",
+    "title": "8: Convolutions (CNNs)",
+    "section": "Resources",
+    "text": "Resources\n\nNotebooks for this lesson\n\nCollaborative Filtering Deep Dive\n\nSpreadsheets for this lesson\n\nCollaborative filterings and embeddings\nConvolutions\n\nOther resources for the lesson\n\nPlease add any questions you want Jeremy to answer to the AMA thread – and upvote any there you’re interested in\nSpecial extra: Data ethics lesson\n\nSolutions to chapter 8 questionnaire from the book",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "8: Convolutions (CNNs)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 10.html",
+    "href": "aulas/Aula 10.html",
+    "title": "10: Diving Deeper",
+    "section": "",
+    "text": "This lesson creates a complete Diffusers pipeline from the underlying components: the VAE, unet, scheduler, and tokeniser. By putting them together manually, this gives you the flexibility to fully customise every aspect of the inference process.\nWe also discuss three important new papers that have been released in the last week, which improve inference performance by over 10x, and allow any photo to be “edited” by just describing what the new picture should show.\nIn the second half of the lesson Jeremy begins the “from scratch” implementation of Stable Diffusion. He introduces the “miniai” library which will be created by students during the course, and discusses organising and simplifying code. The lesson discusses the Python data model, tensors, and random number generation. Jeremy introduces the Wickman-Hill random number generation algorithm and compares the performance of custom and Pytorch’s built-in random number generators. The lesson concludes with creating a linear classifier using a tensor.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "10: Diving Deeper"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 10.html#concepts-discussed",
+    "href": "aulas/Aula 10.html#concepts-discussed",
+    "title": "10: Diving Deeper",
+    "section": "Concepts discussed",
+    "text": "Concepts discussed\n\nPapers:\n\nProgressive Distillation for Fast Sampling of Diffusion Models\nOn Distillation of Guided Diffusion Models\nImagic\n\nTokenizing input text\nCLIP encoder for embeddings\nScheduler for noise determination\nOrganizing and simplifying code\nNegative prompts and callbacks\nIterators and generators in Python\nCustom class for matrices\nDunder methods\nPython data model\nTensors\nPseudo-random number generation\n\nWickman-Hill algorithm\nRandom state in deep learning\n\nLinear classifier using a tensor",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "10: Diving Deeper"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 10.html#video",
+    "href": "aulas/Aula 10.html#video",
+    "title": "10: Diving Deeper",
+    "section": "Video",
+    "text": "Video",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "10: Diving Deeper"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 10.html#lesson-resources",
+    "href": "aulas/Aula 10.html#lesson-resources",
+    "title": "10: Diving Deeper",
+    "section": "Lesson resources",
+    "text": "Lesson resources\n\nDiscuss this lesson\nPaper walkthrough video by @johnowhitaker covering Progressive Distillation for Fast Sampling of Diffusion Models\ndiffusion-nbs repo (we continue walking through stable_diffusion.ipynb that we touched upon last time)\nFashion-MNIST reimplementation of the lesson, with notes, by @strickvl",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "10: Diving Deeper"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 10.html#links-from-the-lesson",
+    "href": "aulas/Aula 10.html#links-from-the-lesson",
+    "title": "10: Diving Deeper",
+    "section": "Links from the lesson",
+    "text": "Links from the lesson\n\nCourse 2022p2 repo\nProgressive Distillation for Fast Sampling of Diffusion Models\nImagic paper. Within a few hours stable diffusion versions are appearing.\nAPL: Array programming - fast.ai Course Forums",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "10: Diving Deeper"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 11.html",
+    "href": "aulas/Aula 11.html",
+    "title": "11: Matrix multiplication",
+    "section": "",
+    "text": "In this lesson, we discuss various techniques and experiments shared by students on the forum, such as interpolating between prompts for visually appealing transitions and improving the update process in text-to-image generation, and a novel approach to decreasing the guidance scale during image generation. We then dive into a new paper called DiffEdit, which focuses on semantic image editing using text-conditioned diffusion models. We walk through the process of reading and understanding the paper, emphasizing the importance of grasping the main idea and not getting bogged down in every detail.\nWe then embark on a deep exploration of matrix multiplication using Python, compare APL with PyTorch, and introduce the concept of Frobenius norm. We also discuss the powerful concept of broadcasting, which allows for operations between tensors of different shapes, and demonstrate its efficiency in speeding up matrix multiplication. The techniques introduced in this lesson allow us to speed up our initial Python implementation by a factor of around five million, including leveraging the GPU for massive parallelism!",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "11: Matrix multiplication"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 11.html#concepts-discussed",
+    "href": "aulas/Aula 11.html#concepts-discussed",
+    "title": "11: Matrix multiplication",
+    "section": "Concepts discussed",
+    "text": "Concepts discussed\n\nDiffusion improvements\n\nInterpolating between prompts for visually appealing transitions\nImproving the update process in text-to-image generation\nDecreasing the guidance scale during image generation\n\nUnderstanding research papers\nMatrix multiplication using Python and Numba\nComparing APL with PyTorch\nFrobenius norm\nBroadcasting in deep learning and machine learning code",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "11: Matrix multiplication"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 11.html#video",
+    "href": "aulas/Aula 11.html#video",
+    "title": "11: Matrix multiplication",
+    "section": "Video",
+    "text": "Video",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "11: Matrix multiplication"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 11.html#lesson-resources",
+    "href": "aulas/Aula 11.html#lesson-resources",
+    "title": "11: Matrix multiplication",
+    "section": "Lesson resources",
+    "text": "Lesson resources\n\nDiscuss this lesson\nDiffEdit: Diffusion-based semantic image editing with mask guidance\nMath notation\n\nGreek letters\nAll in one mathematics cheat sheet (PDF)\nGlossary of mathematical symbols (wikipedia)\npix2tex (open source) or Mathpix (commercial)\nGreek Letters for Deep Learning - Anki deck containing fastai-related Greek letters\nDetexify Draw math symbols",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "11: Matrix multiplication"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Os Três pilares da robótica",
+    "section": "",
+    "text": "Olá, Chicas ! Este pequeno material tem como objetivo introduzir vocês no universo da robotica, trazendo conceitos iniciais que servem como bases para seus estudos. Encarem este conteúdo como um guia de partida, com explicações simples e objetivas, além de links para vídeos que irão auxiliá-las no aprendizado. Claro, vocês têm toda a liberdade para explorar outros materiais complementares que julgarem úteis, o importante é entender de verdade! E acreditamos que explorar outros materiais, buscar fontes diferentes e aprender a aprender são passos essenciais para o crescimento. Fiquem à vontade para complementar seus estudos com o que acharem interessante.\nDesejamos a vocês uma ótima jornada de aprendizado. Que esse seja o primeiro passo de muitos!",
+    "crumbs": [
+      "Home",
+      "Os Três pilares da robótica"
+    ]
+  },
+  {
+    "objectID": "index.html#os-três-pilares-da-robótica",
+    "href": "index.html#os-três-pilares-da-robótica",
+    "title": "Os Três pilares da robótica",
+    "section": "Os Três pilares da robótica",
+    "text": "Os Três pilares da robótica\nAntes de entender se aprofundar no pilares da robótica, é importante entender ou relembrar alguns conceitos básicos",
+    "crumbs": [
+      "Home",
+      "Os Três pilares da robótica"
+    ]
+  },
+  {
+    "objectID": "index.html#video",
+    "href": "index.html#video",
+    "title": "Os Três pilares da robótica",
+    "section": "Video",
+    "text": "Video",
+    "crumbs": [
+      "Home",
+      "Os Três pilares da robótica"
+    ]
+  },
+  {
+    "objectID": "index.html#recursos",
+    "href": "index.html#recursos",
+    "title": "Os Três pilares da robótica",
+    "section": "Recursos 📹",
+    "text": "Recursos 📹\n\nPlaylist completa de lógica de programação\nPlaylist: Conceitos Básicos de Eletrônica\nMaterial complementar sobre algoritmos",
+    "crumbs": [
+      "Home",
+      "Os Três pilares da robótica"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 5.html",
+    "href": "aulas/Aula 5.html",
+    "title": "5: From-scratch model",
+    "section": "",
+    "text": "Today we look at how to create a neural network from scratch using Python and PyTorch, and how to implement a training loop for optimising the weights of a model. We build up from a single layer regression model up to a neural net with one hidden layer, and then to a deep learning model. Along the way we’ll also look at how we can use a special function called sigmoid to make binary classification models easier to train, and we’ll also learn about metrics.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "5: From-scratch model"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 5.html#video",
+    "href": "aulas/Aula 5.html#video",
+    "title": "5: From-scratch model",
+    "section": "Video",
+    "text": "Video\n\n\nThis lesson is based partly on chapter 4 and chapter 9 of the book.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "5: From-scratch model"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 5.html#lesson-notebooks",
+    "href": "aulas/Aula 5.html#lesson-notebooks",
+    "title": "5: From-scratch model",
+    "section": "Lesson notebooks",
+    "text": "Lesson notebooks\n\nLinear model and neural net from scratch\nWhy you should use a framework\nHow random forests really work",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "5: From-scratch model"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 5.html#links-from-the-lesson",
+    "href": "aulas/Aula 5.html#links-from-the-lesson",
+    "title": "5: From-scratch model",
+    "section": "Links from the lesson",
+    "text": "Links from the lesson\n\nOneR paper\nSome great Titanic notebooks: 1; 2; 3; 4",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "5: From-scratch model"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html",
+    "href": "aulas/Aula 6.html",
+    "title": "6: Random forests",
+    "section": "",
+    "text": "Random forests started a revolution in machine learning 20 years ago. For the first time, there was a fast and reliable algorithm which made almost no assumptions about the form of the data, and required almost no preprocessing. In today’s lesson, you’ll learn how a random forest really works, and how to build one from scratch. And, just as importantly, you’ll learn how to interpret random forests to better understand your data.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "6: Random forests"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html#video",
+    "href": "aulas/Aula 6.html#video",
+    "title": "6: Random forests",
+    "section": "Video",
+    "text": "Video\n\n\nThis lesson is based partly on chapter 9 of the book.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "6: Random forests"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html#lesson-notebooks",
+    "href": "aulas/Aula 6.html#lesson-notebooks",
+    "title": "6: Random forests",
+    "section": "Lesson notebooks",
+    "text": "Lesson notebooks\n\nHow random forests really work\nRoad to the top, part 1",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "6: Random forests"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html#links-from-the-lesson",
+    "href": "aulas/Aula 6.html#links-from-the-lesson",
+    "title": "6: Random forests",
+    "section": "Links from the lesson",
+    "text": "Links from the lesson\n\nHow to explain Gradient Boosting\n“Statistical Modeling: The Two Cultures” by Leo Breiman",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "6: Random forests"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html",
+    "href": "aulas/Aula 2.html",
+    "title": "Operadores",
+    "section": "",
+    "text": "Nesta aula você aprenderá sobre os diferentes tipos de operadores em programação, incluindo operadores relacionais, aritméticos e lógicos. Estes são fundamentais para realizar comparações, cálculos e combinações lógicas em seus programas.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#introdução-aos-operadores",
+    "href": "aulas/Aula 2.html#introdução-aos-operadores",
+    "title": "Operadores",
+    "section": "Introdução aos Operadores",
+    "text": "Introdução aos Operadores\nOs operadores são símbolos usados para realizar operações, como cálculos e comparações. Os tipos principais de operadores são:",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#operadores-relacionais",
+    "href": "aulas/Aula 2.html#operadores-relacionais",
+    "title": "Operadores",
+    "section": "2.1 Operadores Relacionais",
+    "text": "2.1 Operadores Relacionais\nOs operadores relacionais são utilizados para comparar dois valores.\n\n\n\nOperador\nSignificado\n\n\n\n\n&gt;\nMaior que\n\n\n&lt;\nMenor que\n\n\n&gt;=\nMaior ou igual\n\n\n&lt;=\nMenor ou igual\n\n\n==\nIgual a\n\n\n!=\nDiferente de",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#operadores-aritméticos",
+    "href": "aulas/Aula 2.html#operadores-aritméticos",
+    "title": "Operadores",
+    "section": "2.2 Operadores Aritméticos",
+    "text": "2.2 Operadores Aritméticos\nOs operadores aritméticos são utilizados para realizar operações matemáticas.\n\n\n\nOperador\nOperação\n\n\n\n\n+\nAdição\n\n\n-\nSubtração\n\n\n*\nMultiplicação\n\n\n/\nDivisão\n\n\n%\nResto da divisão\n\n\n**\nExponenciação",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#operadores-lógicos",
+    "href": "aulas/Aula 2.html#operadores-lógicos",
+    "title": "Operadores",
+    "section": "2.3 Operadores Lógicos",
+    "text": "2.3 Operadores Lógicos\nOs operadores lógicos são utilizados para combinar condições.\n\n\n\nOperador\nSignificado\n\n\n\n\nAND (&&)\nE lógico\n\n\nOR (\n\n\n\nNOT (!)\nNÃO lógico",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 4.html",
+    "href": "aulas/Aula 4.html",
+    "title": "Estruturas de Repetição",
+    "section": "",
+    "text": "Nesta aula você aprenderá sobre estruturas de repetição, que são usadas quando precisamos executar um bloco de código várias vezes. Você conhecerá os loops FOR e WHILE, entendendo quando usar cada um deles.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Repetição"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 4.html#introdução-às-estruturas-de-repetição",
+    "href": "aulas/Aula 4.html#introdução-às-estruturas-de-repetição",
+    "title": "Estruturas de Repetição",
+    "section": "Introdução às Estruturas de Repetição",
+    "text": "Introdução às Estruturas de Repetição\nAs estruturas de repetição são fundamentais quando precisamos executar um bloco de código múltiplas vezes de forma automatizada.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Repetição"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 4.html#loop-for",
+    "href": "aulas/Aula 4.html#loop-for",
+    "title": "Estruturas de Repetição",
+    "section": "4.1 Loop FOR",
+    "text": "4.1 Loop FOR\nO loop FOR é utilizado quando sabemos previamente o número de repetições que queremos executar.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Repetição"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 4.html#loop-while",
+    "href": "aulas/Aula 4.html#loop-while",
+    "title": "Estruturas de Repetição",
+    "section": "4.2 Loop WHILE",
+    "text": "4.2 Loop WHILE\nO loop WHILE continua executando enquanto uma determinada condição for verdadeira.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Repetição"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 13.html",
+    "href": "aulas/Aula 13.html",
+    "title": "9: Stable Diffusion",
+    "section": "",
+    "text": "Here’s what you need to know to complete this course:\n\nThe lesson is presented as a video, which you can jump directly to by clicking the table of contents on the right\nEach video goes through one or more Jupyter notebooks, which you’ll need to run and experiment with to get the most out of the course\nAll information needed to complete a lesson (including links to the repo with the notebooks) is in the “lesson resources” section of the lesson page\nAmongst the lesson resources you’ll find a “discuss this lesson” link, which will take you to a Q&A page on our forums for that particular lesson\nThe material covered in this course includes stuff that would normally only be included in post-graduate level programs. We try to present it in the clearest way possible, but you should expect to work hard and put in plenty of hours of study\nWe assume familiarity with the material in part 1 of this course. If you find yourself unsure about some of the foundational deep learning ideas refered to in the lessons, we’d suggest going back to study the lessons in part 1 that cover those ideas\nIf there’s mathematical or coding concepts that we use that you’re not comfortable with, don’t be afraid to seek out other tutorials to help fill in your gaps\nOn forums.fast.ai there are many other students you can collaborate with, and many folks are looking for study groups or study buddies. Studying in groups has been shown to be more effective for most people than studying alone\nIn many lessons we’ll include a challenge for you to complete, some of which involve trying novel research directions where you’ll be venturing into the academic unknown."
+  },
+  {
+    "objectID": "aulas/Aula 13.html#what-you-need-to-know",
+    "href": "aulas/Aula 13.html#what-you-need-to-know",
+    "title": "9: Stable Diffusion",
+    "section": "",
+    "text": "Here’s what you need to know to complete this course:\n\nThe lesson is presented as a video, which you can jump directly to by clicking the table of contents on the right\nEach video goes through one or more Jupyter notebooks, which you’ll need to run and experiment with to get the most out of the course\nAll information needed to complete a lesson (including links to the repo with the notebooks) is in the “lesson resources” section of the lesson page\nAmongst the lesson resources you’ll find a “discuss this lesson” link, which will take you to a Q&A page on our forums for that particular lesson\nThe material covered in this course includes stuff that would normally only be included in post-graduate level programs. We try to present it in the clearest way possible, but you should expect to work hard and put in plenty of hours of study\nWe assume familiarity with the material in part 1 of this course. If you find yourself unsure about some of the foundational deep learning ideas refered to in the lessons, we’d suggest going back to study the lessons in part 1 that cover those ideas\nIf there’s mathematical or coding concepts that we use that you’re not comfortable with, don’t be afraid to seek out other tutorials to help fill in your gaps\nOn forums.fast.ai there are many other students you can collaborate with, and many folks are looking for study groups or study buddies. Studying in groups has been shown to be more effective for most people than studying alone\nIn many lessons we’ll include a challenge for you to complete, some of which involve trying novel research directions where you’ll be venturing into the academic unknown."
+  },
+  {
+    "objectID": "aulas/Aula 13.html#lesson-overview",
+    "href": "aulas/Aula 13.html#lesson-overview",
+    "title": "9: Stable Diffusion",
+    "section": "Lesson overview",
+    "text": "Lesson overview\nThis lesson starts with a tutorial on how to use pipelines in the Diffusers library to generate images. Diffusers is (in our opinion!) the best library available at the moment for image generation. It has many features and is very flexible. We explain how to use its many features, and discuss options for accessing the GPU resources needed to use the library.\nWe talk about some of the nifty tweaks available when using Stable Diffusion in Diffusers, and show how to use them: guidance scale (for varying the amount the prompt is used), negative prompts (for removing concepts from an image), image initialisation (for starting with an existing image), textual inversion (for adding your own concepts to generated images), Dreambooth (an alternative approach to textual inversion).\nThe second half of the lesson covers the key concepts involved in Stable Diffusion:\n\nCLIP embeddings\nThe VAE (variational autoencoder)\nPredicting noise with the unet\nRemoving noise with schedulers\n\nJeremy shows a theoretical foundation for how Stable Diffusion works, using a novel interpretation that shows an easily-understood intuition for the theory. He introduces the concept of finite differencing and analytic derivatives, using an example of training a neural network to identify pixel adjustments to make an image look more like a handwritten digit, and describes how the derivatives of such a model can provide the score needed to provide the basis of a diffusion process that generates handwritten digits.\nThe lesson also covers finite differencing, analytic derivatives, autoencoders, and U-Nets. Jeremy introduces the concept of creating a model that can take a sentence and return a vector of numbers representing the image, using two models: a text encoder and an image encoder. The lesson concludes with a discussion of the similarities between diffusion-based models and deep learning optimizers, suggesting new research directions."
+  },
+  {
+    "objectID": "aulas/Aula 13.html#concepts-discussed",
+    "href": "aulas/Aula 13.html#concepts-discussed",
+    "title": "9: Stable Diffusion",
+    "section": "Concepts discussed",
+    "text": "Concepts discussed\n\nStable Diffusion\nHugging Face’s Diffusers library\nPre-trained pipelines\nGuidance scale\nNegative prompts\nImage-to-image pipelines\nFinite differencing\nAnalytic derivatives\nAutoencoders\nTextual inversion\nDreambooth\nLatents\nU-Nets\nText encoders and image encoders\nContrastive loss function\nCLIP text encoder\nDeep learning optimizers\nPerceptual loss"
+  },
+  {
+    "objectID": "aulas/Aula 13.html#video",
+    "href": "aulas/Aula 13.html#video",
+    "title": "9: Stable Diffusion",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "aulas/Aula 13.html#lesson-resources",
+    "href": "aulas/Aula 13.html#lesson-resources",
+    "title": "9: Stable Diffusion",
+    "section": "Lesson resources",
+    "text": "Lesson resources\n\nOther Videos\n\nLesson 9A video—Deep Dive—from @johnowhitaker (with accompanying notebook)\nLesson 9B video—The Math of Diffusion—from @seem and @ilovescience\n\nJeremy’s lesson notes\nThe fastai book:\n\nPublished version\nFree notebook version\nSample full chapters\n\nStudent notes – Lesson Notes h/t @barnacl"
+  },
+  {
+    "objectID": "aulas/Aula 13.html#links-from-the-lesson",
+    "href": "aulas/Aula 13.html#links-from-the-lesson",
+    "title": "9: Stable Diffusion",
+    "section": "Links from the lesson",
+    "text": "Links from the lesson\n\nDiscuss this lesson\nCourse repo\ndiffusion-nbs repo\nHuggingFace Notebooks\nGPU servers\n\nLambda Labs\nPaperspace Gradient\nJarvis Labs\nvast.ai - crowdsourced GPU service\n\nPrompt Engineering\n\nLexica\nPromptHero\nHexo - 10M Images and Prompts\n\nTools and Resources for AI Art\nfastai repo"
+  },
+  {
+    "objectID": "aulas/Aula 13.html#useful-background-on-fast.ai-courses",
+    "href": "aulas/Aula 13.html#useful-background-on-fast.ai-courses",
+    "title": "9: Stable Diffusion",
+    "section": "Useful background on fast.ai courses",
+    "text": "Useful background on fast.ai courses\n\nHomework\nSummaries + Things Jeremy Says to do + Qs\nFastai: A Layered API for Deep Learning paper: Information Journal or arxiv or fast.ai\nProviding a Good Education in Deep Learning: fast.ai teaching philosophy\n“How not to do fastai”\n“FastAI Lesson Zero: video + notes”"
+  },
+  {
+    "objectID": "aulas/Aula 12.html",
+    "href": "aulas/Aula 12.html",
+    "title": "12: Mean shift clustering",
+    "section": "",
+    "text": "In this lesson, we start by discussing the CLIP Interrogator, a Hugging Face Spaces Gradio app that generates text prompts for creating CLIP embeddings. We then dive back into matrix multiplication, using Einstein summation notation and torch.einsum to simplify code and improve performance. We explore GPU acceleration with CUDA and Numba, demonstrating how to write a kernel function for matrix multiplication and launch it on the GPU.\nNext up we exercise our tensor programming skills by implementing mean shift clustering, a technique for identifying clusters within a dataset. We create synthetic data, explain the mean shift algorithm, and introduce the Gaussian kernel for penalizing distant points. We implement the mean shift clustering algorithm using PyTorch and discuss the importance of tensor manipulation operations for efficient GPU programming.\nFinally, we optimize the mean shift algorithm using PyTorch and GPUs, demonstrating how to calculate weights, multiply matrices, and sum up points to obtain new data points. We explore the impact of changing batch sizes on performance and encourage viewers to research other clustering algorithms.\nThe lesson concludes with an introduction to calculus, focusing on derivatives and the calculus of infinitesimals.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "12: Mean shift clustering"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 12.html#concepts-discussed",
+    "href": "aulas/Aula 12.html#concepts-discussed",
+    "title": "12: Mean shift clustering",
+    "section": "Concepts discussed",
+    "text": "Concepts discussed\n\nCLIP Interrogator\nInverse problems\nMatrix multiplication\nEinstein summation notation and torch.einsum\nGPU acceleration and CUDA\nNumba\nMean shift clustering\nGaussian kernel\nNorms\nEuclidean distance\nCalculus\n\nDerivatives and Infinitesimals",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "12: Mean shift clustering"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 12.html#video",
+    "href": "aulas/Aula 12.html#video",
+    "title": "12: Mean shift clustering",
+    "section": "Video",
+    "text": "Video",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "12: Mean shift clustering"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 12.html#lesson-resources",
+    "href": "aulas/Aula 12.html#lesson-resources",
+    "title": "12: Mean shift clustering",
+    "section": "Lesson resources",
+    "text": "Lesson resources\n\nDiscuss this lesson\nCLIP Interrogator\nEssence of calculus (3blue1brown)",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "12: Mean shift clustering"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 3.html",
+    "href": "aulas/Aula 3.html",
+    "title": "Estruturas de Seleção",
+    "section": "",
+    "text": "Nesta aula você aprenderá sobre estruturas de seleção, que são fundamentais para criar programas que podem tomar decisões baseadas em condições. Você verá como usar if/else e switch/case para controlar o fluxo do seu programa.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Seleção"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 3.html#introdução-às-estruturas-de-seleção",
+    "href": "aulas/Aula 3.html#introdução-às-estruturas-de-seleção",
+    "title": "Estruturas de Seleção",
+    "section": "Introdução às Estruturas de Seleção",
+    "text": "Introdução às Estruturas de Seleção\nÉ uma estrutura usada para tomar decisões dentro do programa. Dependendo de uma condição, o programa pode seguir caminhos diferentes.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Seleção"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 3.html#ifelse",
+    "href": "aulas/Aula 3.html#ifelse",
+    "title": "Estruturas de Seleção",
+    "section": "3.1 If/Else",
+    "text": "3.1 If/Else\nPermite executar um bloco de código se uma condição for verdadeira, e outra se for falsa.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Seleção"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 3.html#switchcase",
+    "href": "aulas/Aula 3.html#switchcase",
+    "title": "Estruturas de Seleção",
+    "section": "3.2 Switch/Case",
+    "text": "3.2 Switch/Case\nUsado para escolher entre várias opções.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Seleção"
+    ]
+  }
+]
