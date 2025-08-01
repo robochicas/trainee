@@ -1,4 +1,4 @@
-on:
+oon:
   workflow_dispatch:
   push:
     branches: main
@@ -19,11 +19,17 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Initialize gh-pages branch (if needed)
-        if: "!contains(github.ref, 'gh-pages')"
+      - name: Configure Git
         run: |
-          git fetch origin gh-pages || echo "gh-pages branch does not exist yet"
-          quarto publish gh-pages --no-prompt --no-browser
+          git config --global user.email "github-actions@example.com"
+          git config --global user.name "GitHub Actions"
+
+      - name: Initialize gh-pages (if needed)
+        run: |
+          # Check if gh-pages exists
+          if ! git ls-remote --exit-code --heads origin gh-pages; then
+            quarto publish gh-pages --no-prompt --no-browser
+          fi
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
