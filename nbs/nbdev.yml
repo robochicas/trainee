@@ -1,9 +1,0 @@
-project:
-  output-dir: _docs
-
-website:
-  title: "trainee"
-  site-url: "https://robochicas.github.io/trainee"
-  description: "programa trainee"
-  repo-branch: main
-  repo-url: "https://github.com/robochicas/trainee"

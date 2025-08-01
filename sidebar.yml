@@ -1,0 +1,22 @@
+website:
+  sidebar:
+    contents:
+      - index.qmd
+      - section: Pilar 1
+        contents:
+        - aulas/Aula 1.qmd
+        - aulas/Aula 2.qmd
+        - aulas/Aula 3.qmd
+        - aulas/Aula 4.qmd
+      - section: Pilar 2
+        contents:
+        - aulas/Aula 5.qmd
+        - aulas/Aula 6.qmd
+        - aulas/Aula 7.qmd
+        - aulas/Aula 8.qmd
+      - section: Pilar 3
+        contents:
+        - aulas/Aula 9.qmd
+        - aulas/Aula 10.qmd
+        - aulas/Aula 11.qmd
+        - aulas/Aula 12.qmd
