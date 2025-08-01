@@ -11,20 +11,19 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - name: Install quarto
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wget
-          wget -q $(curl https://latest.fast.ai/pre/quarto-dev/quarto-cli/linux-amd64.deb)
-          sudo dpkg -i quarto*.deb
-          rm quarto*.deb
-          quarto render
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Important to fetch all branches
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Initialize gh-pages branch (if needed)
+        if: "!contains(github.ref, 'gh-pages')"
+        run: |
+          git fetch origin gh-pages || echo "gh-pages branch does not exist yet"
+          quarto publish gh-pages --no-prompt --no-browser
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
