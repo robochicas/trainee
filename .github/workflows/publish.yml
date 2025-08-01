@@ -11,6 +11,13 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
+      - name: Install quarto
+        run: |
+          wget -q $(curl https://latest.fast.ai/pre/quarto-dev/quarto-cli/linux-amd64.deb)
+          sudo dpkg -i quarto*.deb
+          rm quarto*.deb
+          quarto render
       - name: Check out repository
         uses: actions/checkout@v4
 
