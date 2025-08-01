@@ -29,7 +29,7 @@ Os operadores relacionais são utilizados para comparar dois valores.
 | == | Igual a |
 | != | Diferente de |
 
-::: {layout="[500,500]"}
+::: {layout="[60,1]"}
 ![Exemplo de operações lógicas](../images/4.jpeg)
 :::
 
