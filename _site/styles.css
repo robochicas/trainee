@@ -43,3 +43,9 @@ main ol ol, main ul ul, main ol ul, main ul ol {
     max-width: 60%;
     height: auto;
 }
+.figcaption{
+  text-align: center;
+}
+.quarto-layout-cell img{
+  max-width: 150%;
+}

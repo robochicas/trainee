@@ -29,6 +29,10 @@ Os operadores relacionais são utilizados para comparar dois valores.
 | == | Igual a |
 | != | Diferente de |
 
+::: {layout="[500,500]"}
+![Exemplo de operações lógicas](../images/4.jpeg)
+:::
+
 ## 2.2 Operadores Aritméticos
 
 Os operadores aritméticos são utilizados para realizar operações matemáticas.
@@ -49,8 +53,9 @@ Os operadores lógicos são utilizados para combinar condições.
 | Operador | Significado |
 |----------|-------------|
 | AND (&&) | E lógico |
-| OR (||) | OU lógico |
-| NOT (!) | NÃO lógico |
+| OR (||)  | OU lógico |
+| NOT (!) |  NÃO lógico |
+| NOT (!!) |  Dupla negação|
 
 
 
