@@ -2,7 +2,7 @@
 title: "Conceitos Importantes"
 ---
 
-::: {layout="[30,90]"}
+::: {layout="[10,70]"}
 
 ![](../images/know.png)
 
@@ -25,17 +25,17 @@ A lógica de programação é a organização de ideias e instruções de forma 
 <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/JaTf3dhx464" title="Lógica de Programação" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 1.3 Algoritmos
-::: {layout="[30,60]"}
+::: {layout="[70,0]"}
 ![Fluxgrama simples](../images/6.jpeg)
 
 
-Os algoritmos são uma sequência de passo a passo, com a finalidade de resolver um problema ou executar uma tarefa.
 :::
+Os algoritmos são uma sequência de passo a passo, com a finalidade de resolver um problema ou executar uma tarefa.
 
 <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/Ohi-MGlBEws" title="Algoritmos" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 1.4 Pseudocódigo
-::: {layout="[30,60]"}
+::: {layout="[70,70]"}
 ![Exemplo pseudocódigo](../images/5.jpeg)
 
 

@@ -2,9 +2,9 @@
 title: "Estruturas de Repetição"
 ---
 
-::: {layout="[30,70]"}
+::: {layout="[10,70]"}
 
-![](../images/loop.png)
+![](../images/condition.png)
 
 Nesta aula você aprenderá sobre estruturas de repetição, que são usadas quando precisamos executar um bloco de código várias vezes. Você conhecerá os loops FOR e WHILE, entendendo quando usar cada um deles.
 

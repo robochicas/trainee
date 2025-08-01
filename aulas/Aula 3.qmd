@@ -2,9 +2,9 @@
 title: "Estruturas de Seleção"
 ---
 
-::: {layout="[30,70]"}
+::: {layout="[10,70]"}
 
-![](../images/selection.png)
+![](../images/loop.png)
 
 Nesta aula você aprenderá sobre estruturas de seleção, que são fundamentais para criar programas que podem tomar decisões baseadas em condições. Você verá como usar if/else e switch/case para controlar o fluxo do seu programa.
 
