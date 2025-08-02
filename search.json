@@ -2,49 +2,73 @@
   {
     "objectID": "aulas/Aula 6.html",
     "href": "aulas/Aula 6.html",
-    "title": "6: Random forests",
+    "title": "Componentes eletrônicos",
     "section": "",
-    "text": "Random forests started a revolution in machine learning 20 years ago. For the first time, there was a fast and reliable algorithm which made almost no assumptions about the form of the data, and required almost no preprocessing. In today’s lesson, you’ll learn how a random forest really works, and how to build one from scratch. And, just as importantly, you’ll learn how to interpret random forests to better understand your data.",
+    "text": "Este tópico oferece uma exploração abrangente sobre os componentes eletrônicos, abordando suas classificações, funções e características principais. Os Componentes Eletrônicos são a estrutura de um circuito elétrico ou eletrônico, desde os mais simples aos mais complexos. Podem ser definidos como todo dispositivo que transmite corrente elétrica através de um condutor ou semicondutor.",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "6: Random forests"
+      "Componentes eletrônicos"
     ]
   },
   {
-    "objectID": "aulas/Aula 6.html#video",
-    "href": "aulas/Aula 6.html#video",
-    "title": "6: Random forests",
-    "section": "Video",
-    "text": "Video\n\n\nThis lesson is based partly on chapter 9 of the book.",
+    "objectID": "aulas/Aula 6.html#resistores",
+    "href": "aulas/Aula 6.html#resistores",
+    "title": "Componentes eletrônicos",
+    "section": "Resistores",
+    "text": "Resistores\nComo os resistores são muito pequenos para terem seus valores impressos, eles usam um sistema de faixas coloridas para indicar seu valor de resistência, multiplicador e tolerância. Por exemplo, um resistor com as faixas Laranja, Laranja, Marrom e Dourado corresponde a 330 ohms com ±5% de tolerância. Caso haja dúvida, o uso de um multímetro é recomendado para obter uma leitura precisa do valor.\n\n\nComo podemos observar também na imagem a seguir a tabela de cores dos resistores: ::: {layout=“[70,0]”}  :::",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "6: Random forests"
+      "Componentes eletrônicos"
     ]
   },
   {
-    "objectID": "aulas/Aula 6.html#lesson-notebooks",
-    "href": "aulas/Aula 6.html#lesson-notebooks",
-    "title": "6: Random forests",
-    "section": "Lesson notebooks",
-    "text": "Lesson notebooks\n\nHow random forests really work\nRoad to the top, part 1",
+    "objectID": "aulas/Aula 6.html#led",
+    "href": "aulas/Aula 6.html#led",
+    "title": "Componentes eletrônicos",
+    "section": "LED",
+    "text": "LED\n\n\n\n\n\n\nLed\n\n\n\n\nLED (do inglês, Light Emitting Diode) é um diodo emissor de luz, sendo basicamente é uma lâmpada que consome pouca energia. O LED, assim como alguns componentes, possui um lado positivo “+” e um lado negativo “-“, essa característica também é conhecida como polaridade. Para esses componentes, se ligar de modo invertido, ele não irá funcionar e pode até acabar danificando. A haste (perna) maior do LED é o lado positivo e a menor é o lado negativo. Você pode ver também pelo lado mais achatado, que é o lado negativo enquanto o lado arredondado é o positivo.",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "6: Random forests"
+      "Componentes eletrônicos"
     ]
   },
   {
-    "objectID": "aulas/Aula 6.html#links-from-the-lesson",
-    "href": "aulas/Aula 6.html#links-from-the-lesson",
-    "title": "6: Random forests",
-    "section": "Links from the lesson",
-    "text": "Links from the lesson\n\nHow to explain Gradient Boosting\n“Statistical Modeling: The Two Cultures” by Leo Breiman",
+    "objectID": "aulas/Aula 6.html#sensor-infravermelho",
+    "href": "aulas/Aula 6.html#sensor-infravermelho",
+    "title": "Componentes eletrônicos",
+    "section": "Sensor infravermelho",
+    "text": "Sensor infravermelho\nÉ um dispositivo eletrônico que emite e/ou detecta radiação infravermelha com o intuito de revelar alguns aspectos do ambiente a seu redor. Esses sensores podem ser utilizados para identificar obstáculos, detectar movimento, medir o calor de um objeto, ler de código de barras, em alarmes de passagem, entre outros. O sensor de obstáculo reflexivo infravermelho IR possui dois LEDs infravermelho: um LED emissor infravermelho (de cor transparente), que emite um feixe de luz numa frequência não visível a olho nu, e um receptor fototransistor (de cor preta), que captura o feixe de luz emitido pelo infravermelho. Estes dois LEDs operam em conjunto. Quando a luz emitida choca em algum obstáculo próximo ocorre a reflexão da luz e o fototransistor a detecta. A cor e o material do objeto podem interferir no funcionamento do sensor de obstáculo reflexivo infravermelho IR.\n\n\n\n\n\n\nSensor Infra\n\n\n\n\n\nOs pinos e componentes do sensor de obstáculo reflexivo infravermelho IR possuem as seguintes funções:\nVCC: Pino de alimentação do sensor com tensão entre 3,3V ~ 5V; GND: Pino de aterramento do sensor; OUT: Pino de saída digital do sensor; LED ON/OFF: LED que indica quando o sensor está ligado (ON) ou desligado (OFF); LED DETECTOR: LED que indica quando ocorre a detecção de um objeto pelo sensor; POTENCIÔMETRO: Potenciômetro de ajuste da sensibilidade do sensor.",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "6: Random forests"
+      "Componentes eletrônicos"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html#sensor-ultrassônico",
+    "href": "aulas/Aula 6.html#sensor-ultrassônico",
+    "title": "Componentes eletrônicos",
+    "section": "Sensor ultrassônico",
+    "text": "Sensor ultrassônico\nÉ um dispositivo que emite ondas sonoras de alta frequência. Essas ondas se propagam pelo ar até encontrarem uma barreira, como uma parede ou uma porta. Quando as ondas encontram um objeto, elas são refletidas de volta para o sensor. O sensor mede o tempo que levou para as ondas serem refletidas e usa essa informação para determinar a distância do objeto. O sensor HC-SR04 é composto de três partes principais:\nTransmissor Ultrassônico – Emite as ondas ultrassônicas que serão refletidas pelos obstáculos; Um receptor – Identifica o eco do sinal emitido pelo transmissor; Circuito de controle – Controla o conjunto transmissor/receptor, calcula o tempo entre a emissão e recepção do sinal.\n\n\n\n\n\n\nSensor ultra\n\n\n\n\nNa figura podemos observar os quatro pinos do sensor HC-SR04. Temos um pino de VCC, alimentado com 5V, um GND, e os dois pinos de controle e leitura do sensor: O Trigger, no qual nós aplicamos o sinal para comandar o envio dos pulsos ultrassônicos, e o Echo, que retorna para o Arduino os pulsos com o tempo de duração entre o envio e recepção do sinal de retorno. A corrente elétrica de operação do sensor é de 15mA, portanto é uma aplicação de baixo consumo energético.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Componentes eletrônicos"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html#dc-motor",
+    "href": "aulas/Aula 6.html#dc-motor",
+    "title": "Componentes eletrônicos",
+    "section": "DC Motor",
+    "text": "DC Motor\nOs motores são componentes indispensáveis em projetos de automação e robótica que utilizam Arduino. São eles os responsáveis pela conversão de energia elétrica em movimento mecânico, permitindo que artefatos robóticos, máquinas e outros dispositivos realizem movimentos. Os motores DC (corrente contínua) são ideais para projetos que exigem um controle simples e eficaz de velocidade. Eles são bastante versáteis e podem ser utilizados em uma gama de aplicações devido à sua capacidade de operar em diferentes velocidades e direções.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Componentes eletrônicos"
     ]
   },
   {
@@ -86,49 +110,37 @@
   {
     "objectID": "aulas/Aula 5.html",
     "href": "aulas/Aula 5.html",
-    "title": "5: From-scratch model",
+    "title": "Entendendo a Eletricidade",
     "section": "",
-    "text": "Today we look at how to create a neural network from scratch using Python and PyTorch, and how to implement a training loop for optimising the weights of a model. We build up from a single layer regression model up to a neural net with one hidden layer, and then to a deep learning model. Along the way we’ll also look at how we can use a special function called sigmoid to make binary classification models easier to train, and we’ll also learn about metrics.",
+    "text": "A eletricidade é uma forma de energia que resulta da existência de partículas carregadas, como elétrons. Para projetos com Arduino, o fundamental é entender a eletricidade como energia que possui uma corrente. Um circuito elétrico funciona como um sistema circular, onde a energia flui de uma fonte positiva, passa pelos componentes que a utilizam, e retorna para o terra (negativo) para completar o ciclo. Se a energia não for utilizada por um componente (como um LED ou resistor) e o polo positivo se conectar diretamente ao negativo, ocorre um curto-circuito. A maneira mais simples de controlar um circuito é interrompendo o fluxo de energia, por exemplo, com um interruptor.",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "5: From-scratch model"
+      "Entendendo a Eletricidade"
     ]
   },
   {
-    "objectID": "aulas/Aula 5.html#video",
-    "href": "aulas/Aula 5.html#video",
-    "title": "5: From-scratch model",
-    "section": "Video",
-    "text": "Video\n\n\nThis lesson is based partly on chapter 4 and chapter 9 of the book.",
+    "objectID": "aulas/Aula 5.html#aprofundando-o-conceito",
+    "href": "aulas/Aula 5.html#aprofundando-o-conceito",
+    "title": "Entendendo a Eletricidade",
+    "section": "Aprofundando o conceito",
+    "text": "Aprofundando o conceito",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "5: From-scratch model"
+      "Entendendo a Eletricidade"
     ]
   },
   {
-    "objectID": "aulas/Aula 5.html#lesson-notebooks",
-    "href": "aulas/Aula 5.html#lesson-notebooks",
-    "title": "5: From-scratch model",
-    "section": "Lesson notebooks",
-    "text": "Lesson notebooks\n\nLinear model and neural net from scratch\nWhy you should use a framework\nHow random forests really work",
+    "objectID": "aulas/Aula 5.html#usando-equações-para-construir-circuitos",
+    "href": "aulas/Aula 5.html#usando-equações-para-construir-circuitos",
+    "title": "Entendendo a Eletricidade",
+    "section": "Usando Equações para Construir Circuitos",
+    "text": "Usando Equações para Construir Circuitos\nPara garantir que os circuitos sejam equilibrados e eficientes, algumas equações são fundamentais. As principais grandezas elétricas são a Potência (P) em watts, a Tensão (V) em volts, a Corrente (I) em amperes e a Resistência (R) em ohms.\nLei de Ohm É a relação mais importante entre tensão, corrente e resistência. A fórmula principal é V=I×R. Ela pode ser rearranjada para descobrir qualquer um dos valores, como R=V/I.\n\n\nLei de Joule e Cálculo de Potência\nA potência (P) de um circuito é calculada multiplicando-se a tensão pela corrente (P=V×I). A Lei de Joule oferece outras formas de calcular a potência, relacionando-a com a resistência, através das fórmulas P=I^2 × R e P=V^2/R. Esses cálculos são úteis para descobrir o consumo de corrente de componentes ou para garantir que os limites de corrente dos pinos do Arduino não sejam excedidos.",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "5: From-scratch model"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 5.html#links-from-the-lesson",
-    "href": "aulas/Aula 5.html#links-from-the-lesson",
-    "title": "5: From-scratch model",
-    "section": "Links from the lesson",
-    "text": "Links from the lesson\n\nOneR paper\nSome great Titanic notebooks: 1; 2; 3; 4",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "5: From-scratch model"
+      "Entendendo a Eletricidade"
     ]
   },
   {
@@ -326,37 +338,61 @@
   {
     "objectID": "aulas/Aula 7.html",
     "href": "aulas/Aula 7.html",
-    "title": "7: Collaborative filtering",
+    "title": "Projetando circuitos",
     "section": "",
-    "text": "You interact nearly every day with recommendation systems—algorithms which guess what products and services you might like, based on your past behavior. These systems largely rely on collaborative-filtering, an approach based on linear algebra that fills in the missing values in a matrix. Today we’ll see two ways to do this: one based on a classic linear algebra formulation, and one based on deep learning.",
+    "text": "Nesta aula, você dará os primeiros passos no mundo da eletrônica de forma prática e segura com o Tinkercad. Aprenda a montar e simular seus primeiros circuitos virtuais, desde acender um LED até a integração com um Arduino, sem a necessidade de componentes físicos. Ao final, você conhecerá as boas práticas para organizar suas montagens, garantindo que seus projetos funcionem corretamente no ambiente virtual antes de aplicá-los no mundo real.",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "7: Collaborative filtering"
+      "Projetando circuitos"
     ]
   },
   {
-    "objectID": "aulas/Aula 7.html#video",
-    "href": "aulas/Aula 7.html#video",
-    "title": "7: Collaborative filtering",
-    "section": "Video",
-    "text": "Video\n\n\nThis lesson is based partly on chapter 8 of the book.",
+    "objectID": "aulas/Aula 7.html#folhas-de-dados-datasheets",
+    "href": "aulas/Aula 7.html#folhas-de-dados-datasheets",
+    "title": "Projetando circuitos",
+    "section": "Folhas de Dados (Datasheets)",
+    "text": "Folhas de Dados (Datasheets)\nAntes de iniciar o projeto é importante saber que todo componente eletrônico possui uma folha de dados do fabricante que contém todas as suas especificações técnicas. A maneira mais fácil de encontrar esse documento é pesquisar online pelo número do modelo do componente seguido da palavra “datasheet”. Por isso, para entender melhor sobre os componentes é importante consultar esses documentos.",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "7: Collaborative filtering"
+      "Projetando circuitos"
     ]
   },
   {
-    "objectID": "aulas/Aula 7.html#resources",
-    "href": "aulas/Aula 7.html#resources",
-    "title": "7: Collaborative filtering",
-    "section": "Resources",
-    "text": "Resources\n\nNotebooks for this lesson:\n\nRoad to the top: part 3 and part 4\nCollaborative Filtering Deep Dive\n\nSpreadsheets for this lesson:\n\nSoftmax and cross-entropy\nCollaborative filterings and embeddings\n\nThings that confused me about cross-entropy by Chris Said\nLabel Smoothing Explained using Microsoft Excel by Aman Arora",
+    "objectID": "aulas/Aula 7.html#codificação-por-cores",
+    "href": "aulas/Aula 7.html#codificação-por-cores",
+    "title": "Projetando circuitos",
+    "section": "Codificação por Cores",
+    "text": "Codificação por Cores\nA codificação por cores é uma técnica importante para organizar os fios em um circuito, o que torna a montagem e a solução de problemas muito mais fáceis. Embora não existam regras rígidas, algumas convenções são amplamente utilizadas:\nVermelho: Geralmente usado para a conexão positiva (+). Preto: Quase sempre usado para a conexão negativa (-) ou terra (GND). Outras Cores: Utilizadas para os diferentes pinos de sinal, ajudando a distingui-los.",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "7: Collaborative filtering"
+      "Projetando circuitos"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 7.html#conhecendo-o-tinkercad",
+    "href": "aulas/Aula 7.html#conhecendo-o-tinkercad",
+    "title": "Projetando circuitos",
+    "section": "Conhecendo o Tinkercad",
+    "text": "Conhecendo o Tinkercad\nO Tinkercad é uma plataforma online e gratuita para modelagem 3D, eletrônica e programação. Conhecido por sua simplicidade, é amplamente utilizado por iniciantes, estudantes, professores e hobbyistas. A ferramenta permite que usuários sem experiência prévia em design criem modelos para impressão 3D e, em sua seção de circuitos, possibilita a montagem e simulação de projetos eletrônicos, incluindo a programação de microcontroladores como o Arduino.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Projetando circuitos"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 7.html#primeiro-projeto-no-tinkercad",
+    "href": "aulas/Aula 7.html#primeiro-projeto-no-tinkercad",
+    "title": "Projetando circuitos",
+    "section": "Primeiro projeto no Tinkercad",
+    "text": "Primeiro projeto no Tinkercad\nVamos montar um circuito simples, utilizando led e resistores.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Projetando circuitos"
     ]
   },
   {
@@ -673,37 +709,13 @@
   {
     "objectID": "aulas/Aula 8.html",
     "href": "aulas/Aula 8.html",
-    "title": "8: Convolutions (CNNs)",
+    "title": "Desafio",
     "section": "",
-    "text": "Today we finish off our study of collaborative filtering by looking closely at embeddings—a critical building block of many deep learning algorithms. Then we’ll dive into convolutional neural networks (CNNs) and see how they really work. We’ve used plenty of CNNs through this course, but we haven’t peeked inside them to see what’s really going on in there. As well as learning about their most fundamental building block, the convolution, we’ll also look at pooling, dropout, and more.",
+    "text": "Você já deu os primeiros passos: montou circuitos, programou a lógica e fez seu primeiro LED acender. Chegou a hora de transformar o simples em algo único. Seu desafio é reinventar o projeto da aula passada. Pense além de um único LED. E se você…\n…criasse um semáforo com LEDs vermelho, amarelo e verde?\n…adicionasse um botão para ligar e desligar uma sequência de luzes?\n…usasse um potenciômetro para controlar a velocidade com que os LEDs piscam?\n…melhorasse o código, criando funções para organizar a programação?\nEstas são apenas algumas ideias. Sinta-se livre para explorar, combinar componentes e criar um projeto que seja a sua cara.\n\n\n\n Back to top",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "8: Convolutions (CNNs)"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 8.html#video",
-    "href": "aulas/Aula 8.html#video",
-    "title": "8: Convolutions (CNNs)",
-    "section": "Video",
-    "text": "Video\n\n\nThis lesson is based partly on chapter 13 of the book.",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "8: Convolutions (CNNs)"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 8.html#resources",
-    "href": "aulas/Aula 8.html#resources",
-    "title": "8: Convolutions (CNNs)",
-    "section": "Resources",
-    "text": "Resources\n\nNotebooks for this lesson\n\nCollaborative Filtering Deep Dive\n\nSpreadsheets for this lesson\n\nCollaborative filterings and embeddings\nConvolutions\n\nOther resources for the lesson\n\nPlease add any questions you want Jeremy to answer to the AMA thread – and upvote any there you’re interested in\nSpecial extra: Data ethics lesson\n\nSolutions to chapter 8 questionnaire from the book",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "8: Convolutions (CNNs)"
+      "Desafio"
     ]
   }
 ]
