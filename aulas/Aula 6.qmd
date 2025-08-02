@@ -17,6 +17,7 @@ Como os resistores são muito pequenos para terem seus valores impressos, eles u
 <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/IWkPwoeCDy0" title="Resistores" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Como podemos observar também na imagem a seguir a tabela de cores dos resistores:
+
 ::: {layout="[70,0]"}
 ![Tabela Resistores](../images/resistor.png)
 :::
@@ -24,10 +25,9 @@ Como podemos observar também na imagem a seguir a tabela de cores dos resistore
 ## LED
 ::: {layout="[70,0]"}
 ![Led](../images/led.jpg)
-
-LED (do inglês, Light Emitting Diode) é um diodo emissor de luz, sendo basicamente é uma lâmpada que consome pouca energia. O LED, assim como alguns componentes, possui um lado positivo “+” e um lado negativo “-“, essa característica também é conhecida como polaridade. Para esses componentes, se ligar de modo invertido, ele não irá funcionar e pode até acabar danificando. A haste (perna) maior do LED é o lado positivo e a menor é o lado negativo. Você pode ver também pelo lado mais achatado, que é o lado negativo enquanto o lado arredondado é o positivo.
 :::
 
+LED (do inglês, Light Emitting Diode) é um diodo emissor de luz, sendo basicamente é uma lâmpada que consome pouca energia. O LED, assim como alguns componentes, possui um lado positivo “+” e um lado negativo “-“, essa característica também é conhecida como polaridade. Para esses componentes, se ligar de modo invertido, ele não irá funcionar e pode até acabar danificando. A haste (perna) maior do LED é o lado positivo e a menor é o lado negativo. Você pode ver também pelo lado mais achatado, que é o lado negativo enquanto o lado arredondado é o positivo.
 
 ## Sensor infravermelho
 
@@ -39,12 +39,12 @@ LED (do inglês, Light Emitting Diode) é um diodo emissor de luz, sendo basicam
 
 Os pinos e componentes do sensor de obstáculo reflexivo infravermelho IR possuem as seguintes funções:
 
-VCC: Pino de alimentação do sensor com tensão entre 3,3V ~ 5V;
-GND: Pino de aterramento do sensor;
-OUT: Pino de saída digital do sensor;
-LED ON/OFF: LED que indica quando o sensor está ligado (ON) ou desligado (OFF);
-LED DETECTOR: LED que indica quando ocorre a detecção de um objeto pelo sensor;
-POTENCIÔMETRO: Potenciômetro de ajuste da sensibilidade do sensor.
+- VCC: Pino de alimentação do sensor com tensão entre 3,3V ~ 5V;
+- GND: Pino de aterramento do sensor;
+- OUT: Pino de saída digital do sensor;
+- LED ON/OFF: LED que indica quando o sensor está ligado (ON) ou desligado (OFF);
+- LED DETECTOR: LED que indica quando ocorre a detecção de um objeto pelo sensor;
+- POTENCIÔMETRO: Potenciômetro de ajuste da sensibilidade do sensor.
 
 <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/ZlifLRBmaZg" title="Sensor Infravermelho IR" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -69,3 +69,4 @@ Na figura podemos observar os quatro pinos do sensor HC-SR04. Temos um pino de V
 Os motores são componentes indispensáveis em projetos de automação e robótica que utilizam Arduino. São eles os responsáveis pela conversão de energia elétrica em movimento mecânico, permitindo que artefatos robóticos, máquinas e outros dispositivos realizem movimentos. Os motores DC (corrente contínua) são ideais para projetos que exigem um controle simples e eficaz de velocidade. Eles são bastante versáteis e podem ser utilizados em uma gama de aplicações devido à sua capacidade de operar em diferentes velocidades e direções.
 
 <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/ApuPtPZeUf0" title="DC Motor" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

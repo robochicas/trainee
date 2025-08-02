@@ -20,12 +20,13 @@ A eletricidade é uma forma de energia que resulta da existência de partículas
 
 Para garantir que os circuitos sejam equilibrados e eficientes, algumas equações são fundamentais. As principais grandezas elétricas são a Potência (P) em watts, a Tensão (V) em volts, a Corrente (I) em amperes e a Resistência (R) em ohms.
 
-*Lei de Ohm*
- É a relação mais importante entre tensão, corrente e resistência. A fórmula principal é V=I×R. Ela pode ser rearranjada para descobrir qualquer um dos valores, como R=V/I.
+- **Lei de Ohm**
+
+É a relação mais importante entre tensão, corrente e resistência. A fórmula principal é V=I×R. Ela pode ser rearranjada para descobrir qualquer um dos valores, como R=V/I.
 
 <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/wriuWoaC_60?modestbranding=1" title="Lei de Ohm com Arduino" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*Lei de Joule e Cálculo de Potência*
+- **Lei de Joule e Cálculo de Potência**
 
 A potência (P) de um circuito é calculada multiplicando-se a tensão pela corrente (P=V×I). A Lei de Joule oferece outras formas de calcular a potência, relacionando-a com a resistência, através das fórmulas P=I^2 × R e P=V^2/R. Esses cálculos são úteis para descobrir o consumo de corrente de componentes ou para garantir que os limites de corrente dos pinos do Arduino não sejam excedidos.
 

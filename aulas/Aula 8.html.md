@@ -6,7 +6,7 @@ title: "Desafio"
 
 ![](../images/eletric.png)
 
-## Desafio Criativo: Evolua seu Primeiro Projeto!
+**Desafio Criativo: Evolua seu Primeiro Projeto!**
 
 :::
 

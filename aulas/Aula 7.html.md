@@ -18,9 +18,9 @@ Antes de iniciar o projeto é importante saber que todo componente eletrônico p
 
 A codificação por cores é uma técnica importante para organizar os fios em um circuito, o que torna a montagem e a solução de problemas muito mais fáceis. Embora não existam regras rígidas, algumas convenções são amplamente utilizadas:
 
-*Vermelho*: Geralmente usado para a conexão positiva (+).
-*Preto*: Quase sempre usado para a conexão negativa (-) ou terra (GND).
-*Outras Cores*: Utilizadas para os diferentes pinos de sinal, ajudando a distingui-los.
+- **Vermelho**: Geralmente usado para a conexão positiva (+).
+- **Preto**: Quase sempre usado para a conexão negativa (-) ou terra (GND).
+- **Outras Cores**: Utilizadas para os diferentes pinos de sinal, ajudando a distingui-los.
 
 ## Conhecendo o Tinkercad 
 
