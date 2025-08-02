@@ -16,7 +16,7 @@
     "href": "aulas/Aula 6.html#resistores",
     "title": "Componentes eletrônicos",
     "section": "Resistores",
-    "text": "Resistores\nComo os resistores são muito pequenos para terem seus valores impressos, eles usam um sistema de faixas coloridas para indicar seu valor de resistência, multiplicador e tolerância. Por exemplo, um resistor com as faixas Laranja, Laranja, Marrom e Dourado corresponde a 330 ohms com ±5% de tolerância. Caso haja dúvida, o uso de um multímetro é recomendado para obter uma leitura precisa do valor.\n\n\nComo podemos observar também na imagem a seguir a tabela de cores dos resistores: ::: {layout=“[70,0]”}  :::",
+    "text": "Resistores\nComo os resistores são muito pequenos para terem seus valores impressos, eles usam um sistema de faixas coloridas para indicar seu valor de resistência, multiplicador e tolerância. Por exemplo, um resistor com as faixas Laranja, Laranja, Marrom e Dourado corresponde a 330 ohms com ±5% de tolerância. Caso haja dúvida, o uso de um multímetro é recomendado para obter uma leitura precisa do valor.\n\n\nComo podemos observar também na imagem a seguir a tabela de cores dos resistores:\n\n\n\n\n\n\nTabela Resistores",
     "crumbs": [
       "Home",
       "Pilar 2",
@@ -28,7 +28,7 @@
     "href": "aulas/Aula 6.html#led",
     "title": "Componentes eletrônicos",
     "section": "LED",
-    "text": "LED\n\n\n\n\n\n\nLed\n\n\n\n\nLED (do inglês, Light Emitting Diode) é um diodo emissor de luz, sendo basicamente é uma lâmpada que consome pouca energia. O LED, assim como alguns componentes, possui um lado positivo “+” e um lado negativo “-“, essa característica também é conhecida como polaridade. Para esses componentes, se ligar de modo invertido, ele não irá funcionar e pode até acabar danificando. A haste (perna) maior do LED é o lado positivo e a menor é o lado negativo. Você pode ver também pelo lado mais achatado, que é o lado negativo enquanto o lado arredondado é o positivo.",
+    "text": "LED\n\n\n\n\n\n\nLed\n\n\n\n\n\nLED (do inglês, Light Emitting Diode) é um diodo emissor de luz, sendo basicamente é uma lâmpada que consome pouca energia. O LED, assim como alguns componentes, possui um lado positivo “+” e um lado negativo “-“, essa característica também é conhecida como polaridade. Para esses componentes, se ligar de modo invertido, ele não irá funcionar e pode até acabar danificando. A haste (perna) maior do LED é o lado positivo e a menor é o lado negativo. Você pode ver também pelo lado mais achatado, que é o lado negativo enquanto o lado arredondado é o positivo.",
     "crumbs": [
       "Home",
       "Pilar 2",
@@ -40,7 +40,7 @@
     "href": "aulas/Aula 6.html#sensor-infravermelho",
     "title": "Componentes eletrônicos",
     "section": "Sensor infravermelho",
-    "text": "Sensor infravermelho\nÉ um dispositivo eletrônico que emite e/ou detecta radiação infravermelha com o intuito de revelar alguns aspectos do ambiente a seu redor. Esses sensores podem ser utilizados para identificar obstáculos, detectar movimento, medir o calor de um objeto, ler de código de barras, em alarmes de passagem, entre outros. O sensor de obstáculo reflexivo infravermelho IR possui dois LEDs infravermelho: um LED emissor infravermelho (de cor transparente), que emite um feixe de luz numa frequência não visível a olho nu, e um receptor fototransistor (de cor preta), que captura o feixe de luz emitido pelo infravermelho. Estes dois LEDs operam em conjunto. Quando a luz emitida choca em algum obstáculo próximo ocorre a reflexão da luz e o fototransistor a detecta. A cor e o material do objeto podem interferir no funcionamento do sensor de obstáculo reflexivo infravermelho IR.\n\n\n\n\n\n\nSensor Infra\n\n\n\n\n\nOs pinos e componentes do sensor de obstáculo reflexivo infravermelho IR possuem as seguintes funções:\nVCC: Pino de alimentação do sensor com tensão entre 3,3V ~ 5V; GND: Pino de aterramento do sensor; OUT: Pino de saída digital do sensor; LED ON/OFF: LED que indica quando o sensor está ligado (ON) ou desligado (OFF); LED DETECTOR: LED que indica quando ocorre a detecção de um objeto pelo sensor; POTENCIÔMETRO: Potenciômetro de ajuste da sensibilidade do sensor.",
+    "text": "Sensor infravermelho\nÉ um dispositivo eletrônico que emite e/ou detecta radiação infravermelha com o intuito de revelar alguns aspectos do ambiente a seu redor. Esses sensores podem ser utilizados para identificar obstáculos, detectar movimento, medir o calor de um objeto, ler de código de barras, em alarmes de passagem, entre outros. O sensor de obstáculo reflexivo infravermelho IR possui dois LEDs infravermelho: um LED emissor infravermelho (de cor transparente), que emite um feixe de luz numa frequência não visível a olho nu, e um receptor fototransistor (de cor preta), que captura o feixe de luz emitido pelo infravermelho. Estes dois LEDs operam em conjunto. Quando a luz emitida choca em algum obstáculo próximo ocorre a reflexão da luz e o fototransistor a detecta. A cor e o material do objeto podem interferir no funcionamento do sensor de obstáculo reflexivo infravermelho IR.\n\n\n\n\n\n\nSensor Infra\n\n\n\n\n\nOs pinos e componentes do sensor de obstáculo reflexivo infravermelho IR possuem as seguintes funções:\n\nVCC: Pino de alimentação do sensor com tensão entre 3,3V ~ 5V;\nGND: Pino de aterramento do sensor;\nOUT: Pino de saída digital do sensor;\nLED ON/OFF: LED que indica quando o sensor está ligado (ON) ou desligado (OFF);\nLED DETECTOR: LED que indica quando ocorre a detecção de um objeto pelo sensor;\nPOTENCIÔMETRO: Potenciômetro de ajuste da sensibilidade do sensor.",
     "crumbs": [
       "Home",
       "Pilar 2",
@@ -136,7 +136,7 @@
     "href": "aulas/Aula 5.html#usando-equações-para-construir-circuitos",
     "title": "Entendendo a Eletricidade",
     "section": "Usando Equações para Construir Circuitos",
-    "text": "Usando Equações para Construir Circuitos\nPara garantir que os circuitos sejam equilibrados e eficientes, algumas equações são fundamentais. As principais grandezas elétricas são a Potência (P) em watts, a Tensão (V) em volts, a Corrente (I) em amperes e a Resistência (R) em ohms.\nLei de Ohm É a relação mais importante entre tensão, corrente e resistência. A fórmula principal é V=I×R. Ela pode ser rearranjada para descobrir qualquer um dos valores, como R=V/I.\n\n\nLei de Joule e Cálculo de Potência\nA potência (P) de um circuito é calculada multiplicando-se a tensão pela corrente (P=V×I). A Lei de Joule oferece outras formas de calcular a potência, relacionando-a com a resistência, através das fórmulas P=I^2 × R e P=V^2/R. Esses cálculos são úteis para descobrir o consumo de corrente de componentes ou para garantir que os limites de corrente dos pinos do Arduino não sejam excedidos.",
+    "text": "Usando Equações para Construir Circuitos\nPara garantir que os circuitos sejam equilibrados e eficientes, algumas equações são fundamentais. As principais grandezas elétricas são a Potência (P) em watts, a Tensão (V) em volts, a Corrente (I) em amperes e a Resistência (R) em ohms.\n\nLei de Ohm\n\nÉ a relação mais importante entre tensão, corrente e resistência. A fórmula principal é V=I×R. Ela pode ser rearranjada para descobrir qualquer um dos valores, como R=V/I.\n\n\n\nLei de Joule e Cálculo de Potência\n\nA potência (P) de um circuito é calculada multiplicando-se a tensão pela corrente (P=V×I). A Lei de Joule oferece outras formas de calcular a potência, relacionando-a com a resistência, através das fórmulas P=I^2 × R e P=V^2/R. Esses cálculos são úteis para descobrir o consumo de corrente de componentes ou para garantir que os limites de corrente dos pinos do Arduino não sejam excedidos.",
     "crumbs": [
       "Home",
       "Pilar 2",
@@ -364,7 +364,7 @@
     "href": "aulas/Aula 7.html#codificação-por-cores",
     "title": "Projetando circuitos",
     "section": "Codificação por Cores",
-    "text": "Codificação por Cores\nA codificação por cores é uma técnica importante para organizar os fios em um circuito, o que torna a montagem e a solução de problemas muito mais fáceis. Embora não existam regras rígidas, algumas convenções são amplamente utilizadas:\nVermelho: Geralmente usado para a conexão positiva (+). Preto: Quase sempre usado para a conexão negativa (-) ou terra (GND). Outras Cores: Utilizadas para os diferentes pinos de sinal, ajudando a distingui-los.",
+    "text": "Codificação por Cores\nA codificação por cores é uma técnica importante para organizar os fios em um circuito, o que torna a montagem e a solução de problemas muito mais fáceis. Embora não existam regras rígidas, algumas convenções são amplamente utilizadas:\n\nVermelho: Geralmente usado para a conexão positiva (+).\nPreto: Quase sempre usado para a conexão negativa (-) ou terra (GND).\nOutras Cores: Utilizadas para os diferentes pinos de sinal, ajudando a distingui-los.",
     "crumbs": [
       "Home",
       "Pilar 2",
@@ -711,7 +711,7 @@
     "href": "aulas/Aula 8.html",
     "title": "Desafio",
     "section": "",
-    "text": "Você já deu os primeiros passos: montou circuitos, programou a lógica e fez seu primeiro LED acender. Chegou a hora de transformar o simples em algo único. Seu desafio é reinventar o projeto da aula passada. Pense além de um único LED. E se você…\n…criasse um semáforo com LEDs vermelho, amarelo e verde?\n…adicionasse um botão para ligar e desligar uma sequência de luzes?\n…usasse um potenciômetro para controlar a velocidade com que os LEDs piscam?\n…melhorasse o código, criando funções para organizar a programação?\nEstas são apenas algumas ideias. Sinta-se livre para explorar, combinar componentes e criar um projeto que seja a sua cara.\n\n\n\n Back to top",
+    "text": "Desafio Criativo: Evolua seu Primeiro Projeto!\n\n\n\nVocê já deu os primeiros passos: montou circuitos, programou a lógica e fez seu primeiro LED acender. Chegou a hora de transformar o simples em algo único. Seu desafio é reinventar o projeto da aula passada. Pense além de um único LED. E se você…\n…criasse um semáforo com LEDs vermelho, amarelo e verde?\n…adicionasse um botão para ligar e desligar uma sequência de luzes?\n…usasse um potenciômetro para controlar a velocidade com que os LEDs piscam?\n…melhorasse o código, criando funções para organizar a programação?\nEstas são apenas algumas ideias. Sinta-se livre para explorar, combinar componentes e criar um projeto que seja a sua cara.\n\n\n\n Back to top",
     "crumbs": [
       "Home",
       "Pilar 2",
