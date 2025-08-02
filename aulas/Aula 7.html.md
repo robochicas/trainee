@@ -1,29 +1,36 @@
 ---
-title: "7: Collaborative filtering"
+title: "Projetando circuitos"
 ---
 
 ::: {layout="[30,70]"}
 
-![](../images/teddy_net.png)
+![](../images/eletric.png)
 
-You interact nearly every day with *recommendation systems*---algorithms which guess what products and services you might like, based on your past behavior. These systems largely rely on *collaborative-filtering*, an approach based on linear algebra that fills in the missing values in a matrix. Today we'll see two ways to do this: one based on a classic linear algebra formulation, and one based on deep learning.
+Nesta aula, você dará os primeiros passos no mundo da eletrônica de forma prática e segura com o Tinkercad. Aprenda a montar e simular seus primeiros circuitos virtuais, desde acender um LED até a integração com um Arduino, sem a necessidade de componentes físicos. Ao final, você conhecerá as boas práticas para organizar suas montagens, garantindo que seus projetos funcionem corretamente no ambiente virtual antes de aplicá-los no mundo real.
 
 :::
 
-## Video
+## Folhas de Dados (Datasheets)
 
-<iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/p4ZZq0736Po?modestbranding=1" title="fast.ai lesson 7" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Antes de iniciar o projeto é importante saber que todo componente eletrônico possui uma folha de dados do fabricante que contém todas as suas especificações técnicas. A maneira mais fácil de encontrar esse documento é pesquisar online pelo número do modelo do componente seguido da palavra "datasheet". Por isso, para entender melhor sobre os componentes é importante consultar esses documentos.
 
-This lesson is based partly on [chapter 8](https://github.com/fastai/fastbook/blob/master/08_collab.ipynb) of the [book](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527).
+## Codificação por Cores
 
-## Resources
+A codificação por cores é uma técnica importante para organizar os fios em um circuito, o que torna a montagem e a solução de problemas muito mais fáceis. Embora não existam regras rígidas, algumas convenções são amplamente utilizadas:
 
-- Notebooks for this lesson:
-  - Road to the top: [part 3](https://www.kaggle.com/code/jhoward/scaling-up-road-to-the-top-part-3) and [part 4](https://www.kaggle.com/code/jhoward/multi-target-road-to-the-top-part-4)
-  - [Collaborative Filtering Deep Dive](https://www.kaggle.com/code/jhoward/collaborative-filtering-deep-dive/notebook)
-- [Spreadsheets](https://github.com/fastai/course22/tree/master/xl) for this lesson:
-  - [Softmax and cross-entropy](https://github.com/fastai/course22/blob/master/xl/entropy_example.xlsx)
-  - [Collaborative filterings and embeddings](https://github.com/fastai/course22/blob/master/xl/collab_filter.xlsx)
-- [Things that confused me about cross-entropy](https://chris-said.io/2020/12/26/two-things-that-confused-me-about-cross-entropy/) by Chris Said
-- [Label Smoothing Explained using Microsoft Excel](https://amaarora.github.io/posts/2020-07-18-label-smoothing.html) by Aman Arora
+*Vermelho*: Geralmente usado para a conexão positiva (+).
+*Preto*: Quase sempre usado para a conexão negativa (-) ou terra (GND).
+*Outras Cores*: Utilizadas para os diferentes pinos de sinal, ajudando a distingui-los.
+
+## Conhecendo o Tinkercad 
+
+O Tinkercad é uma plataforma online e gratuita para modelagem 3D, eletrônica e programação. Conhecido por sua simplicidade, é amplamente utilizado por iniciantes, estudantes, professores e hobbyistas. A ferramenta permite que usuários sem experiência prévia em design criem modelos para impressão 3D e, em sua seção de circuitos, possibilita a montagem e simulação de projetos eletrônicos, incluindo a programação de microcontroladores como o Arduino.
+
+<iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/pFxSl75Vyhs?modestbranding=1" title="Tinkercad - Introdução" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Primeiro projeto no Tinkercad
+Vamos montar um circuito simples, utilizando led e resistores.
+
+<iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/vpPYtPXC_f4?modestbranding=1" title="Acendendo um LED" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
