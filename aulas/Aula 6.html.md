@@ -57,10 +57,10 @@ Um receptor – Identifica o eco do sinal emitido pelo transmissor;
 Circuito de controle – Controla o conjunto transmissor/receptor, calcula o tempo entre a emissão e recepção do sinal.
 
 ::: {layout="[70,0]"}
-![Sensor ultra](../images/sensor-ultra.png)
+![Sensor ultra](../images/sensor-ultra.jpg)
+:::
 
 Na figura podemos observar os quatro pinos do sensor HC-SR04. Temos um pino de VCC, alimentado com 5V, um GND, e os dois pinos de controle e leitura do sensor: O Trigger, no qual nós aplicamos o sinal para comandar o envio dos pulsos ultrassônicos, e o Echo, que retorna para o Arduino os pulsos com o tempo de duração entre o envio e recepção do sinal de retorno. A corrente elétrica de operação do sensor é de 15mA, portanto é uma aplicação de baixo consumo energético.
-:::
 
 <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/J_bUAs-VXA8" title="Sensor Ultrassônico" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
