@@ -1,49 +1,38 @@
 ---
-title: "10: Diving Deeper"
+title: "Modelagem Conceitual/Abstrata"
 ---
 
-This lesson creates a complete Diffusers pipeline from the underlying components: the VAE, unet, scheduler, and tokeniser. By putting them together manually, this gives you the flexibility to fully customise every aspect of the inference process.
+## O que é?
 
-We also discuss three important new papers that have been released in the last week, which improve inference performance by over 10x, and allow any photo to be "edited" by just describing what the new picture should show.
+A modelagem conceitual ou abstrata diz respeito ao planejamento lógico de um robô antes da sua construção física, utilizando diagramas, fluxogramas ou pseudocódigo. Essa etapa é fundamental para estruturar ideias e prever desafios, tornando a execução mais eficiente.
 
-In the second half of the lesson Jeremy begins the "from scratch" implementation of Stable Diffusion. He introduces the "miniai" library which will be created by students during the course, and discusses organising and simplifying code. The lesson discusses the Python data model, tensors, and random number generation. Jeremy introduces the Wickman-Hill random number generation algorithm and compares the performance of custom and Pytorch's built-in random number generators. The lesson concludes with creating a linear classifier using a tensor.
+Ferramentas comuns para modelagem conceitual/abstrata incluem:
 
-## Concepts discussed
+- **Linguagens de Modelagem Gráfica:** UML (Unified Modeling Language) é amplamente utilizada para software, enquanto BPMN (Business Process Model and Notation) é voltada para processos de negócios.
+- **Ferramentas de Diagramação:** Microsoft Visio, Lucidchart, draw.io e StarUML são populares para criar fluxogramas, diagramas de classes e outros tipos de diagramas.
+- **Pseudocódigo e Fluxogramas:** Ideais para representar a lógica do robô de forma simples e abstrata.
 
-- Papers:
-  - Progressive Distillation for Fast Sampling of Diffusion Models
-  - On Distillation of Guided Diffusion Models
-  - Imagic
-- Tokenizing input text
-- CLIP encoder for embeddings
-- Scheduler for noise determination
-- Organizing and simplifying code
-- Negative prompts and callbacks
-- Iterators and generators in Python
-- Custom class for matrices
-- Dunder methods
-- Python data model
-- Tensors
-- Pseudo-random number generation
-  - Wickman-Hill algorithm
-  - Random state in deep learning
-- Linear classifier using a tensor
+::: {layout="[30,70]"}
+<!-- Espaço reservado para imagem -->
+![](../images/fluxograma.png)
+:::
+## Exemplo prático
 
+Imagine uma turma do ensino fundamental com o desafio de criar um robô para ajudar a organizar a biblioteca da escola, empilhando livros em prateleiras específicas.
 
-## Video
+- **Modelagem Conceitual/Abstrata:**  
+  Os alunos começam com um brainstorming, desenhando em um quadro como o robô deveria se mover, quais ações ele realizaria (pegar, transportar, soltar) e como ele saberia onde colocar cada livro. Eles criam um fluxograma simples:
 
-<iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/6StU6UtZEbU?modestbranding=1" title="fast.ai lesson 10" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-## Lesson resources
+  > "Se o robô detectar um livro na mesa, ele o pega. Se o livro for de ficção, ele segue para a prateleira A. Se for de não-ficção, ele segue para a prateleira B."
 
-- [Discuss this lesson](https://forums.fast.ai/t/lesson-10-official-topic/101171)
-- [Paper walkthrough video](https://www.youtube.com/watch?v=ZXuK6IRJlnk) by @johnowhitaker covering *Progressive Distillation for Fast Sampling of Diffusion Models*
-- [diffusion-nbs repo](https://github.com/fastai/diffusion-nbs) (we continue walking through `stable_diffusion.ipynb` that we touched upon last time)
-- [Fashion-MNIST reimplementation](https://mlops.systems/computervision/fastai/parttwo/2022/10/24/foundations-mnist-basics.html) of the lesson, with notes, by @strickvl 
+Neste momento, a criatividade e o raciocínio lógico são estimulados, preparando o caminho para a próxima etapa: a modelagem física ou computacional.
 
-## Links from the lesson
+## Links úteis
 
-- [Course 2022p2 repo](https://github.com/fastai/course22p2) 
-- [Progressive Distillation for Fast Sampling of Diffusion Models](https://arxiv.org/abs/2202.00512)
-- [Imagic paper](https://arxiv.org/abs/2210.09276). Within a few hours [stable diffusion versions](https://twitter.com/Buntworthy/status/1582307817884889088?s=20&t=BAiIP4MoZXt6ptq2kp9Xug) are appearing.
-- APL: [Array programming - fast.ai Course Forums](https://forums.fast.ai/c/array-programming/56)
+- [Lucidchart](https://www.lucidchart.com/)
+- [draw.io](https://app.diagrams.net/)
+- [StarUML](http://staruml.io/)
+- [Microsoft Visio](https://www.microsoft.com/pt-br/microsoft-365/visio/flowchart-software)
+- [UML Tutorial](https://www.uml-diagrams.org/uml-25-diagrams.html)
+- [BPMN Tutorial](https://www.bpmn.org/)
 

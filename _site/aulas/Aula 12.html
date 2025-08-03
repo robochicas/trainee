@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>12: Mean shift clustering –</title>
+<title>Modelagem Matemática –</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../aulas/Aula 13.html" rel="next">
 <link href="../aulas/Aula 11.html" rel="prev">
 <link href=".././images/prancheta2_3.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -72,12 +73,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="12: Mean shift clustering –">
+<meta property="og:title" content="Modelagem Matemática –">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://robochicas.github.io/trainee/images/matematica.png">
 <meta property="og:site_name" content=" ">
-<meta name="twitter:title" content="12: Mean shift clustering –">
+<meta property="og:image:height" content="256">
+<meta property="og:image:width" content="256">
+<meta name="twitter:title" content="Modelagem Matemática –">
 <meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://robochicas.github.io/trainee/images/matematica.png">
+<meta name="twitter:image-height" content="256">
+<meta name="twitter:image-width" content="256">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -131,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 12.html">12: Mean shift clustering</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 12.html">Modelagem Matemática</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -196,25 +203,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../aulas/Aula 5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5: From-scratch model</span></a>
+ <span class="menu-text">Entendendo a Eletricidade</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../aulas/Aula 6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6: Random forests</span></a>
+ <span class="menu-text">Componentes eletrônicos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../aulas/Aula 7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7: Collaborative filtering</span></a>
+ <span class="menu-text">Projetando circuitos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../aulas/Aula 8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8: Convolutions (CNNs)</span></a>
+ <span class="menu-text">Desafio</span></a>
   </div>
 </li>
       </ul>
@@ -231,25 +238,61 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../aulas/Aula 9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bonus: Data ethics</span></a>
+ <span class="menu-text">O pilar da Modelagem</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../aulas/Aula 10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10: Diving Deeper</span></a>
+ <span class="menu-text">Modelagem Conceitual/Abstrata</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../aulas/Aula 11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">11: Matrix multiplication</span></a>
+ <span class="menu-text">Modelagem Computacional/Simulação</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../aulas/Aula 12.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">12: Mean shift clustering</span></a>
+ <span class="menu-text">Modelagem Matemática</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/Aula 13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modelagem Baseada em Prototipagem Rápida</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/Aula 13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modelagem Baseada em Prototipagem Rápida</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/Aula 14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modelagem Virtual (CAD / 3D)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/Aula 15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modelagem Física</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/Aula 16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modelagem de PCB com Sistemas Embarcados</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/Aula 17.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Desafio: Modelagem Virtual e Fabricação Digital</span></a>
   </div>
 </li>
       </ul>
@@ -264,9 +307,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#concepts-discussed" id="toc-concepts-discussed" class="nav-link active" data-scroll-target="#concepts-discussed">Concepts discussed</a></li>
-  <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video">Video</a></li>
-  <li><a href="#lesson-resources" id="toc-lesson-resources" class="nav-link" data-scroll-target="#lesson-resources">Lesson resources</a></li>
+  <li><a href="#o-que-é" id="toc-o-que-é" class="nav-link active" data-scroll-target="#o-que-é">O que é?</a></li>
+  <li><a href="#exemplo-prático" id="toc-exemplo-prático" class="nav-link" data-scroll-target="#exemplo-prático">Exemplo prático</a></li>
+  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis">Links úteis</a></li>
   </ul>
 </nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
@@ -275,9 +318,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 12.html">12: Mean shift clustering</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 12.html">Modelagem Matemática</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">12: Mean shift clustering</h1>
+<h1 class="title">Modelagem Matemática</h1>
 </div>
 
 
@@ -294,40 +337,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In this lesson, we start by discussing the CLIP Interrogator, a Hugging Face Spaces Gradio app that generates text prompts for creating CLIP embeddings. We then dive back into matrix multiplication, using Einstein summation notation and torch.einsum to simplify code and improve performance. We explore GPU acceleration with CUDA and Numba, demonstrating how to write a kernel function for matrix multiplication and launch it on the GPU.</p>
-<p>Next up we exercise our tensor programming skills by implementing mean shift clustering, a technique for identifying clusters within a dataset. We create synthetic data, explain the mean shift algorithm, and introduce the Gaussian kernel for penalizing distant points. We implement the mean shift clustering algorithm using PyTorch and discuss the importance of tensor manipulation operations for efficient GPU programming.</p>
-<p>Finally, we optimize the mean shift algorithm using PyTorch and GPUs, demonstrating how to calculate weights, multiply matrices, and sum up points to obtain new data points. We explore the impact of changing batch sizes on performance and encourage viewers to research other clustering algorithms.</p>
-<p>The lesson concludes with an introduction to calculus, focusing on derivatives and the calculus of infinitesimals.</p>
-<section id="concepts-discussed" class="level2">
-<h2 class="anchored" data-anchor-id="concepts-discussed">Concepts discussed</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/matematica.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="150"></p>
+</figure>
+</div>
+<section id="o-que-é" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-é">O que é?</h2>
+<p>A modelagem matemática envolve o uso de fórmulas e equações para prever ou descrever o comportamento de um robô. É fundamental, por exemplo, para calcular a velocidade, trajetória, força ou outros parâmetros essenciais para o funcionamento eficiente do sistema robótico.</p>
+<p>Ferramentas frequentemente utilizadas para modelagem matemática incluem:</p>
 <ul>
-<li>CLIP Interrogator</li>
-<li>Inverse problems</li>
-<li>Matrix multiplication</li>
-<li>Einstein summation notation and torch.einsum</li>
-<li>GPU acceleration and CUDA</li>
-<li>Numba</li>
-<li>Mean shift clustering</li>
-<li>Gaussian kernel</li>
-<li>Norms</li>
-<li>Euclidean distance</li>
-<li>Calculus
-<ul>
-<li>Derivatives and Infinitesimals</li>
-</ul></li>
+<li><strong>MATLAB:</strong> Muito usado para cálculos, simulações e modelagem matemática avançada.</li>
+<li><strong>Python:</strong> Com bibliotecas como NumPy, SciPy e SymPy para manipulação numérica e simbólica.</li>
+<li><strong>Simulink:</strong> Integrado ao MATLAB, ideal para simulação de sistemas dinâmicos.</li>
+<li><strong>Softwares de CAD/CAE:</strong> SolidWorks, AutoCAD ou ANSYS são exemplos para análises estruturais, simulações mecânicas e cálculos de engenharia.</li>
 </ul>
+<div class="quarto-layout-panel" data-layout="[1,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 1.4%;justify-content: flex-start;">
+<!-- Espaço reservado para imagem -->
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 98.6%;justify-content: center;">
+<p><img src="../images/simulink.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
 </section>
-<section id="video" class="level2">
-<h2 class="anchored" data-anchor-id="video">Video</h2>
-<iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/_xIzPbCgutY?modestbranding=1" title="fast.ai lesson 12" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<section id="exemplo-prático" class="level2">
+<h2 class="anchored" data-anchor-id="exemplo-prático">Exemplo prático</h2>
+<p><strong>Modelagem Matemática:</strong></p>
+<blockquote class="blockquote">
+<p>Após a modelagem conceitual e a simulação, os alunos precisam determinar qual velocidade o robô deve ter para se mover de um ponto a outro sem colidir com obstáculos. Utilizando uma régua e um cronômetro, calculam a distância entre a mesa de coleta e as prateleiras. Com base no tempo desejado para o deslocamento, aplicam a fórmula:</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Velocidade = Distância / Tempo</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Assim, determinam a velocidade ideal dos motores do robô para realizar a tarefa de forma eficiente e segura.</p>
+</blockquote>
 </section>
-<section id="lesson-resources" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-resources">Lesson resources</h2>
+<section id="links-úteis" class="level2">
+<h2 class="anchored" data-anchor-id="links-úteis">Links úteis</h2>
 <ul>
-<li><a href="https://forums.fast.ai/t/lesson-12-official-topic/101702">Discuss this lesson</a></li>
-<li><a href="https://huggingface.co/spaces/pharma/CLIP-Interrogator">CLIP Interrogator</a></li>
-<li><a href="https://www.youtube.com/watch?v=WUvTyaaNkzM">Essence of calculus</a> (3blue1brown)</li>
+<li><a href="https://www.mathworks.com/products/matlab.html">MATLAB</a></li>
+<li><a href="https://www.mathworks.com/products/simulink.html">Simulink</a></li>
+<li><a href="https://numpy.org/">NumPy</a></li>
+<li><a href="https://scipy.org/">SciPy</a></li>
+<li><a href="https://www.sympy.org/">SymPy</a></li>
+<li><a href="https://www.solidworks.com/">SolidWorks</a></li>
+<li><a href="https://www.autodesk.com/products/autocad/overview">AutoCAD</a></li>
+<li><a href="https://www.ansys.com/">ANSYS</a></li>
 </ul>
 
 
@@ -735,11 +794,14 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../aulas/Aula 11.html" class="pagination-link" aria-label="11: Matrix multiplication">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">11: Matrix multiplication</span>
+      <a href="../aulas/Aula 11.html" class="pagination-link" aria-label="Modelagem Computacional/Simulação">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Modelagem Computacional/Simulação</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../aulas/Aula 13.html" class="pagination-link" aria-label="Modelagem Baseada em Prototipagem Rápida">
+        <span class="nav-page-text">Modelagem Baseada em Prototipagem Rápida</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

@@ -1,37 +1,44 @@
 ---
-title: "12: Mean shift clustering"
+title: "Modelagem Matemática"
 ---
 
-In this lesson, we start by discussing the CLIP Interrogator, a Hugging Face Spaces Gradio app that generates text prompts for creating CLIP embeddings. We then dive back into matrix multiplication, using Einstein summation notation and torch.einsum to simplify code and improve performance. We explore GPU acceleration with CUDA and Numba, demonstrating how to write a kernel function for matrix multiplication and launch it on the GPU.
+![](../images/matematica.png){fig-align="center" width="150px"}
 
-Next up we exercise our tensor programming skills by implementing mean shift clustering, a technique for identifying clusters within a dataset. We create synthetic data, explain the mean shift algorithm, and introduce the Gaussian kernel for penalizing distant points. We implement the mean shift clustering algorithm using PyTorch and discuss the importance of tensor manipulation operations for efficient GPU programming.
+## O que é?
 
-Finally, we optimize the mean shift algorithm using PyTorch and GPUs, demonstrating how to calculate weights, multiply matrices, and sum up points to obtain new data points. We explore the impact of changing batch sizes on performance and encourage viewers to research other clustering algorithms.
+A modelagem matemática envolve o uso de fórmulas e equações para prever ou descrever o comportamento de um robô. É fundamental, por exemplo, para calcular a velocidade, trajetória, força ou outros parâmetros essenciais para o funcionamento eficiente do sistema robótico.
 
-The lesson concludes with an introduction to calculus, focusing on derivatives and the calculus of infinitesimals.
+Ferramentas frequentemente utilizadas para modelagem matemática incluem:
 
-## Concepts discussed
+- **MATLAB:** Muito usado para cálculos, simulações e modelagem matemática avançada.
+- **Python:** Com bibliotecas como NumPy, SciPy e SymPy para manipulação numérica e simbólica.
+- **Simulink:** Integrado ao MATLAB, ideal para simulação de sistemas dinâmicos.
+- **Softwares de CAD/CAE:** SolidWorks, AutoCAD ou ANSYS são exemplos para análises estruturais, simulações mecânicas e cálculos de engenharia.
 
-- CLIP Interrogator
-- Inverse problems
-- Matrix multiplication
-- Einstein summation notation and torch.einsum
-- GPU acceleration and CUDA
-- Numba
-- Mean shift clustering
-- Gaussian kernel
-- Norms
-- Euclidean distance
-- Calculus
-  - Derivatives and Infinitesimals
+::: {layout="[1,70]"}
 
-## Video
+<!-- Espaço reservado para imagem -->
+![](../images/simulink.jpg)
+:::
 
-<iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/_xIzPbCgutY?modestbranding=1" title="fast.ai lesson 12" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Exemplo prático
 
-## Lesson resources
+**Modelagem Matemática:**  
 
-- [Discuss this lesson](https://forums.fast.ai/t/lesson-12-official-topic/101702)
-- [CLIP Interrogator](https://huggingface.co/spaces/pharma/CLIP-Interrogator)
-- [Essence of calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM) (3blue1brown)
+> Após a modelagem conceitual e a simulação, os alunos precisam determinar qual velocidade o robô deve ter para se mover de um ponto a outro sem colidir com obstáculos. Utilizando uma régua e um cronômetro, calculam a distância entre a mesa de coleta e as prateleiras. Com base no tempo desejado para o deslocamento, aplicam a fórmula:
 
+> **Velocidade = Distância / Tempo**
+
+> Assim, determinam a velocidade ideal dos motores do robô para realizar a tarefa de forma eficiente e segura.
+
+
+## Links úteis
+
+- [MATLAB](https://www.mathworks.com/products/matlab.html)
+- [Simulink](https://www.mathworks.com/products/simulink.html)
+- [NumPy](https://numpy.org/)
+- [SciPy](https://scipy.org/)
+- [SymPy](https://www.sympy.org/)
+- [SolidWorks](https://www.solidworks.com/)
+- [AutoCAD](https://www.autodesk.com/products/autocad/overview)
+- [ANSYS](https://www.ansys.com/)

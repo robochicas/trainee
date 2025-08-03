@@ -35,7 +35,7 @@ Os algoritmos são uma sequência de passo a passo, com a finalidade de resolver
 <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/Ohi-MGlBEws" title="Algoritmos" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 1.4 Pseudocódigo
-::: {layout="[70,70]"}
+::: {layout="[70,30]"}
 ![Exemplo pseudocódigo](../images/5.jpeg)
 
 

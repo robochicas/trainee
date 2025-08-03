@@ -1,36 +1,53 @@
 ---
-title: "11: Matrix multiplication"
+title: "Modelagem Computacional/Simulação"
 ---
 
-In this lesson, we discuss various techniques and experiments shared by students on the forum, such as interpolating between prompts for visually appealing transitions and improving the update process in text-to-image generation, and a novel approach to decreasing the guidance scale during image generation. We then dive into a new paper called DiffEdit, which focuses on semantic image editing using text-conditioned diffusion models. We walk through the process of reading and understanding the paper, emphasizing the importance of grasping the main idea and not getting bogged down in every detail.
+::: {layout="[20,70]"}
+<!-- Espaço reservado para imagem -->
+![](../images/robotics_image.gif)
+:::
+## O que é?
 
-We then embark on a deep exploration of matrix multiplication using Python, compare APL with PyTorch, and introduce the concept of Frobenius norm. We also discuss the powerful concept of broadcasting, which allows for operations between tensors of different shapes, and demonstrate its efficiency in speeding up matrix multiplication. The techniques introduced in this lesson allow us to speed up our initial Python implementation by a factor of around five million, including leveraging the GPU for massive parallelism!
+A modelagem computacional ou simulação consiste na criação de modelos virtuais de robôs em softwares de simulação, permitindo testar comportamentos e validar ideias sem a necessidade de hardware físico. Essa abordagem é fundamental para prever desafios, otimizar soluções e economizar recursos durante o processo de desenvolvimento.
 
-## Concepts discussed
+### Principais ferramentas :
 
-- Diffusion improvements
-  - Interpolating between prompts for visually appealing transitions
-  - Improving the update process in text-to-image generation
-  - Decreasing the guidance scale during image generation
-- Understanding research papers
-- Matrix multiplication using Python and Numba
-- Comparing APL with PyTorch
-- Frobenius norm
-- Broadcasting in deep learning and machine learning code
+- **MATLAB/Simulink:** Muito utilizado para modelagem, simulação e análise de sistemas dinâmicos.
+- **Gazebo:** Simulador 3D amplamente integrado ao ROS (Robot Operating System).
+- **V-REP (CoppeliaSim):** Ambiente versátil para simulação em robótica, mecatrônica e automação.
+- **Webots:** Simulador de robôs aplicado em pesquisa, ensino e indústria.
+- **OpenSim:** Especializado em modelagem e simulação de sistemas musculoesqueléticos.
+- **Ansys:** Ferramenta de engenharia para simulação multifísica (estrutural, fluidodinâmica, eletromagnética).
+- **Abaqus:** Focado em análise por elementos finitos (FEA) para engenharia mecânica e estrutural.
+- **Unity:** Engine de jogos cada vez mais utilizada em simulações robóticas e ambientes virtuais devido aos avançados recursos gráficos e de física.
+- **ROS (Robot Operating System):** Não é um simulador, mas integra-se a diversas ferramentas para controlar e testar robôs virtuais.
 
-## Video
+### Simulação no GAZEBO utilizando ROS - 😱ROBO DA TESLA😱
 
-<iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/Tf-8F5q8Xww?modestbranding=1" title="fast.ai lesson 11" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="514" height="289" src="https://www.youtube.com/watch?v=e4l5W7ajl5w" title="Estruturas de Seleção" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Lesson resources
+### Fazendo um robo para o GAZEBO
 
-- [Discuss this lesson](https://forums.fast.ai/t/lesson-11-official-topic/101508)
-- [DiffEdit: Diffusion-based semantic image editing with mask guidance](https://arxiv.org/abs/2210.11427)
-- Math notation
-  - [Greek letters](https://en.wikipedia.org/wiki/Greek_alphabet)
-  - [All in one mathematics cheat sheet](https://ourway.keybase.pub/mathematics_cheat_sheet.pdf) (PDF)
-  - [Glossary of mathematical symbols](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols#Other_brackets) (wikipedia)
-  - [pix2tex](https://github.com/lukas-blecher/LaTeX-OCR) (open source) or [Mathpix](https://mathpix.com/) (commercial)
-  - [Greek Letters for Deep Learning](https://ankiweb.net/shared/info/2118139507) - Anki deck containing fastai-related Greek letters
-  - [Detexify](https://detexify.kirelabs.org/classify.html) Draw math symbols
+<iframe width="514" height="289" src="https://www.youtube.com/watch?v=_qQAfTmB5wc" title="Estruturas de Seleção" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+## Exemplo prático
+
+
+**Modelagem Computacional/Simulação:**  
+
+>Antes de construir o robô, os alunos utilizam um software de simulação como Unity ou Gazebo para criar um ambiente virtual da biblioteca. Eles programam o robô virtual com os movimentos e velocidades calculados anteriormente, observando como ele se comporta e ajustando o código para evitar colisões e otimizar o percurso. Isso permite que eles "testem" o robô, economizando materiais físicos e tempo.
+
+## Links úteis
+
+- [Gazebo](https://gazebosim.org/)
+- [CoppeliaSim (V-REP)](https://www.coppeliarobotics.com/)
+- [Webots](https://cyberbotics.com/)
+- [MATLAB/Simulink](https://www.mathworks.com/products/simulink.html)
+- [Unity](https://unity.com/)
+- [OpenSim](https://opensim.stanford.edu/)
+- [Ansys](https://www.ansys.com/)
+- [Abaqus](https://www.3ds.com/products-services/simulia/products/abaqus/)
+- [ROS](https://www.ros.org/)
 

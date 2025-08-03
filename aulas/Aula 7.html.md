@@ -33,4 +33,3 @@ Vamos montar um circuito simples, utilizando led e resistores.
 
 <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/vpPYtPXC_f4?modestbranding=1" title="Acendendo um LED" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
