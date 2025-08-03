@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Modelagem Baseada em Prototipagem Rápida –</title>
+<title>Modelagem de PCB com Sistemas Embarcados –</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../aulas/Aula 14.html" rel="next">
-<link href="../aulas/Aula 12.html" rel="prev">
+<link href="../aulas/Aula 17.html" rel="next">
+<link href="../aulas/Aula 15.html" rel="prev">
 <link href=".././images/prancheta2_3.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -73,13 +73,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Modelagem Baseada em Prototipagem Rápida –">
+<meta property="og:title" content="Modelagem de PCB com Sistemas Embarcados –">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://robochicas.github.io/trainee/images/robotica-iStock.jpg">
+<meta property="og:image" content="https://robochicas.github.io/trainee/images/devMina.png">
 <meta property="og:site_name" content=" ">
-<meta name="twitter:title" content="Modelagem Baseada em Prototipagem Rápida –">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:width" content="1536">
+<meta name="twitter:title" content="Modelagem de PCB com Sistemas Embarcados –">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://robochicas.github.io/trainee/images/robotica-iStock.jpg">
+<meta name="twitter:image" content="https://robochicas.github.io/trainee/images/devMina.png">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1536">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -134,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 13.html">Modelagem Baseada em Prototipagem Rápida</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 16.html">Modelagem de PCB com Sistemas Embarcados</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -257,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../aulas/Aula 13.html" class="sidebar-item-text sidebar-link active">
+  <a href="../aulas/Aula 13.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Modelagem Baseada em Prototipagem Rápida</span></a>
   </div>
 </li>
@@ -281,7 +285,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../aulas/Aula 16.html" class="sidebar-item-text sidebar-link">
+  <a href="../aulas/Aula 16.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Modelagem de PCB com Sistemas Embarcados</span></a>
   </div>
 </li>
@@ -303,7 +307,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#modelagem-baseada-em-prototipagem-rápida" id="toc-modelagem-baseada-em-prototipagem-rápida" class="nav-link active" data-scroll-target="#modelagem-baseada-em-prototipagem-rápida">Modelagem Baseada em Prototipagem Rápida</a></li>
+  <li><a href="#o-que-é" id="toc-o-que-é" class="nav-link active" data-scroll-target="#o-que-é">O que é?</a>
+  <ul class="collapse">
+  <li><a href="#modelagem-de-sistemas-embarcados" id="toc-modelagem-de-sistemas-embarcados" class="nav-link" data-scroll-target="#modelagem-de-sistemas-embarcados">Modelagem de Sistemas Embarcados</a></li>
+  <li><a href="#modelagem-de-pcb" id="toc-modelagem-de-pcb" class="nav-link" data-scroll-target="#modelagem-de-pcb">Modelagem de PCB</a></li>
+  </ul></li>
+  <li><a href="#altium-designer-tutorial" id="toc-altium-designer-tutorial" class="nav-link" data-scroll-target="#altium-designer-tutorial">Altium Designer Tutorial</a></li>
+  <li><a href="#atividade-bonus" id="toc-atividade-bonus" class="nav-link" data-scroll-target="#atividade-bonus">Atividade bonus</a></li>
   <li><a href="#exemplo-prático" id="toc-exemplo-prático" class="nav-link" data-scroll-target="#exemplo-prático">Exemplo prático</a></li>
   <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis">Links úteis</a></li>
   </ul>
@@ -314,9 +324,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 13.html">Modelagem Baseada em Prototipagem Rápida</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 16.html">Modelagem de PCB com Sistemas Embarcados</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Modelagem Baseada em Prototipagem Rápida</h1>
+<h1 class="title">Modelagem de PCB com Sistemas Embarcados</h1>
 </div>
 
 
@@ -333,59 +343,64 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-layout-panel" data-layout="[10,70]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 12.5%;justify-content: flex-start;">
-<!-- Espaço reservado para imagem -->
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 87.5%;justify-content: center;">
-<p><img src="../images/robotica-iStock.jpg" class="img-fluid"></p>
-</div>
-</div>
-</div>
-<section id="modelagem-baseada-em-prototipagem-rápida" class="level3">
-<h3 class="anchored" data-anchor-id="modelagem-baseada-em-prototipagem-rápida">Modelagem Baseada em Prototipagem Rápida</h3>
-<p>A modelagem baseada em prototipagem rápida é uma abordagem “mão na massa”, onde os alunos criam, testam e refinam protótipos de forma interativa. É comum que esse seja o primeiro contato dos estudantes com a modelagem, pois permite transformar ideias em soluções tangíveis rapidamente, contextualizando conceitos de robótica educacional na resolução de problemas reais.</p>
-<p>Essa metodologia se destaca por ser prática e iterativa, estimulando o envolvimento ativo dos alunos no desenvolvimento de produtos ou soluções. Ao invés de seguir um fluxo linear, incentiva-se a criação, o teste e o aprimoramento contínuo dos protótipos. O foco principal é transformar ideias conceituais em objetos concretos que podem ser avaliados e refinados rapidamente.</p>
-<section id="benefícios-da-abordagem" class="level4">
-<h4 class="anchored" data-anchor-id="benefícios-da-abordagem">Benefícios da abordagem</h4>
-<ul>
-<li><strong>Aprendizagem Ativa e Experiencial:</strong> Os estudantes aprendem fazendo, fortalecendo tanto a compreensão teórica quanto o desenvolvimento de habilidades práticas.</li>
-<li><strong>Detecção Precoce de Problemas:</strong> Falhas e desafios são identificados logo no início, reduzindo custos e tempo associados a revisões posteriores.</li>
-<li><strong>Feedback Constante e Melhoria Contínua:</strong> O ciclo iterativo permite incorporar feedback dos usuários e stakeholders, garantindo que o produto final atenda às necessidades reais.</li>
-<li><strong>Estímulo à Criatividade e Resolução de Problemas:</strong> A flexibilidade da prototipagem rápida incentiva a experimentação e soluções inovadoras.</li>
-<li><strong>Desenvolvimento de Habilidades Colaborativas:</strong> Geralmente realizada em equipes, promove a comunicação e colaboração entre os estudantes.</li>
-<li><strong>Redução de Riscos:</strong> Testar ideias em pequena escala antes do desenvolvimento completo minimiza significativamente os riscos do projeto.</li>
-</ul>
-<div class="quarto-layout-panel" data-layout="[20,70]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 22.2%;justify-content: flex-start;">
-<!-- Espaço reservado para imagem -->
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 77.8%;justify-content: center;">
-<p><img src="../images/eletronic.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
+<section id="o-que-é" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-é">O que é?</h2>
+<section id="modelagem-de-sistemas-embarcados" class="level3">
+<h3 class="anchored" data-anchor-id="modelagem-de-sistemas-embarcados">Modelagem de Sistemas Embarcados</h3>
+<p>A modelagem de sistemas embarcados integra hardware e software de maneira harmoniosa para conceber e desenvolver sistemas autônomos. O foco principal, especialmente no contexto da robótica educacional, é a criação de robôs autônomos capazes de interagir com o ambiente e tomar decisões de forma independente. No entanto, vale lembrar que essa área vai muito além e é altamente valorizada na indústria, estando presente em diversos setores.</p>
+<p>Para implementar sistemas embarcados, utilizam-se microcontroladores amplamente conhecidos, como Arduino e Raspberry Pi, que atuam como o “cérebro” do sistema, controlando suas funcionalidades e comportamentos. ::: {layout=“[30,70]”} <!-- Espaço reservado para imagem --> <img src="../images/devMina.png" class="img-fluid"> :::</p>
 </section>
+<section id="modelagem-de-pcb" class="level3">
+<h3 class="anchored" data-anchor-id="modelagem-de-pcb">Modelagem de PCB</h3>
+<p>A modelagem de PCB (Placa de Circuito Impresso) é uma etapa fundamental no desenvolvimento de sistemas embarcados. Ela consiste em planejar, desenhar e validar o circuito eletrônico que irá integrar todos os componentes do projeto, como microcontroladores, sensores, atuadores e conexões de alimentação.</p>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: flex-start;">
+<!-- Espaço reservado para imagem -->
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: center;">
+<p><img src="../images/PCB -67862.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>O processo começa com a criação do esquema elétrico, onde são definidos todos os componentes e suas ligações. Em seguida, utiliza-se um software de CAD eletrônico (como KiCad, Fritzing ou Eagle) para transformar o esquema em um layout de placa, organizando os componentes e roteando as trilhas que farão as conexões elétricas. Durante essa etapa, é possível simular o funcionamento do circuito, identificar possíveis erros e otimizar o design para facilitar a montagem e manutenção.</p>
+<p>A modelagem de PCB permite:</p>
+<ul>
+<li>Reduzir erros de montagem e conexões soltas.</li>
+<li>Otimizar o espaço físico do projeto.</li>
+<li>Facilitar a replicação e manutenção do sistema.</li>
+<li>Garantir maior confiabilidade e desempenho do circuito.</li>
+</ul>
+<p>Somente após a validação virtual do projeto, a placa é fabricada e os componentes são soldados, resultando em um sistema embarcado compacto, funcional e pronto para ser integrado ao restante do projeto.</p>
+</section>
+</section>
+<section id="altium-designer-tutorial" class="level2">
+<h2 class="anchored" data-anchor-id="altium-designer-tutorial">Altium Designer Tutorial</h2>
+<iframe width="514" height="289" src="https://youtu.be/xjJpiMlldoI?si=48puWZQ6sphv5czV" title="Introdução à Modelagem 3D para Robótica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</section>
+<section id="atividade-bonus" class="level2">
+<h2 class="anchored" data-anchor-id="atividade-bonus">Atividade bonus</h2>
+<iframe width="514" height="289" src="https://youtu.be/jxiaHpoSUno?si=DJET5qp5XjUISA8o" title="Introdução à Modelagem 3D para Robótica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
 </section>
 <section id="exemplo-prático" class="level2">
 <h2 class="anchored" data-anchor-id="exemplo-prático">Exemplo prático</h2>
-<p><strong>Modelagem Baseada em Prototipagem Rápida</strong></p>
+<p><strong>Modelagem de PCB com Sistemas Embarcados:</strong></p>
 <blockquote class="blockquote">
-<p>Durante o desenvolvimento do robô, eles decidem criar um “braço personalizado” com uma garra adaptável usando impressão 3D. Os alunos percebem que antes de desenvolver o prototipo físico o ideal testar os principios de funcionamento elétricos e eletrônicos para segurar os conceitos visto nos livros. Para isso, começam desenhando o circuito eletrônico no Tinkercad, em seguida reúnem os componentes físicos para montagem e testes iniciais. Esse processo permite testar e ajustar rapidamente o projeto conforme necessário.</p>
+<p>Na etapa final do projeto, o robô físico é completamente integrado. Os alunos conectam motores, sensores e o braço impresso em 3D a uma placa Arduino. Em seguida, escrevem o código final na Arduino IDE, responsável por controlar todas as ações do robô – desde a leitura dos sensores de cor e distância, até o movimento dos motores e o acionamento do braço para pegar e soltar os livros. Com o sucesso do primeiro prototipo, os alunos decidem modelar em um software 3D uma placa de circuito impresso (PCB) para organizar melhor os componentes eletrônicos e facilitar a montagem e modularização do projeto. Eles utilizam o KiCad para desenhar o circuito, garantindo que todos os componentes estejam conectados corretamente. Após a fabricação da PCB, realizam testes finais para garantir que o robô funcione conforme o esperado.</p>
 </blockquote>
+<p>Ao final, o robô é testado na biblioteca real, possibilitando que os alunos percebam como cada etapa da modelagem foi essencial para o sucesso do projeto – desde a concepção inicial até a execução física e aprimorada.</p>
 </section>
 <section id="links-úteis" class="level2">
 <h2 class="anchored" data-anchor-id="links-úteis">Links úteis</h2>
 <ul>
-<li><a href="https://www.tinkercad.com/">Tinkercad</a></li>
-<li><a href="https://www.autodesk.com/products/fusion-360/overview">Fusion 360</a></li>
-<li><a href="https://www.freecad.org/">FreeCAD</a></li>
-<li><a href="https://ultimaker.com/software/ultimaker-cura/">Ultimaker Cura</a></li>
-<li><a href="https://www.thingiverse.com/">Thingiverse</a></li>
 <li><a href="https://www.arduino.cc/">Arduino</a></li>
-<li><a href="https://www.printables.com/">PrusaPrinters</a></li>
+<li><a href="https://www.raspberrypi.org/">Raspberry Pi</a></li>
+<li><a href="https://www.espressif.com/en/products/socs/esp32">ESP32</a></li>
+<li><a href="https://micropython.org/">MicroPython</a></li>
+<li><a href="https://platformio.org/">PlatformIO</a></li>
+<li><a href="https://www.arduino.cc/en/software">Arduino IDE</a></li>
 </ul>
 
 
@@ -793,13 +808,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../aulas/Aula 12.html" class="pagination-link" aria-label="Modelagem Matemática">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Modelagem Matemática</span>
+      <a href="../aulas/Aula 15.html" class="pagination-link" aria-label="Modelagem Física">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Modelagem Física</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../aulas/Aula 14.html" class="pagination-link" aria-label="Modelagem Virtual (CAD / 3D)">
-        <span class="nav-page-text">Modelagem Virtual (CAD / 3D)</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../aulas/Aula 17.html" class="pagination-link" aria-label="Desafio: Modelagem Virtual e Fabricação Digital">
+        <span class="nav-page-text">Desafio: Modelagem Virtual e Fabricação Digital</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

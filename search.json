@@ -1,338 +1,314 @@
 [
   {
-    "objectID": "aulas/Aula 6.html",
-    "href": "aulas/Aula 6.html",
-    "title": "Componentes eletrônicos",
+    "objectID": "aulas/Aula 16.html",
+    "href": "aulas/Aula 16.html",
+    "title": "Modelagem de PCB com Sistemas Embarcados",
     "section": "",
-    "text": "Este tópico oferece uma exploração abrangente sobre os componentes eletrônicos, abordando suas classificações, funções e características principais. Os Componentes Eletrônicos são a estrutura de um circuito elétrico ou eletrônico, desde os mais simples aos mais complexos. Podem ser definidos como todo dispositivo que transmite corrente elétrica através de um condutor ou semicondutor.",
+    "text": "A modelagem de sistemas embarcados integra hardware e software de maneira harmoniosa para conceber e desenvolver sistemas autônomos. O foco principal, especialmente no contexto da robótica educacional, é a criação de robôs autônomos capazes de interagir com o ambiente e tomar decisões de forma independente. No entanto, vale lembrar que essa área vai muito além e é altamente valorizada na indústria, estando presente em diversos setores.\nPara implementar sistemas embarcados, utilizam-se microcontroladores amplamente conhecidos, como Arduino e Raspberry Pi, que atuam como o “cérebro” do sistema, controlando suas funcionalidades e comportamentos. ::: {layout=“[30,70]”}   :::\n\n\n\nA modelagem de PCB (Placa de Circuito Impresso) é uma etapa fundamental no desenvolvimento de sistemas embarcados. Ela consiste em planejar, desenhar e validar o circuito eletrônico que irá integrar todos os componentes do projeto, como microcontroladores, sensores, atuadores e conexões de alimentação.\n\n\n\n\n\n\n\n\n\n\nO processo começa com a criação do esquema elétrico, onde são definidos todos os componentes e suas ligações. Em seguida, utiliza-se um software de CAD eletrônico (como KiCad, Fritzing ou Eagle) para transformar o esquema em um layout de placa, organizando os componentes e roteando as trilhas que farão as conexões elétricas. Durante essa etapa, é possível simular o funcionamento do circuito, identificar possíveis erros e otimizar o design para facilitar a montagem e manutenção.\nA modelagem de PCB permite:\n\nReduzir erros de montagem e conexões soltas.\nOtimizar o espaço físico do projeto.\nFacilitar a replicação e manutenção do sistema.\nGarantir maior confiabilidade e desempenho do circuito.\n\nSomente após a validação virtual do projeto, a placa é fabricada e os componentes são soldados, resultando em um sistema embarcado compacto, funcional e pronto para ser integrado ao restante do projeto.",
     "crumbs": [
       "Home",
-      "Pilar 2",
-      "Componentes eletrônicos"
+      "Pilar 3",
+      "Modelagem de PCB com Sistemas Embarcados"
     ]
   },
   {
-    "objectID": "aulas/Aula 6.html#resistores",
-    "href": "aulas/Aula 6.html#resistores",
-    "title": "Componentes eletrônicos",
-    "section": "Resistores",
-    "text": "Resistores\nComo os resistores são muito pequenos para terem seus valores impressos, eles usam um sistema de faixas coloridas para indicar seu valor de resistência, multiplicador e tolerância. Por exemplo, um resistor com as faixas Laranja, Laranja, Marrom e Dourado corresponde a 330 ohms com ±5% de tolerância. Caso haja dúvida, o uso de um multímetro é recomendado para obter uma leitura precisa do valor.\n\n\nComo podemos observar também na imagem a seguir a tabela de cores dos resistores:\n\n\n\n\n\n\nTabela Resistores",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "Componentes eletrônicos"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 6.html#led",
-    "href": "aulas/Aula 6.html#led",
-    "title": "Componentes eletrônicos",
-    "section": "LED",
-    "text": "LED\n\n\n\n\n\n\nLed\n\n\n\n\n\nLED (do inglês, Light Emitting Diode) é um diodo emissor de luz, sendo basicamente é uma lâmpada que consome pouca energia. O LED, assim como alguns componentes, possui um lado positivo “+” e um lado negativo “-“, essa característica também é conhecida como polaridade. Para esses componentes, se ligar de modo invertido, ele não irá funcionar e pode até acabar danificando. A haste (perna) maior do LED é o lado positivo e a menor é o lado negativo. Você pode ver também pelo lado mais achatado, que é o lado negativo enquanto o lado arredondado é o positivo.",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "Componentes eletrônicos"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 6.html#sensor-infravermelho",
-    "href": "aulas/Aula 6.html#sensor-infravermelho",
-    "title": "Componentes eletrônicos",
-    "section": "Sensor infravermelho",
-    "text": "Sensor infravermelho\nÉ um dispositivo eletrônico que emite e/ou detecta radiação infravermelha com o intuito de revelar alguns aspectos do ambiente a seu redor. Esses sensores podem ser utilizados para identificar obstáculos, detectar movimento, medir o calor de um objeto, ler de código de barras, em alarmes de passagem, entre outros. O sensor de obstáculo reflexivo infravermelho IR possui dois LEDs infravermelho: um LED emissor infravermelho (de cor transparente), que emite um feixe de luz numa frequência não visível a olho nu, e um receptor fototransistor (de cor preta), que captura o feixe de luz emitido pelo infravermelho. Estes dois LEDs operam em conjunto. Quando a luz emitida choca em algum obstáculo próximo ocorre a reflexão da luz e o fototransistor a detecta. A cor e o material do objeto podem interferir no funcionamento do sensor de obstáculo reflexivo infravermelho IR.\n\n\n\n\n\n\nSensor Infra\n\n\n\n\n\nOs pinos e componentes do sensor de obstáculo reflexivo infravermelho IR possuem as seguintes funções:\n\nVCC: Pino de alimentação do sensor com tensão entre 3,3V ~ 5V;\nGND: Pino de aterramento do sensor;\nOUT: Pino de saída digital do sensor;\nLED ON/OFF: LED que indica quando o sensor está ligado (ON) ou desligado (OFF);\nLED DETECTOR: LED que indica quando ocorre a detecção de um objeto pelo sensor;\nPOTENCIÔMETRO: Potenciômetro de ajuste da sensibilidade do sensor.",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "Componentes eletrônicos"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 6.html#sensor-ultrassônico",
-    "href": "aulas/Aula 6.html#sensor-ultrassônico",
-    "title": "Componentes eletrônicos",
-    "section": "Sensor ultrassônico",
-    "text": "Sensor ultrassônico\nÉ um dispositivo que emite ondas sonoras de alta frequência. Essas ondas se propagam pelo ar até encontrarem uma barreira, como uma parede ou uma porta. Quando as ondas encontram um objeto, elas são refletidas de volta para o sensor. O sensor mede o tempo que levou para as ondas serem refletidas e usa essa informação para determinar a distância do objeto. O sensor HC-SR04 é composto de três partes principais:\nTransmissor Ultrassônico – Emite as ondas ultrassônicas que serão refletidas pelos obstáculos; Um receptor – Identifica o eco do sinal emitido pelo transmissor; Circuito de controle – Controla o conjunto transmissor/receptor, calcula o tempo entre a emissão e recepção do sinal.\n\n\n\n\n\n\nSensor ultra\n\n\n\n\n\nNa figura podemos observar os quatro pinos do sensor HC-SR04. Temos um pino de VCC, alimentado com 5V, um GND, e os dois pinos de controle e leitura do sensor: O Trigger, no qual nós aplicamos o sinal para comandar o envio dos pulsos ultrassônicos, e o Echo, que retorna para o Arduino os pulsos com o tempo de duração entre o envio e recepção do sinal de retorno. A corrente elétrica de operação do sensor é de 15mA, portanto é uma aplicação de baixo consumo energético.",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "Componentes eletrônicos"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 6.html#dc-motor",
-    "href": "aulas/Aula 6.html#dc-motor",
-    "title": "Componentes eletrônicos",
-    "section": "DC Motor",
-    "text": "DC Motor\nOs motores são componentes indispensáveis em projetos de automação e robótica que utilizam Arduino. São eles os responsáveis pela conversão de energia elétrica em movimento mecânico, permitindo que artefatos robóticos, máquinas e outros dispositivos realizem movimentos. Os motores DC (corrente contínua) são ideais para projetos que exigem um controle simples e eficaz de velocidade. Eles são bastante versáteis e podem ser utilizados em uma gama de aplicações devido à sua capacidade de operar em diferentes velocidades e direções.",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "Componentes eletrônicos"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 9.html",
-    "href": "aulas/Aula 9.html",
-    "title": "Bonus: Data ethics",
+    "objectID": "aulas/Aula 16.html#o-que-é",
+    "href": "aulas/Aula 16.html#o-que-é",
+    "title": "Modelagem de PCB com Sistemas Embarcados",
     "section": "",
-    "text": "Because deep learning is such a powerful tool and can be used for so many things, it becomes particularly important that we consider the consequences of our choices. The philosophical study of ethics is the study of right and wrong, including how we can define those terms, recognize right and wrong actions, and understand the connection between actions and consequences.\nThe field of data ethics has been around for a long time, and there are many academics focused on this field. It is being used to help define policy in many jurisdictions; it is being used in companies big and small to consider how best to ensure good societal outcomes from product development; and it is being used by researchers who want to make sure that the work they are doing is used for good, and not for bad.",
+    "text": "A modelagem de sistemas embarcados integra hardware e software de maneira harmoniosa para conceber e desenvolver sistemas autônomos. O foco principal, especialmente no contexto da robótica educacional, é a criação de robôs autônomos capazes de interagir com o ambiente e tomar decisões de forma independente. No entanto, vale lembrar que essa área vai muito além e é altamente valorizada na indústria, estando presente em diversos setores.\nPara implementar sistemas embarcados, utilizam-se microcontroladores amplamente conhecidos, como Arduino e Raspberry Pi, que atuam como o “cérebro” do sistema, controlando suas funcionalidades e comportamentos. ::: {layout=“[30,70]”}   :::\n\n\n\nA modelagem de PCB (Placa de Circuito Impresso) é uma etapa fundamental no desenvolvimento de sistemas embarcados. Ela consiste em planejar, desenhar e validar o circuito eletrônico que irá integrar todos os componentes do projeto, como microcontroladores, sensores, atuadores e conexões de alimentação.\n\n\n\n\n\n\n\n\n\n\nO processo começa com a criação do esquema elétrico, onde são definidos todos os componentes e suas ligações. Em seguida, utiliza-se um software de CAD eletrônico (como KiCad, Fritzing ou Eagle) para transformar o esquema em um layout de placa, organizando os componentes e roteando as trilhas que farão as conexões elétricas. Durante essa etapa, é possível simular o funcionamento do circuito, identificar possíveis erros e otimizar o design para facilitar a montagem e manutenção.\nA modelagem de PCB permite:\n\nReduzir erros de montagem e conexões soltas.\nOtimizar o espaço físico do projeto.\nFacilitar a replicação e manutenção do sistema.\nGarantir maior confiabilidade e desempenho do circuito.\n\nSomente após a validação virtual do projeto, a placa é fabricada e os componentes são soldados, resultando em um sistema embarcado compacto, funcional e pronto para ser integrado ao restante do projeto.",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "Bonus: Data ethics"
+      "Modelagem de PCB com Sistemas Embarcados"
     ]
   },
   {
-    "objectID": "aulas/Aula 9.html#video",
-    "href": "aulas/Aula 9.html#video",
-    "title": "Bonus: Data ethics",
-    "section": "Video",
-    "text": "Video\n\n\nThis lesson, taught by Dr Rachel Thomas, the founding director of the Center for Applied Data Ethics at the University of San Francisco, was recorded in 2020 during the previous iteration of this course. It discusses some useful ways of thinking about data ethics, particularly through the lens of a number of case studies. It is based partly on chapter 3 of the book.",
+    "objectID": "aulas/Aula 16.html#altium-designer-tutorial",
+    "href": "aulas/Aula 16.html#altium-designer-tutorial",
+    "title": "Modelagem de PCB com Sistemas Embarcados",
+    "section": "Altium Designer Tutorial",
+    "text": "Altium Designer Tutorial",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "Bonus: Data ethics"
+      "Modelagem de PCB com Sistemas Embarcados"
     ]
   },
   {
-    "objectID": "aulas/Aula 9.html#useful-links",
-    "href": "aulas/Aula 9.html#useful-links",
-    "title": "Bonus: Data ethics",
-    "section": "Useful links",
-    "text": "Useful links\n\nDatasheets for datasets\nWeapons of math destruction\nAI Generated Faces\nPapers/repos/tools on how to check for bias\nMarkkula Center - Ethical Toolkit\nThe Pollyannish Assumption\nUnderstanding the context and consequences of pre-trial detention\nFast.ai community ethics resources & discussion\nMontreal AI Ethics Institute Weekly Newsletter",
+    "objectID": "aulas/Aula 16.html#atividade-bonus",
+    "href": "aulas/Aula 16.html#atividade-bonus",
+    "title": "Modelagem de PCB com Sistemas Embarcados",
+    "section": "Atividade bonus",
+    "text": "Atividade bonus",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "Bonus: Data ethics"
+      "Modelagem de PCB com Sistemas Embarcados"
     ]
   },
   {
-    "objectID": "aulas/Aula 5.html",
-    "href": "aulas/Aula 5.html",
-    "title": "Entendendo a Eletricidade",
+    "objectID": "aulas/Aula 16.html#exemplo-prático",
+    "href": "aulas/Aula 16.html#exemplo-prático",
+    "title": "Modelagem de PCB com Sistemas Embarcados",
+    "section": "Exemplo prático",
+    "text": "Exemplo prático\nModelagem de PCB com Sistemas Embarcados:\n\nNa etapa final do projeto, o robô físico é completamente integrado. Os alunos conectam motores, sensores e o braço impresso em 3D a uma placa Arduino. Em seguida, escrevem o código final na Arduino IDE, responsável por controlar todas as ações do robô – desde a leitura dos sensores de cor e distância, até o movimento dos motores e o acionamento do braço para pegar e soltar os livros. Com o sucesso do primeiro prototipo, os alunos decidem modelar em um software 3D uma placa de circuito impresso (PCB) para organizar melhor os componentes eletrônicos e facilitar a montagem e modularização do projeto. Eles utilizam o KiCad para desenhar o circuito, garantindo que todos os componentes estejam conectados corretamente. Após a fabricação da PCB, realizam testes finais para garantir que o robô funcione conforme o esperado.\n\nAo final, o robô é testado na biblioteca real, possibilitando que os alunos percebam como cada etapa da modelagem foi essencial para o sucesso do projeto – desde a concepção inicial até a execução física e aprimorada.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem de PCB com Sistemas Embarcados"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 16.html#links-úteis",
+    "href": "aulas/Aula 16.html#links-úteis",
+    "title": "Modelagem de PCB com Sistemas Embarcados",
+    "section": "Links úteis",
+    "text": "Links úteis\n\nArduino\nRaspberry Pi\nESP32\nMicroPython\nPlatformIO\nArduino IDE",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem de PCB com Sistemas Embarcados"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 8.html",
+    "href": "aulas/Aula 8.html",
+    "title": "Desafio",
     "section": "",
-    "text": "A eletricidade é uma forma de energia que resulta da existência de partículas carregadas, como elétrons. Para projetos com Arduino, o fundamental é entender a eletricidade como energia que possui uma corrente. Um circuito elétrico funciona como um sistema circular, onde a energia flui de uma fonte positiva, passa pelos componentes que a utilizam, e retorna para o terra (negativo) para completar o ciclo. Se a energia não for utilizada por um componente (como um LED ou resistor) e o polo positivo se conectar diretamente ao negativo, ocorre um curto-circuito. A maneira mais simples de controlar um circuito é interrompendo o fluxo de energia, por exemplo, com um interruptor.",
+    "text": "Desafio Criativo: Evolua seu Primeiro Projeto!\n\n\n\nVocê já deu os primeiros passos: montou circuitos, programou a lógica e fez seu primeiro LED acender. Chegou a hora de transformar o simples em algo único. Seu desafio é reinventar o projeto da aula passada. Pense além de um único LED. E se você…\n…criasse um semáforo com LEDs vermelho, amarelo e verde?\n…adicionasse um botão para ligar e desligar uma sequência de luzes?\n…usasse um potenciômetro para controlar a velocidade com que os LEDs piscam?\n…melhorasse o código, criando funções para organizar a programação?\nEstas são apenas algumas ideias. Sinta-se livre para explorar, combinar componentes e criar um projeto que seja a sua cara.\n\n\n\n Back to top",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "Entendendo a Eletricidade"
+      "Desafio"
     ]
   },
   {
-    "objectID": "aulas/Aula 5.html#aprofundando-o-conceito",
-    "href": "aulas/Aula 5.html#aprofundando-o-conceito",
-    "title": "Entendendo a Eletricidade",
-    "section": "Aprofundando o conceito",
-    "text": "Aprofundando o conceito",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "Entendendo a Eletricidade"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 5.html#usando-equações-para-construir-circuitos",
-    "href": "aulas/Aula 5.html#usando-equações-para-construir-circuitos",
-    "title": "Entendendo a Eletricidade",
-    "section": "Usando Equações para Construir Circuitos",
-    "text": "Usando Equações para Construir Circuitos\nPara garantir que os circuitos sejam equilibrados e eficientes, algumas equações são fundamentais. As principais grandezas elétricas são a Potência (P) em watts, a Tensão (V) em volts, a Corrente (I) em amperes e a Resistência (R) em ohms.\n\nLei de Ohm\n\nÉ a relação mais importante entre tensão, corrente e resistência. A fórmula principal é V=I×R. Ela pode ser rearranjada para descobrir qualquer um dos valores, como R=V/I.\n\n\n\nLei de Joule e Cálculo de Potência\n\nA potência (P) de um circuito é calculada multiplicando-se a tensão pela corrente (P=V×I). A Lei de Joule oferece outras formas de calcular a potência, relacionando-a com a resistência, através das fórmulas P=I^2 × R e P=V^2/R. Esses cálculos são úteis para descobrir o consumo de corrente de componentes ou para garantir que os limites de corrente dos pinos do Arduino não sejam excedidos.",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "Entendendo a Eletricidade"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 1.html",
-    "href": "aulas/Aula 1.html",
-    "title": "Conceitos Importantes",
+    "objectID": "aulas/Aula 17.html",
+    "href": "aulas/Aula 17.html",
+    "title": "Desafio: Modelagem Virtual e Fabricação Digital",
     "section": "",
-    "text": "Nesta aula você aprenderá os conceitos fundamentais de programação, incluindo o que são programas, lógica de programação, algoritmos, pseudocódigo e variáveis. Estes conceitos são essenciais para começar sua jornada em desenvolvimento de software.",
+    "text": "Chegou a hora de transformar ideias em realidade! Neste desafio, você irá aplicar os conceitos de modelagem virtual (CAD/3D) para projetar, uma peça ou estrutura para um robô.",
     "crumbs": [
       "Home",
-      "Pilar 1",
-      "Conceitos Importantes"
+      "Pilar 3",
+      "Desafio: Modelagem Virtual e Fabricação Digital"
     ]
   },
   {
-    "objectID": "aulas/Aula 1.html#vídeo-de-apoio-geral",
-    "href": "aulas/Aula 1.html#vídeo-de-apoio-geral",
-    "title": "Conceitos Importantes",
-    "section": "Vídeo de Apoio Geral",
-    "text": "Vídeo de Apoio Geral",
+    "objectID": "aulas/Aula 17.html#desafio",
+    "href": "aulas/Aula 17.html#desafio",
+    "title": "Desafio: Modelagem Virtual e Fabricação Digital",
+    "section": "Desafio",
+    "text": "Desafio\nCom base nas aulas praticas da sessao Modelagem Virtual, faça adaptações nos desenhos aplicando uma contextualização criativa que possua uma finalidade real para uso em algum projeto de robotica.",
     "crumbs": [
       "Home",
-      "Pilar 1",
-      "Conceitos Importantes"
+      "Pilar 3",
+      "Desafio: Modelagem Virtual e Fabricação Digital"
     ]
   },
   {
-    "objectID": "aulas/Aula 1.html#programa",
-    "href": "aulas/Aula 1.html#programa",
-    "title": "Conceitos Importantes",
-    "section": "1.1 Programa",
-    "text": "1.1 Programa\nÉ um conjunto de instruções que descrevem uma tarefa a ser realizada pelo computador.",
+    "objectID": "aulas/Aula 17.html#objetivo",
+    "href": "aulas/Aula 17.html#objetivo",
+    "title": "Desafio: Modelagem Virtual e Fabricação Digital",
+    "section": "Objetivo",
+    "text": "Objetivo\nCriar um modelo 3D de uma peça ou estrutura que possa ser fabricada digitalmente (corte a laser, impressão 3D, etc.) e que se encaixe em um projeto de robótica.\n\nDicas\n\nUse cores e detalhes para indicar onde serão instalados sensores e componentes eletrônicos.\nPense em soluções simples e funcionais para facilitar a montagem.\nNão se preocupe com estética perfeita; foque na funcionalidade e viabilidade de fabricação.\n\nBoa sorte! Mãos à obra!",
     "crumbs": [
       "Home",
-      "Pilar 1",
-      "Conceitos Importantes"
+      "Pilar 3",
+      "Desafio: Modelagem Virtual e Fabricação Digital"
     ]
   },
   {
-    "objectID": "aulas/Aula 1.html#lógica-de-programação",
-    "href": "aulas/Aula 1.html#lógica-de-programação",
-    "title": "Conceitos Importantes",
-    "section": "1.2 Lógica de Programação",
-    "text": "1.2 Lógica de Programação\nA lógica de programação é a organização de ideias e instruções de forma lógica, com o objetivo de resolver problemas ou realizar tarefas de maneira automatizada. Ou seja, é o raciocínio usado para escrever um código que o computador consiga entender. Com a lógica de programação, conseguimos pensar passo a passo em uma solução e depois transformá-la em instruções.",
+    "objectID": "aulas/Aula 11.html#o-que-é",
+    "href": "aulas/Aula 11.html#o-que-é",
+    "title": "Modelagem Computacional/Simulação",
+    "section": "O que é?",
+    "text": "O que é?\nA modelagem computacional ou simulação consiste na criação de modelos virtuais de robôs em softwares de simulação, permitindo testar comportamentos e validar ideias sem a necessidade de hardware físico. Essa abordagem é fundamental para prever desafios, otimizar soluções e economizar recursos durante o processo de desenvolvimento.\n\nPrincipais ferramentas :\n\nMATLAB/Simulink: Muito utilizado para modelagem, simulação e análise de sistemas dinâmicos.\nGazebo: Simulador 3D amplamente integrado ao ROS (Robot Operating System).\nV-REP (CoppeliaSim): Ambiente versátil para simulação em robótica, mecatrônica e automação.\nWebots: Simulador de robôs aplicado em pesquisa, ensino e indústria.\nOpenSim: Especializado em modelagem e simulação de sistemas musculoesqueléticos.\nAnsys: Ferramenta de engenharia para simulação multifísica (estrutural, fluidodinâmica, eletromagnética).\nAbaqus: Focado em análise por elementos finitos (FEA) para engenharia mecânica e estrutural.\nUnity: Engine de jogos cada vez mais utilizada em simulações robóticas e ambientes virtuais devido aos avançados recursos gráficos e de física.\nROS (Robot Operating System): Não é um simulador, mas integra-se a diversas ferramentas para controlar e testar robôs virtuais.\n\n\n\nSimulação no GAZEBO utilizando ROS - 😱ROBO DA TESLA😱\n\n\n\n\nFazendo um robo para o GAZEBO",
     "crumbs": [
       "Home",
-      "Pilar 1",
-      "Conceitos Importantes"
+      "Pilar 3",
+      "Modelagem Computacional/Simulação"
     ]
   },
   {
-    "objectID": "aulas/Aula 1.html#algoritmos",
-    "href": "aulas/Aula 1.html#algoritmos",
-    "title": "Conceitos Importantes",
-    "section": "1.3 Algoritmos",
-    "text": "1.3 Algoritmos\n\n\n\n\n\n\nFluxgrama simples\n\n\n\n\n\nOs algoritmos são uma sequência de passo a passo, com a finalidade de resolver um problema ou executar uma tarefa.",
+    "objectID": "aulas/Aula 11.html#exemplo-prático",
+    "href": "aulas/Aula 11.html#exemplo-prático",
+    "title": "Modelagem Computacional/Simulação",
+    "section": "Exemplo prático",
+    "text": "Exemplo prático\nModelagem Computacional/Simulação:\n\nAntes de construir o robô, os alunos utilizam um software de simulação como Unity ou Gazebo para criar um ambiente virtual da biblioteca. Eles programam o robô virtual com os movimentos e velocidades calculados anteriormente, observando como ele se comporta e ajustando o código para evitar colisões e otimizar o percurso. Isso permite que eles “testem” o robô, economizando materiais físicos e tempo.",
     "crumbs": [
       "Home",
-      "Pilar 1",
-      "Conceitos Importantes"
+      "Pilar 3",
+      "Modelagem Computacional/Simulação"
     ]
   },
   {
-    "objectID": "aulas/Aula 1.html#pseudocódigo",
-    "href": "aulas/Aula 1.html#pseudocódigo",
-    "title": "Conceitos Importantes",
-    "section": "1.4 Pseudocódigo",
-    "text": "1.4 Pseudocódigo\n\n\n\n\n\n\nExemplo pseudocódigo\n\n\n\n\nO pseudocódigo é uma forma de escrever um algoritmo usando uma linguagem similar à linguagem humana. Ela serve para planejar o raciocínio antes de programar.",
+    "objectID": "aulas/Aula 11.html#links-úteis",
+    "href": "aulas/Aula 11.html#links-úteis",
+    "title": "Modelagem Computacional/Simulação",
+    "section": "Links úteis",
+    "text": "Links úteis\n\nGazebo\nCoppeliaSim (V-REP)\nWebots\nMATLAB/Simulink\nUnity\nOpenSim\nAnsys\nAbaqus\nROS",
     "crumbs": [
       "Home",
-      "Pilar 1",
-      "Conceitos Importantes"
+      "Pilar 3",
+      "Modelagem Computacional/Simulação"
     ]
   },
   {
-    "objectID": "aulas/Aula 1.html#variáveis-e-constantes",
-    "href": "aulas/Aula 1.html#variáveis-e-constantes",
-    "title": "Conceitos Importantes",
-    "section": "1.5 Variáveis e Constantes",
-    "text": "1.5 Variáveis e Constantes\nA variável é um objeto que armazena os dados que precisamos no algoritmo, e o seu valor pode ser alterado durante a execução do programa. Já a constante, é uma valor que é pré definido no algoritmo. Ou seja, ela não muda na execução do programa.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Conceitos Importantes"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 2.html",
-    "href": "aulas/Aula 2.html",
-    "title": "Operadores",
+    "objectID": "aulas/Aula 3.html",
+    "href": "aulas/Aula 3.html",
+    "title": "Estruturas de Seleção",
     "section": "",
-    "text": "Nesta aula você aprenderá sobre os diferentes tipos de operadores em programação, incluindo operadores relacionais, aritméticos e lógicos. Estes são fundamentais para realizar comparações, cálculos e combinações lógicas em seus programas.",
+    "text": "Nesta aula você aprenderá sobre estruturas de seleção, que são fundamentais para criar programas que podem tomar decisões baseadas em condições. Você verá como usar if/else e switch/case para controlar o fluxo do seu programa.",
     "crumbs": [
       "Home",
       "Pilar 1",
-      "Operadores"
+      "Estruturas de Seleção"
     ]
   },
   {
-    "objectID": "aulas/Aula 2.html#introdução-aos-operadores",
-    "href": "aulas/Aula 2.html#introdução-aos-operadores",
-    "title": "Operadores",
-    "section": "Introdução aos Operadores",
-    "text": "Introdução aos Operadores\nOs operadores são símbolos usados para realizar operações, como cálculos e comparações. Os tipos principais de operadores são:",
+    "objectID": "aulas/Aula 3.html#introdução-às-estruturas-de-seleção",
+    "href": "aulas/Aula 3.html#introdução-às-estruturas-de-seleção",
+    "title": "Estruturas de Seleção",
+    "section": "Introdução às Estruturas de Seleção",
+    "text": "Introdução às Estruturas de Seleção\nÉ uma estrutura usada para tomar decisões dentro do programa. Dependendo de uma condição, o programa pode seguir caminhos diferentes.",
     "crumbs": [
       "Home",
       "Pilar 1",
-      "Operadores"
+      "Estruturas de Seleção"
     ]
   },
   {
-    "objectID": "aulas/Aula 2.html#operadores-relacionais",
-    "href": "aulas/Aula 2.html#operadores-relacionais",
-    "title": "Operadores",
-    "section": "2.1 Operadores Relacionais",
-    "text": "2.1 Operadores Relacionais\nOs operadores relacionais são utilizados para comparar dois valores.\n\n\n\nOperador\nSignificado\n\n\n\n\n&gt;\nMaior que\n\n\n&lt;\nMenor que\n\n\n&gt;=\nMaior ou igual\n\n\n&lt;=\nMenor ou igual\n\n\n==\nIgual a\n\n\n!=\nDiferente de\n\n\n\n\n\n\n\n\n\nExemplo de operações lógicas",
+    "objectID": "aulas/Aula 3.html#ifelse",
+    "href": "aulas/Aula 3.html#ifelse",
+    "title": "Estruturas de Seleção",
+    "section": "3.1 If/Else",
+    "text": "3.1 If/Else\nPermite executar um bloco de código se uma condição for verdadeira, e outra se for falsa.",
     "crumbs": [
       "Home",
       "Pilar 1",
-      "Operadores"
+      "Estruturas de Seleção"
     ]
   },
   {
-    "objectID": "aulas/Aula 2.html#operadores-aritméticos",
-    "href": "aulas/Aula 2.html#operadores-aritméticos",
-    "title": "Operadores",
-    "section": "2.2 Operadores Aritméticos",
-    "text": "2.2 Operadores Aritméticos\nOs operadores aritméticos são utilizados para realizar operações matemáticas.\n\n\n\nOperador\nOperação\n\n\n\n\n+\nAdição\n\n\n-\nSubtração\n\n\n*\nMultiplicação\n\n\n/\nDivisão\n\n\n%\nResto da divisão\n\n\n**\nExponenciação",
+    "objectID": "aulas/Aula 3.html#switchcase",
+    "href": "aulas/Aula 3.html#switchcase",
+    "title": "Estruturas de Seleção",
+    "section": "3.2 Switch/Case",
+    "text": "3.2 Switch/Case\nUsado para escolher entre várias opções.",
     "crumbs": [
       "Home",
       "Pilar 1",
-      "Operadores"
+      "Estruturas de Seleção"
     ]
   },
   {
-    "objectID": "aulas/Aula 2.html#operadores-lógicos",
-    "href": "aulas/Aula 2.html#operadores-lógicos",
-    "title": "Operadores",
-    "section": "2.3 Operadores Lógicos",
-    "text": "2.3 Operadores Lógicos\nOs operadores lógicos são utilizados para combinar condições.\n\n\n\nOperador\nSignificado\n\n\n\n\nAND (&&)\nE lógico\n\n\nOR (\n\n\n\nNOT (!)\nNÃO lógico\n\n\nNOT (!!)\nDupla negação",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Operadores"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 12.html",
-    "href": "aulas/Aula 12.html",
-    "title": "12: Mean shift clustering",
+    "objectID": "aulas/Aula 4.html",
+    "href": "aulas/Aula 4.html",
+    "title": "Estruturas de Repetição",
     "section": "",
-    "text": "In this lesson, we start by discussing the CLIP Interrogator, a Hugging Face Spaces Gradio app that generates text prompts for creating CLIP embeddings. We then dive back into matrix multiplication, using Einstein summation notation and torch.einsum to simplify code and improve performance. We explore GPU acceleration with CUDA and Numba, demonstrating how to write a kernel function for matrix multiplication and launch it on the GPU.\nNext up we exercise our tensor programming skills by implementing mean shift clustering, a technique for identifying clusters within a dataset. We create synthetic data, explain the mean shift algorithm, and introduce the Gaussian kernel for penalizing distant points. We implement the mean shift clustering algorithm using PyTorch and discuss the importance of tensor manipulation operations for efficient GPU programming.\nFinally, we optimize the mean shift algorithm using PyTorch and GPUs, demonstrating how to calculate weights, multiply matrices, and sum up points to obtain new data points. We explore the impact of changing batch sizes on performance and encourage viewers to research other clustering algorithms.\nThe lesson concludes with an introduction to calculus, focusing on derivatives and the calculus of infinitesimals.",
+    "text": "Nesta aula você aprenderá sobre estruturas de repetição, que são usadas quando precisamos executar um bloco de código várias vezes. Você conhecerá os loops FOR e WHILE, entendendo quando usar cada um deles.",
     "crumbs": [
       "Home",
-      "Pilar 3",
-      "12: Mean shift clustering"
+      "Pilar 1",
+      "Estruturas de Repetição"
     ]
   },
   {
-    "objectID": "aulas/Aula 12.html#concepts-discussed",
-    "href": "aulas/Aula 12.html#concepts-discussed",
-    "title": "12: Mean shift clustering",
-    "section": "Concepts discussed",
-    "text": "Concepts discussed\n\nCLIP Interrogator\nInverse problems\nMatrix multiplication\nEinstein summation notation and torch.einsum\nGPU acceleration and CUDA\nNumba\nMean shift clustering\nGaussian kernel\nNorms\nEuclidean distance\nCalculus\n\nDerivatives and Infinitesimals",
+    "objectID": "aulas/Aula 4.html#introdução-às-estruturas-de-repetição",
+    "href": "aulas/Aula 4.html#introdução-às-estruturas-de-repetição",
+    "title": "Estruturas de Repetição",
+    "section": "Introdução às Estruturas de Repetição",
+    "text": "Introdução às Estruturas de Repetição\nAs estruturas de repetição são fundamentais quando precisamos executar um bloco de código múltiplas vezes de forma automatizada.",
     "crumbs": [
       "Home",
-      "Pilar 3",
-      "12: Mean shift clustering"
+      "Pilar 1",
+      "Estruturas de Repetição"
     ]
   },
   {
-    "objectID": "aulas/Aula 12.html#video",
-    "href": "aulas/Aula 12.html#video",
-    "title": "12: Mean shift clustering",
-    "section": "Video",
-    "text": "Video",
+    "objectID": "aulas/Aula 4.html#loop-for",
+    "href": "aulas/Aula 4.html#loop-for",
+    "title": "Estruturas de Repetição",
+    "section": "4.1 Loop FOR",
+    "text": "4.1 Loop FOR\nO loop FOR é utilizado quando sabemos previamente o número de repetições que queremos executar.",
     "crumbs": [
       "Home",
-      "Pilar 3",
-      "12: Mean shift clustering"
+      "Pilar 1",
+      "Estruturas de Repetição"
     ]
   },
   {
-    "objectID": "aulas/Aula 12.html#lesson-resources",
-    "href": "aulas/Aula 12.html#lesson-resources",
-    "title": "12: Mean shift clustering",
-    "section": "Lesson resources",
-    "text": "Lesson resources\n\nDiscuss this lesson\nCLIP Interrogator\nEssence of calculus (3blue1brown)",
+    "objectID": "aulas/Aula 4.html#loop-while",
+    "href": "aulas/Aula 4.html#loop-while",
+    "title": "Estruturas de Repetição",
+    "section": "4.2 Loop WHILE",
+    "text": "4.2 Loop WHILE\nO loop WHILE continua executando enquanto uma determinada condição for verdadeira.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Repetição"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 13.html#exemplo-prático",
+    "href": "aulas/Aula 13.html#exemplo-prático",
+    "title": "Modelagem Baseada em Prototipagem Rápida",
+    "section": "Exemplo prático",
+    "text": "Exemplo prático\nModelagem Baseada em Prototipagem Rápida\n\nDurante o desenvolvimento do robô, eles decidem criar um “braço personalizado” com uma garra adaptável usando impressão 3D. Os alunos percebem que antes de desenvolver o prototipo físico o ideal testar os principios de funcionamento elétricos e eletrônicos para segurar os conceitos visto nos livros. Para isso, começam desenhando o circuito eletrônico no Tinkercad, em seguida reúnem os componentes físicos para montagem e testes iniciais. Esse processo permite testar e ajustar rapidamente o projeto conforme necessário.",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "12: Mean shift clustering"
+      "Modelagem Baseada em Prototipagem Rápida"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 13.html#links-úteis",
+    "href": "aulas/Aula 13.html#links-úteis",
+    "title": "Modelagem Baseada em Prototipagem Rápida",
+    "section": "Links úteis",
+    "text": "Links úteis\n\nTinkercad\nFusion 360\nFreeCAD\nUltimaker Cura\nThingiverse\nArduino\nPrusaPrinters",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Baseada em Prototipagem Rápida"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 15.html#modelagem-física",
+    "href": "aulas/Aula 15.html#modelagem-física",
+    "title": "Modelagem Física",
+    "section": "Modelagem Física",
+    "text": "Modelagem Física\nA modelagem física envolve a construção de robôs ou mecanismos reais utilizando peças, sensores e motores. É a forma mais tangível e concreta da robótica, permitindo que os alunos vejam, toquem e manipulem seus projetos no mundo real, tornando o processo de aprendizagem mais envolvente e prático.\nPrincipais recursos e ferramentas para modelagem física na robótica:\n\nPeças de construção: Kits de robótica (LEGO Mindstorms, VEX Robotics), placas de prototipagem (Arduino, Raspberry Pi), materiais diversos como acrílico, madeira e metal.\nSensores: Sensores de distância (ultrassom, infravermelho), sensores de luz, sensores de toque, giroscópios, acelerômetros.\nMotores: Servomotores, motores de corrente contínua, motores de passo.\nSoftware de programação: IDEs como Arduino IDE, linguagens de programação (Python, C++), interfaces gráficas de programação por blocos (Scratch, Blockly).\nFerramentas manuais: Chaves de fenda, alicates, multímetros, soldadores. ::: {layout=“[30,70]”}   :::",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Física"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 15.html#modelagem-física-vs-montagem-física",
+    "href": "aulas/Aula 15.html#modelagem-física-vs-montagem-física",
+    "title": "Modelagem Física",
+    "section": "🔧 Modelagem Física vs Montagem Física",
+    "text": "🔧 Modelagem Física vs Montagem Física\n\n🧩 Modelagem Física\nÉ a etapa criativa e exploratória em que os alunos experimentam formas, estruturas e mecanismos físicos, muitas vezes usando materiais simples como papelão, LEGO, kits didáticos ou protótipos rápidos.\n\nEnvolve:\n\nTestar diferentes formas e layouts.\nCriar mockups (maquetes) ou protótipos com materiais alternativos.\nAvaliar ergonomia, equilíbrio, distribuição de peso, etc.\n\nExemplo: Usar papelão e cola quente para criar uma versão inicial da estrutura de um robô antes de montar com peças definitivas.\nPalavra-chave: Explorar A modelagem física permite errar, ajustar, redesenhar e aprender com a prática.\n\n\n\n🛠️ Montagem Física\nÉ a execução prática e final, onde as peças reais (motores, sensores, placas, chassi) são montadas de forma funcional para construir o robô ou sistema.\n\nEnvolve:\n\nFixar componentes no chassi.\nLigar motores, sensores, microcontrolador.\nMontar a estrutura definitiva com base no projeto ou protótipo.\n\nExemplo: Montar o robô final usando um kit Arduino, motores, sensores e uma base de acrílico cortada a laser.\nPalavra-chave: Construir É a fase de realização do projeto físico baseado nas etapas anteriores.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Física"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 15.html#exemplo-prático",
+    "href": "aulas/Aula 15.html#exemplo-prático",
+    "title": "Modelagem Física",
+    "section": "Exemplo prático",
+    "text": "Exemplo prático\nModelagem Física / Modelagem Digital para Fabricação (MDF):\n\nNesta etapa, a equipe começa a construir o robô de fato. Utilizam peças fabricadas em 3D para montar o chassi, rodas e um braço robótico simples. Adicionam sensores de cor para identificar os livros (usando uma faixa colorida para indicar o gênero) e sensores de distância para evitar obstáculos. Essa é a fase mais concreta, onde o projeto ganha forma no mundo real e os alunos podem testar e ajustar diretamente suas criações.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Física"
     ]
   },
   {
@@ -449,273 +425,457 @@
   {
     "objectID": "aulas/Aula 10.html",
     "href": "aulas/Aula 10.html",
-    "title": "10: Diving Deeper",
+    "title": "Modelagem Conceitual/Abstrata",
     "section": "",
-    "text": "This lesson creates a complete Diffusers pipeline from the underlying components: the VAE, unet, scheduler, and tokeniser. By putting them together manually, this gives you the flexibility to fully customise every aspect of the inference process.\nWe also discuss three important new papers that have been released in the last week, which improve inference performance by over 10x, and allow any photo to be “edited” by just describing what the new picture should show.\nIn the second half of the lesson Jeremy begins the “from scratch” implementation of Stable Diffusion. He introduces the “miniai” library which will be created by students during the course, and discusses organising and simplifying code. The lesson discusses the Python data model, tensors, and random number generation. Jeremy introduces the Wickman-Hill random number generation algorithm and compares the performance of custom and Pytorch’s built-in random number generators. The lesson concludes with creating a linear classifier using a tensor.",
+    "text": "A modelagem conceitual ou abstrata diz respeito ao planejamento lógico de um robô antes da sua construção física, utilizando diagramas, fluxogramas ou pseudocódigo. Essa etapa é fundamental para estruturar ideias e prever desafios, tornando a execução mais eficiente.\nFerramentas comuns para modelagem conceitual/abstrata incluem:\n\nLinguagens de Modelagem Gráfica: UML (Unified Modeling Language) é amplamente utilizada para software, enquanto BPMN (Business Process Model and Notation) é voltada para processos de negócios.\nFerramentas de Diagramação: Microsoft Visio, Lucidchart, draw.io e StarUML são populares para criar fluxogramas, diagramas de classes e outros tipos de diagramas.\nPseudocódigo e Fluxogramas: Ideais para representar a lógica do robô de forma simples e abstrata.",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "10: Diving Deeper"
+      "Modelagem Conceitual/Abstrata"
     ]
   },
   {
-    "objectID": "aulas/Aula 10.html#concepts-discussed",
-    "href": "aulas/Aula 10.html#concepts-discussed",
-    "title": "10: Diving Deeper",
-    "section": "Concepts discussed",
-    "text": "Concepts discussed\n\nPapers:\n\nProgressive Distillation for Fast Sampling of Diffusion Models\nOn Distillation of Guided Diffusion Models\nImagic\n\nTokenizing input text\nCLIP encoder for embeddings\nScheduler for noise determination\nOrganizing and simplifying code\nNegative prompts and callbacks\nIterators and generators in Python\nCustom class for matrices\nDunder methods\nPython data model\nTensors\nPseudo-random number generation\n\nWickman-Hill algorithm\nRandom state in deep learning\n\nLinear classifier using a tensor",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "10: Diving Deeper"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 10.html#video",
-    "href": "aulas/Aula 10.html#video",
-    "title": "10: Diving Deeper",
-    "section": "Video",
-    "text": "Video",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "10: Diving Deeper"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 10.html#lesson-resources",
-    "href": "aulas/Aula 10.html#lesson-resources",
-    "title": "10: Diving Deeper",
-    "section": "Lesson resources",
-    "text": "Lesson resources\n\nDiscuss this lesson\nPaper walkthrough video by @johnowhitaker covering Progressive Distillation for Fast Sampling of Diffusion Models\ndiffusion-nbs repo (we continue walking through stable_diffusion.ipynb that we touched upon last time)\nFashion-MNIST reimplementation of the lesson, with notes, by @strickvl",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "10: Diving Deeper"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 10.html#links-from-the-lesson",
-    "href": "aulas/Aula 10.html#links-from-the-lesson",
-    "title": "10: Diving Deeper",
-    "section": "Links from the lesson",
-    "text": "Links from the lesson\n\nCourse 2022p2 repo\nProgressive Distillation for Fast Sampling of Diffusion Models\nImagic paper. Within a few hours stable diffusion versions are appearing.\nAPL: Array programming - fast.ai Course Forums",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "10: Diving Deeper"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 13.html",
-    "href": "aulas/Aula 13.html",
-    "title": "9: Stable Diffusion",
+    "objectID": "aulas/Aula 10.html#o-que-é",
+    "href": "aulas/Aula 10.html#o-que-é",
+    "title": "Modelagem Conceitual/Abstrata",
     "section": "",
-    "text": "Here’s what you need to know to complete this course:\n\nThe lesson is presented as a video, which you can jump directly to by clicking the table of contents on the right\nEach video goes through one or more Jupyter notebooks, which you’ll need to run and experiment with to get the most out of the course\nAll information needed to complete a lesson (including links to the repo with the notebooks) is in the “lesson resources” section of the lesson page\nAmongst the lesson resources you’ll find a “discuss this lesson” link, which will take you to a Q&A page on our forums for that particular lesson\nThe material covered in this course includes stuff that would normally only be included in post-graduate level programs. We try to present it in the clearest way possible, but you should expect to work hard and put in plenty of hours of study\nWe assume familiarity with the material in part 1 of this course. If you find yourself unsure about some of the foundational deep learning ideas refered to in the lessons, we’d suggest going back to study the lessons in part 1 that cover those ideas\nIf there’s mathematical or coding concepts that we use that you’re not comfortable with, don’t be afraid to seek out other tutorials to help fill in your gaps\nOn forums.fast.ai there are many other students you can collaborate with, and many folks are looking for study groups or study buddies. Studying in groups has been shown to be more effective for most people than studying alone\nIn many lessons we’ll include a challenge for you to complete, some of which involve trying novel research directions where you’ll be venturing into the academic unknown."
-  },
-  {
-    "objectID": "aulas/Aula 13.html#what-you-need-to-know",
-    "href": "aulas/Aula 13.html#what-you-need-to-know",
-    "title": "9: Stable Diffusion",
-    "section": "",
-    "text": "Here’s what you need to know to complete this course:\n\nThe lesson is presented as a video, which you can jump directly to by clicking the table of contents on the right\nEach video goes through one or more Jupyter notebooks, which you’ll need to run and experiment with to get the most out of the course\nAll information needed to complete a lesson (including links to the repo with the notebooks) is in the “lesson resources” section of the lesson page\nAmongst the lesson resources you’ll find a “discuss this lesson” link, which will take you to a Q&A page on our forums for that particular lesson\nThe material covered in this course includes stuff that would normally only be included in post-graduate level programs. We try to present it in the clearest way possible, but you should expect to work hard and put in plenty of hours of study\nWe assume familiarity with the material in part 1 of this course. If you find yourself unsure about some of the foundational deep learning ideas refered to in the lessons, we’d suggest going back to study the lessons in part 1 that cover those ideas\nIf there’s mathematical or coding concepts that we use that you’re not comfortable with, don’t be afraid to seek out other tutorials to help fill in your gaps\nOn forums.fast.ai there are many other students you can collaborate with, and many folks are looking for study groups or study buddies. Studying in groups has been shown to be more effective for most people than studying alone\nIn many lessons we’ll include a challenge for you to complete, some of which involve trying novel research directions where you’ll be venturing into the academic unknown."
-  },
-  {
-    "objectID": "aulas/Aula 13.html#lesson-overview",
-    "href": "aulas/Aula 13.html#lesson-overview",
-    "title": "9: Stable Diffusion",
-    "section": "Lesson overview",
-    "text": "Lesson overview\nThis lesson starts with a tutorial on how to use pipelines in the Diffusers library to generate images. Diffusers is (in our opinion!) the best library available at the moment for image generation. It has many features and is very flexible. We explain how to use its many features, and discuss options for accessing the GPU resources needed to use the library.\nWe talk about some of the nifty tweaks available when using Stable Diffusion in Diffusers, and show how to use them: guidance scale (for varying the amount the prompt is used), negative prompts (for removing concepts from an image), image initialisation (for starting with an existing image), textual inversion (for adding your own concepts to generated images), Dreambooth (an alternative approach to textual inversion).\nThe second half of the lesson covers the key concepts involved in Stable Diffusion:\n\nCLIP embeddings\nThe VAE (variational autoencoder)\nPredicting noise with the unet\nRemoving noise with schedulers\n\nJeremy shows a theoretical foundation for how Stable Diffusion works, using a novel interpretation that shows an easily-understood intuition for the theory. He introduces the concept of finite differencing and analytic derivatives, using an example of training a neural network to identify pixel adjustments to make an image look more like a handwritten digit, and describes how the derivatives of such a model can provide the score needed to provide the basis of a diffusion process that generates handwritten digits.\nThe lesson also covers finite differencing, analytic derivatives, autoencoders, and U-Nets. Jeremy introduces the concept of creating a model that can take a sentence and return a vector of numbers representing the image, using two models: a text encoder and an image encoder. The lesson concludes with a discussion of the similarities between diffusion-based models and deep learning optimizers, suggesting new research directions."
-  },
-  {
-    "objectID": "aulas/Aula 13.html#concepts-discussed",
-    "href": "aulas/Aula 13.html#concepts-discussed",
-    "title": "9: Stable Diffusion",
-    "section": "Concepts discussed",
-    "text": "Concepts discussed\n\nStable Diffusion\nHugging Face’s Diffusers library\nPre-trained pipelines\nGuidance scale\nNegative prompts\nImage-to-image pipelines\nFinite differencing\nAnalytic derivatives\nAutoencoders\nTextual inversion\nDreambooth\nLatents\nU-Nets\nText encoders and image encoders\nContrastive loss function\nCLIP text encoder\nDeep learning optimizers\nPerceptual loss"
-  },
-  {
-    "objectID": "aulas/Aula 13.html#video",
-    "href": "aulas/Aula 13.html#video",
-    "title": "9: Stable Diffusion",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "aulas/Aula 13.html#lesson-resources",
-    "href": "aulas/Aula 13.html#lesson-resources",
-    "title": "9: Stable Diffusion",
-    "section": "Lesson resources",
-    "text": "Lesson resources\n\nOther Videos\n\nLesson 9A video—Deep Dive—from @johnowhitaker (with accompanying notebook)\nLesson 9B video—The Math of Diffusion—from @seem and @ilovescience\n\nJeremy’s lesson notes\nThe fastai book:\n\nPublished version\nFree notebook version\nSample full chapters\n\nStudent notes – Lesson Notes h/t @barnacl"
-  },
-  {
-    "objectID": "aulas/Aula 13.html#links-from-the-lesson",
-    "href": "aulas/Aula 13.html#links-from-the-lesson",
-    "title": "9: Stable Diffusion",
-    "section": "Links from the lesson",
-    "text": "Links from the lesson\n\nDiscuss this lesson\nCourse repo\ndiffusion-nbs repo\nHuggingFace Notebooks\nGPU servers\n\nLambda Labs\nPaperspace Gradient\nJarvis Labs\nvast.ai - crowdsourced GPU service\n\nPrompt Engineering\n\nLexica\nPromptHero\nHexo - 10M Images and Prompts\n\nTools and Resources for AI Art\nfastai repo"
-  },
-  {
-    "objectID": "aulas/Aula 13.html#useful-background-on-fast.ai-courses",
-    "href": "aulas/Aula 13.html#useful-background-on-fast.ai-courses",
-    "title": "9: Stable Diffusion",
-    "section": "Useful background on fast.ai courses",
-    "text": "Useful background on fast.ai courses\n\nHomework\nSummaries + Things Jeremy Says to do + Qs\nFastai: A Layered API for Deep Learning paper: Information Journal or arxiv or fast.ai\nProviding a Good Education in Deep Learning: fast.ai teaching philosophy\n“How not to do fastai”\n“FastAI Lesson Zero: video + notes”"
-  },
-  {
-    "objectID": "aulas/Aula 4.html",
-    "href": "aulas/Aula 4.html",
-    "title": "Estruturas de Repetição",
-    "section": "",
-    "text": "Nesta aula você aprenderá sobre estruturas de repetição, que são usadas quando precisamos executar um bloco de código várias vezes. Você conhecerá os loops FOR e WHILE, entendendo quando usar cada um deles.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Repetição"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 4.html#introdução-às-estruturas-de-repetição",
-    "href": "aulas/Aula 4.html#introdução-às-estruturas-de-repetição",
-    "title": "Estruturas de Repetição",
-    "section": "Introdução às Estruturas de Repetição",
-    "text": "Introdução às Estruturas de Repetição\nAs estruturas de repetição são fundamentais quando precisamos executar um bloco de código múltiplas vezes de forma automatizada.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Repetição"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 4.html#loop-for",
-    "href": "aulas/Aula 4.html#loop-for",
-    "title": "Estruturas de Repetição",
-    "section": "4.1 Loop FOR",
-    "text": "4.1 Loop FOR\nO loop FOR é utilizado quando sabemos previamente o número de repetições que queremos executar.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Repetição"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 4.html#loop-while",
-    "href": "aulas/Aula 4.html#loop-while",
-    "title": "Estruturas de Repetição",
-    "section": "4.2 Loop WHILE",
-    "text": "4.2 Loop WHILE\nO loop WHILE continua executando enquanto uma determinada condição for verdadeira.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Repetição"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 3.html",
-    "href": "aulas/Aula 3.html",
-    "title": "Estruturas de Seleção",
-    "section": "",
-    "text": "Nesta aula você aprenderá sobre estruturas de seleção, que são fundamentais para criar programas que podem tomar decisões baseadas em condições. Você verá como usar if/else e switch/case para controlar o fluxo do seu programa.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Seleção"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 3.html#introdução-às-estruturas-de-seleção",
-    "href": "aulas/Aula 3.html#introdução-às-estruturas-de-seleção",
-    "title": "Estruturas de Seleção",
-    "section": "Introdução às Estruturas de Seleção",
-    "text": "Introdução às Estruturas de Seleção\nÉ uma estrutura usada para tomar decisões dentro do programa. Dependendo de uma condição, o programa pode seguir caminhos diferentes.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Seleção"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 3.html#ifelse",
-    "href": "aulas/Aula 3.html#ifelse",
-    "title": "Estruturas de Seleção",
-    "section": "3.1 If/Else",
-    "text": "3.1 If/Else\nPermite executar um bloco de código se uma condição for verdadeira, e outra se for falsa.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Seleção"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 3.html#switchcase",
-    "href": "aulas/Aula 3.html#switchcase",
-    "title": "Estruturas de Seleção",
-    "section": "3.2 Switch/Case",
-    "text": "3.2 Switch/Case\nUsado para escolher entre várias opções.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Seleção"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 11.html",
-    "href": "aulas/Aula 11.html",
-    "title": "11: Matrix multiplication",
-    "section": "",
-    "text": "In this lesson, we discuss various techniques and experiments shared by students on the forum, such as interpolating between prompts for visually appealing transitions and improving the update process in text-to-image generation, and a novel approach to decreasing the guidance scale during image generation. We then dive into a new paper called DiffEdit, which focuses on semantic image editing using text-conditioned diffusion models. We walk through the process of reading and understanding the paper, emphasizing the importance of grasping the main idea and not getting bogged down in every detail.\nWe then embark on a deep exploration of matrix multiplication using Python, compare APL with PyTorch, and introduce the concept of Frobenius norm. We also discuss the powerful concept of broadcasting, which allows for operations between tensors of different shapes, and demonstrate its efficiency in speeding up matrix multiplication. The techniques introduced in this lesson allow us to speed up our initial Python implementation by a factor of around five million, including leveraging the GPU for massive parallelism!",
+    "text": "A modelagem conceitual ou abstrata diz respeito ao planejamento lógico de um robô antes da sua construção física, utilizando diagramas, fluxogramas ou pseudocódigo. Essa etapa é fundamental para estruturar ideias e prever desafios, tornando a execução mais eficiente.\nFerramentas comuns para modelagem conceitual/abstrata incluem:\n\nLinguagens de Modelagem Gráfica: UML (Unified Modeling Language) é amplamente utilizada para software, enquanto BPMN (Business Process Model and Notation) é voltada para processos de negócios.\nFerramentas de Diagramação: Microsoft Visio, Lucidchart, draw.io e StarUML são populares para criar fluxogramas, diagramas de classes e outros tipos de diagramas.\nPseudocódigo e Fluxogramas: Ideais para representar a lógica do robô de forma simples e abstrata.",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "11: Matrix multiplication"
+      "Modelagem Conceitual/Abstrata"
     ]
   },
   {
-    "objectID": "aulas/Aula 11.html#concepts-discussed",
-    "href": "aulas/Aula 11.html#concepts-discussed",
-    "title": "11: Matrix multiplication",
-    "section": "Concepts discussed",
-    "text": "Concepts discussed\n\nDiffusion improvements\n\nInterpolating between prompts for visually appealing transitions\nImproving the update process in text-to-image generation\nDecreasing the guidance scale during image generation\n\nUnderstanding research papers\nMatrix multiplication using Python and Numba\nComparing APL with PyTorch\nFrobenius norm\nBroadcasting in deep learning and machine learning code",
+    "objectID": "aulas/Aula 10.html#exemplo-prático",
+    "href": "aulas/Aula 10.html#exemplo-prático",
+    "title": "Modelagem Conceitual/Abstrata",
+    "section": "Exemplo prático",
+    "text": "Exemplo prático\nImagine uma turma do ensino fundamental com o desafio de criar um robô para ajudar a organizar a biblioteca da escola, empilhando livros em prateleiras específicas.\n\nModelagem Conceitual/Abstrata:\nOs alunos começam com um brainstorming, desenhando em um quadro como o robô deveria se mover, quais ações ele realizaria (pegar, transportar, soltar) e como ele saberia onde colocar cada livro. Eles criam um fluxograma simples:\n\n“Se o robô detectar um livro na mesa, ele o pega. Se o livro for de ficção, ele segue para a prateleira A. Se for de não-ficção, ele segue para a prateleira B.”\n\n\nNeste momento, a criatividade e o raciocínio lógico são estimulados, preparando o caminho para a próxima etapa: a modelagem física ou computacional.",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "11: Matrix multiplication"
+      "Modelagem Conceitual/Abstrata"
     ]
   },
   {
-    "objectID": "aulas/Aula 11.html#video",
-    "href": "aulas/Aula 11.html#video",
-    "title": "11: Matrix multiplication",
-    "section": "Video",
-    "text": "Video",
+    "objectID": "aulas/Aula 10.html#links-úteis",
+    "href": "aulas/Aula 10.html#links-úteis",
+    "title": "Modelagem Conceitual/Abstrata",
+    "section": "Links úteis",
+    "text": "Links úteis\n\nLucidchart\ndraw.io\nStarUML\nMicrosoft Visio\nUML Tutorial\nBPMN Tutorial",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "11: Matrix multiplication"
+      "Modelagem Conceitual/Abstrata"
     ]
   },
   {
-    "objectID": "aulas/Aula 11.html#lesson-resources",
-    "href": "aulas/Aula 11.html#lesson-resources",
-    "title": "11: Matrix multiplication",
-    "section": "Lesson resources",
-    "text": "Lesson resources\n\nDiscuss this lesson\nDiffEdit: Diffusion-based semantic image editing with mask guidance\nMath notation\n\nGreek letters\nAll in one mathematics cheat sheet (PDF)\nGlossary of mathematical symbols (wikipedia)\npix2tex (open source) or Mathpix (commercial)\nGreek Letters for Deep Learning - Anki deck containing fastai-related Greek letters\nDetexify Draw math symbols",
+    "objectID": "aulas/Aula 12.html#o-que-é",
+    "href": "aulas/Aula 12.html#o-que-é",
+    "title": "Modelagem Matemática",
+    "section": "O que é?",
+    "text": "O que é?\nA modelagem matemática envolve o uso de fórmulas e equações para prever ou descrever o comportamento de um robô. É fundamental, por exemplo, para calcular a velocidade, trajetória, força ou outros parâmetros essenciais para o funcionamento eficiente do sistema robótico.\nFerramentas frequentemente utilizadas para modelagem matemática incluem:\n\nMATLAB: Muito usado para cálculos, simulações e modelagem matemática avançada.\nPython: Com bibliotecas como NumPy, SciPy e SymPy para manipulação numérica e simbólica.\nSimulink: Integrado ao MATLAB, ideal para simulação de sistemas dinâmicos.\nSoftwares de CAD/CAE: SolidWorks, AutoCAD ou ANSYS são exemplos para análises estruturais, simulações mecânicas e cálculos de engenharia.",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "11: Matrix multiplication"
+      "Modelagem Matemática"
     ]
   },
   {
-    "objectID": "aulas/Aula 8.html",
-    "href": "aulas/Aula 8.html",
-    "title": "Desafio",
+    "objectID": "aulas/Aula 12.html#exemplo-prático",
+    "href": "aulas/Aula 12.html#exemplo-prático",
+    "title": "Modelagem Matemática",
+    "section": "Exemplo prático",
+    "text": "Exemplo prático\nModelagem Matemática:\n\nApós a modelagem conceitual e a simulação, os alunos precisam determinar qual velocidade o robô deve ter para se mover de um ponto a outro sem colidir com obstáculos. Utilizando uma régua e um cronômetro, calculam a distância entre a mesa de coleta e as prateleiras. Com base no tempo desejado para o deslocamento, aplicam a fórmula:\n\n\nVelocidade = Distância / Tempo\n\n\nAssim, determinam a velocidade ideal dos motores do robô para realizar a tarefa de forma eficiente e segura.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Matemática"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 12.html#links-úteis",
+    "href": "aulas/Aula 12.html#links-úteis",
+    "title": "Modelagem Matemática",
+    "section": "Links úteis",
+    "text": "Links úteis\n\nMATLAB\nSimulink\nNumPy\nSciPy\nSymPy\nSolidWorks\nAutoCAD\nANSYS",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Matemática"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html",
+    "href": "aulas/Aula 2.html",
+    "title": "Operadores",
     "section": "",
-    "text": "Desafio Criativo: Evolua seu Primeiro Projeto!\n\n\n\nVocê já deu os primeiros passos: montou circuitos, programou a lógica e fez seu primeiro LED acender. Chegou a hora de transformar o simples em algo único. Seu desafio é reinventar o projeto da aula passada. Pense além de um único LED. E se você…\n…criasse um semáforo com LEDs vermelho, amarelo e verde?\n…adicionasse um botão para ligar e desligar uma sequência de luzes?\n…usasse um potenciômetro para controlar a velocidade com que os LEDs piscam?\n…melhorasse o código, criando funções para organizar a programação?\nEstas são apenas algumas ideias. Sinta-se livre para explorar, combinar componentes e criar um projeto que seja a sua cara.\n\n\n\n Back to top",
+    "text": "Nesta aula você aprenderá sobre os diferentes tipos de operadores em programação, incluindo operadores relacionais, aritméticos e lógicos. Estes são fundamentais para realizar comparações, cálculos e combinações lógicas em seus programas.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#introdução-aos-operadores",
+    "href": "aulas/Aula 2.html#introdução-aos-operadores",
+    "title": "Operadores",
+    "section": "Introdução aos Operadores",
+    "text": "Introdução aos Operadores\nOs operadores são símbolos usados para realizar operações, como cálculos e comparações. Os tipos principais de operadores são:",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#operadores-relacionais",
+    "href": "aulas/Aula 2.html#operadores-relacionais",
+    "title": "Operadores",
+    "section": "2.1 Operadores Relacionais",
+    "text": "2.1 Operadores Relacionais\nOs operadores relacionais são utilizados para comparar dois valores.\n\n\n\nOperador\nSignificado\n\n\n\n\n&gt;\nMaior que\n\n\n&lt;\nMenor que\n\n\n&gt;=\nMaior ou igual\n\n\n&lt;=\nMenor ou igual\n\n\n==\nIgual a\n\n\n!=\nDiferente de\n\n\n\n\n\n\n\n\n\nExemplo de operações lógicas",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#operadores-aritméticos",
+    "href": "aulas/Aula 2.html#operadores-aritméticos",
+    "title": "Operadores",
+    "section": "2.2 Operadores Aritméticos",
+    "text": "2.2 Operadores Aritméticos\nOs operadores aritméticos são utilizados para realizar operações matemáticas.\n\n\n\nOperador\nOperação\n\n\n\n\n+\nAdição\n\n\n-\nSubtração\n\n\n*\nMultiplicação\n\n\n/\nDivisão\n\n\n%\nResto da divisão\n\n\n**\nExponenciação",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#operadores-lógicos",
+    "href": "aulas/Aula 2.html#operadores-lógicos",
+    "title": "Operadores",
+    "section": "2.3 Operadores Lógicos",
+    "text": "2.3 Operadores Lógicos\nOs operadores lógicos são utilizados para combinar condições.\n\n\n\nOperador\nSignificado\n\n\n\n\nAND (&&)\nE lógico\n\n\nOR (\n\n\n\nNOT (!)\nNÃO lógico\n\n\nNOT (!!)\nDupla negação",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html",
+    "href": "aulas/Aula 1.html",
+    "title": "Conceitos Importantes",
+    "section": "",
+    "text": "Nesta aula você aprenderá os conceitos fundamentais de programação, incluindo o que são programas, lógica de programação, algoritmos, pseudocódigo e variáveis. Estes conceitos são essenciais para começar sua jornada em desenvolvimento de software.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#vídeo-de-apoio-geral",
+    "href": "aulas/Aula 1.html#vídeo-de-apoio-geral",
+    "title": "Conceitos Importantes",
+    "section": "Vídeo de Apoio Geral",
+    "text": "Vídeo de Apoio Geral",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#programa",
+    "href": "aulas/Aula 1.html#programa",
+    "title": "Conceitos Importantes",
+    "section": "1.1 Programa",
+    "text": "1.1 Programa\nÉ um conjunto de instruções que descrevem uma tarefa a ser realizada pelo computador.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#lógica-de-programação",
+    "href": "aulas/Aula 1.html#lógica-de-programação",
+    "title": "Conceitos Importantes",
+    "section": "1.2 Lógica de Programação",
+    "text": "1.2 Lógica de Programação\nA lógica de programação é a organização de ideias e instruções de forma lógica, com o objetivo de resolver problemas ou realizar tarefas de maneira automatizada. Ou seja, é o raciocínio usado para escrever um código que o computador consiga entender. Com a lógica de programação, conseguimos pensar passo a passo em uma solução e depois transformá-la em instruções.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#algoritmos",
+    "href": "aulas/Aula 1.html#algoritmos",
+    "title": "Conceitos Importantes",
+    "section": "1.3 Algoritmos",
+    "text": "1.3 Algoritmos\n\n\n\n\n\n\nFluxgrama simples\n\n\n\n\n\nOs algoritmos são uma sequência de passo a passo, com a finalidade de resolver um problema ou executar uma tarefa.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#pseudocódigo",
+    "href": "aulas/Aula 1.html#pseudocódigo",
+    "title": "Conceitos Importantes",
+    "section": "1.4 Pseudocódigo",
+    "text": "1.4 Pseudocódigo\n\n\n\n\n\n\nExemplo pseudocódigo\n\n\n\n\nO pseudocódigo é uma forma de escrever um algoritmo usando uma linguagem similar à linguagem humana. Ela serve para planejar o raciocínio antes de programar.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#variáveis-e-constantes",
+    "href": "aulas/Aula 1.html#variáveis-e-constantes",
+    "title": "Conceitos Importantes",
+    "section": "1.5 Variáveis e Constantes",
+    "text": "1.5 Variáveis e Constantes\nA variável é um objeto que armazena os dados que precisamos no algoritmo, e o seu valor pode ser alterado durante a execução do programa. Já a constante, é uma valor que é pré definido no algoritmo. Ou seja, ela não muda na execução do programa.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 5.html",
+    "href": "aulas/Aula 5.html",
+    "title": "Entendendo a Eletricidade",
+    "section": "",
+    "text": "A eletricidade é uma forma de energia que resulta da existência de partículas carregadas, como elétrons. Para projetos com Arduino, o fundamental é entender a eletricidade como energia que possui uma corrente. Um circuito elétrico funciona como um sistema circular, onde a energia flui de uma fonte positiva, passa pelos componentes que a utilizam, e retorna para o terra (negativo) para completar o ciclo. Se a energia não for utilizada por um componente (como um LED ou resistor) e o polo positivo se conectar diretamente ao negativo, ocorre um curto-circuito. A maneira mais simples de controlar um circuito é interrompendo o fluxo de energia, por exemplo, com um interruptor.",
     "crumbs": [
       "Home",
       "Pilar 2",
-      "Desafio"
+      "Entendendo a Eletricidade"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 5.html#aprofundando-o-conceito",
+    "href": "aulas/Aula 5.html#aprofundando-o-conceito",
+    "title": "Entendendo a Eletricidade",
+    "section": "Aprofundando o conceito",
+    "text": "Aprofundando o conceito",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Entendendo a Eletricidade"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 5.html#usando-equações-para-construir-circuitos",
+    "href": "aulas/Aula 5.html#usando-equações-para-construir-circuitos",
+    "title": "Entendendo a Eletricidade",
+    "section": "Usando Equações para Construir Circuitos",
+    "text": "Usando Equações para Construir Circuitos\nPara garantir que os circuitos sejam equilibrados e eficientes, algumas equações são fundamentais. As principais grandezas elétricas são a Potência (P) em watts, a Tensão (V) em volts, a Corrente (I) em amperes e a Resistência (R) em ohms.\n\nLei de Ohm\n\nÉ a relação mais importante entre tensão, corrente e resistência. A fórmula principal é V=I×R. Ela pode ser rearranjada para descobrir qualquer um dos valores, como R=V/I.\n\n\n\nLei de Joule e Cálculo de Potência\n\nA potência (P) de um circuito é calculada multiplicando-se a tensão pela corrente (P=V×I). A Lei de Joule oferece outras formas de calcular a potência, relacionando-a com a resistência, através das fórmulas P=I^2 × R e P=V^2/R. Esses cálculos são úteis para descobrir o consumo de corrente de componentes ou para garantir que os limites de corrente dos pinos do Arduino não sejam excedidos.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Entendendo a Eletricidade"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 9.html",
+    "href": "aulas/Aula 9.html",
+    "title": "O pilar da Modelagem",
+    "section": "",
+    "text": "E chegamos ao último e não menos importante pilar: A modelagem🎉.\nVista como um dos pilares centrais para a robótica educacional, a modelagem tem como objetivo principal possibilitar que os alunos representem sistemas reais ou abstratos de forma prática e interativa. Ela envolve o processo de criação de soluções físicas e digitais para representar ideias, resolver problemas ou simular comportamentos.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "O pilar da Modelagem"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 9.html#subáreas-da-modelagem",
+    "href": "aulas/Aula 9.html#subáreas-da-modelagem",
+    "title": "O pilar da Modelagem",
+    "section": "Subáreas da modelagem",
+    "text": "Subáreas da modelagem\nNo contexto educacional, a modelagem nos ajuda a desenvolver pensamento computacional, criatividade e habilidades de engenharia e design. Neste tutorial, vamos apresentar cada tipo de modelagem acompanhada de um caso situacional hipotético para uma possível aplicação.\n\n\n\n\n\n\n\n\n\n\nNa Liga o enfoque é voltado para a robótica educacional, mas os conceitos podem ser aplicados em diversas áreas do conhecimento.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "O pilar da Modelagem"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 14.html#o-que-é",
+    "href": "aulas/Aula 14.html#o-que-é",
+    "title": "Modelagem Virtual (CAD / 3D)",
+    "section": "O que é ?",
+    "text": "O que é ?\nA modelagem virtual consiste na criação de modelos digitais tridimensionais de robôs ou peças específicas, utilizando softwares de CAD (Desenho Assistido por Computador) e modelagem 3D. Essa etapa é essencial para visualizar, testar e aperfeiçoar o design antes de passar para a fabricação ou impressão 3D.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Virtual (CAD / 3D)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 14.html#como-desenhar-em-2d",
+    "href": "aulas/Aula 14.html#como-desenhar-em-2d",
+    "title": "Modelagem Virtual (CAD / 3D)",
+    "section": "Como desenhar em 2D?",
+    "text": "Como desenhar em 2D?",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Virtual (CAD / 3D)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 14.html#como-desenhar-em-3d",
+    "href": "aulas/Aula 14.html#como-desenhar-em-3d",
+    "title": "Modelagem Virtual (CAD / 3D)",
+    "section": "Como desenhar em 3D?",
+    "text": "Como desenhar em 3D?",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Virtual (CAD / 3D)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 14.html#exemplo-prático",
+    "href": "aulas/Aula 14.html#exemplo-prático",
+    "title": "Modelagem Virtual (CAD / 3D)",
+    "section": "Exemplo prático",
+    "text": "Exemplo prático\nEtapa de Modelagem Digital e Fabricação (MDF):\n\nApós criar o modelo 3D do robô (por exemplo, o chassi e o braço mecânico) em um software como Fusion 360 ou Tinkercad, os alunos exportam as peças para fabricação digital (como corte a laser em MDF ou impressão 3D). Em seguida, constroem fisicamente o robô usando essas peças, integrando componentes eletrônicos como sensores de cor (para identificar livros) e sensores de distância (para evitar obstáculos). Por fim, a equipe monta o chassi, as rodas e o braço robótico, conectando tudo aos kits de robótica (como Arduino ou LEGO Mindstorms), e realiza os primeiros testes e ajustes no protótipo real.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Virtual (CAD / 3D)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 14.html#ferramentas-comuns",
+    "href": "aulas/Aula 14.html#ferramentas-comuns",
+    "title": "Modelagem Virtual (CAD / 3D)",
+    "section": "Ferramentas comuns",
+    "text": "Ferramentas comuns\n\nTinkercad (iniciante)\nFusion 360\nOnshape\nBlender\nFreeCAD",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Virtual (CAD / 3D)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 14.html#benefícios-para-alunos",
+    "href": "aulas/Aula 14.html#benefícios-para-alunos",
+    "title": "Modelagem Virtual (CAD / 3D)",
+    "section": "Benefícios para alunos",
+    "text": "Benefícios para alunos\n\nIntrodução a conceitos de engenharia e design assistido por computador (CAD).\nDesenvolvimento do pensamento crítico e visualização espacial em 3D.\nPreparação para processos de impressão 3D e prototipagem digital.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Virtual (CAD / 3D)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 14.html#links-úteis",
+    "href": "aulas/Aula 14.html#links-úteis",
+    "title": "Modelagem Virtual (CAD / 3D)",
+    "section": "Links úteis",
+    "text": "Links úteis\n\nTinkercad\nFusion 360 para Educação\nOnshape\nBlender\nFreeCAD",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Virtual (CAD / 3D)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 14.html#material-complementar",
+    "href": "aulas/Aula 14.html#material-complementar",
+    "title": "Modelagem Virtual (CAD / 3D)",
+    "section": "Material complementar",
+    "text": "Material complementar\n\nTutorial de modelagem 3D para iniciantes (YouTube)\nExemplo de simulação de braço robótico no Fusion 360 (YouTube)",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Virtual (CAD / 3D)"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html",
+    "href": "aulas/Aula 6.html",
+    "title": "Componentes eletrônicos",
+    "section": "",
+    "text": "Este tópico oferece uma exploração abrangente sobre os componentes eletrônicos, abordando suas classificações, funções e características principais. Os Componentes Eletrônicos são a estrutura de um circuito elétrico ou eletrônico, desde os mais simples aos mais complexos. Podem ser definidos como todo dispositivo que transmite corrente elétrica através de um condutor ou semicondutor.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Componentes eletrônicos"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html#resistores",
+    "href": "aulas/Aula 6.html#resistores",
+    "title": "Componentes eletrônicos",
+    "section": "Resistores",
+    "text": "Resistores\nComo os resistores são muito pequenos para terem seus valores impressos, eles usam um sistema de faixas coloridas para indicar seu valor de resistência, multiplicador e tolerância. Por exemplo, um resistor com as faixas Laranja, Laranja, Marrom e Dourado corresponde a 330 ohms com ±5% de tolerância. Caso haja dúvida, o uso de um multímetro é recomendado para obter uma leitura precisa do valor.\n\n\nComo podemos observar também na imagem a seguir a tabela de cores dos resistores:\n\n\n\n\n\n\nTabela Resistores",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Componentes eletrônicos"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html#led",
+    "href": "aulas/Aula 6.html#led",
+    "title": "Componentes eletrônicos",
+    "section": "LED",
+    "text": "LED\n\n\n\n\n\n\nLed\n\n\n\n\n\nLED (do inglês, Light Emitting Diode) é um diodo emissor de luz, sendo basicamente é uma lâmpada que consome pouca energia. O LED, assim como alguns componentes, possui um lado positivo “+” e um lado negativo “-“, essa característica também é conhecida como polaridade. Para esses componentes, se ligar de modo invertido, ele não irá funcionar e pode até acabar danificando. A haste (perna) maior do LED é o lado positivo e a menor é o lado negativo. Você pode ver também pelo lado mais achatado, que é o lado negativo enquanto o lado arredondado é o positivo.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Componentes eletrônicos"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html#sensor-infravermelho",
+    "href": "aulas/Aula 6.html#sensor-infravermelho",
+    "title": "Componentes eletrônicos",
+    "section": "Sensor infravermelho",
+    "text": "Sensor infravermelho\nÉ um dispositivo eletrônico que emite e/ou detecta radiação infravermelha com o intuito de revelar alguns aspectos do ambiente a seu redor. Esses sensores podem ser utilizados para identificar obstáculos, detectar movimento, medir o calor de um objeto, ler de código de barras, em alarmes de passagem, entre outros. O sensor de obstáculo reflexivo infravermelho IR possui dois LEDs infravermelho: um LED emissor infravermelho (de cor transparente), que emite um feixe de luz numa frequência não visível a olho nu, e um receptor fototransistor (de cor preta), que captura o feixe de luz emitido pelo infravermelho. Estes dois LEDs operam em conjunto. Quando a luz emitida choca em algum obstáculo próximo ocorre a reflexão da luz e o fototransistor a detecta. A cor e o material do objeto podem interferir no funcionamento do sensor de obstáculo reflexivo infravermelho IR.\n\n\n\n\n\n\nSensor Infra\n\n\n\n\n\nOs pinos e componentes do sensor de obstáculo reflexivo infravermelho IR possuem as seguintes funções:\n\nVCC: Pino de alimentação do sensor com tensão entre 3,3V ~ 5V;\nGND: Pino de aterramento do sensor;\nOUT: Pino de saída digital do sensor;\nLED ON/OFF: LED que indica quando o sensor está ligado (ON) ou desligado (OFF);\nLED DETECTOR: LED que indica quando ocorre a detecção de um objeto pelo sensor;\nPOTENCIÔMETRO: Potenciômetro de ajuste da sensibilidade do sensor.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Componentes eletrônicos"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html#sensor-ultrassônico",
+    "href": "aulas/Aula 6.html#sensor-ultrassônico",
+    "title": "Componentes eletrônicos",
+    "section": "Sensor ultrassônico",
+    "text": "Sensor ultrassônico\nÉ um dispositivo que emite ondas sonoras de alta frequência. Essas ondas se propagam pelo ar até encontrarem uma barreira, como uma parede ou uma porta. Quando as ondas encontram um objeto, elas são refletidas de volta para o sensor. O sensor mede o tempo que levou para as ondas serem refletidas e usa essa informação para determinar a distância do objeto. O sensor HC-SR04 é composto de três partes principais:\nTransmissor Ultrassônico – Emite as ondas ultrassônicas que serão refletidas pelos obstáculos; Um receptor – Identifica o eco do sinal emitido pelo transmissor; Circuito de controle – Controla o conjunto transmissor/receptor, calcula o tempo entre a emissão e recepção do sinal.\n\n\n\n\n\n\nSensor ultra\n\n\n\n\n\nNa figura podemos observar os quatro pinos do sensor HC-SR04. Temos um pino de VCC, alimentado com 5V, um GND, e os dois pinos de controle e leitura do sensor: O Trigger, no qual nós aplicamos o sinal para comandar o envio dos pulsos ultrassônicos, e o Echo, que retorna para o Arduino os pulsos com o tempo de duração entre o envio e recepção do sinal de retorno. A corrente elétrica de operação do sensor é de 15mA, portanto é uma aplicação de baixo consumo energético.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Componentes eletrônicos"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 6.html#dc-motor",
+    "href": "aulas/Aula 6.html#dc-motor",
+    "title": "Componentes eletrônicos",
+    "section": "DC Motor",
+    "text": "DC Motor\nOs motores são componentes indispensáveis em projetos de automação e robótica que utilizam Arduino. São eles os responsáveis pela conversão de energia elétrica em movimento mecânico, permitindo que artefatos robóticos, máquinas e outros dispositivos realizem movimentos. Os motores DC (corrente contínua) são ideais para projetos que exigem um controle simples e eficaz de velocidade. Eles são bastante versáteis e podem ser utilizados em uma gama de aplicações devido à sua capacidade de operar em diferentes velocidades e direções.",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Componentes eletrônicos"
     ]
   }
 ]

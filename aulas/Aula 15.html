@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Modelagem Baseada em Prototipagem Rápida –</title>
+<title>Modelagem Física –</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../aulas/Aula 14.html" rel="next">
-<link href="../aulas/Aula 12.html" rel="prev">
+<link href="../aulas/Aula 16.html" rel="next">
+<link href="../aulas/Aula 14.html" rel="prev">
 <link href=".././images/prancheta2_3.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -73,13 +73,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Modelagem Baseada em Prototipagem Rápida –">
+<meta property="og:title" content="Modelagem Física –">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://robochicas.github.io/trainee/images/robotica-iStock.jpg">
+<meta property="og:image" content="https://robochicas.github.io/trainee/images/espaco_imagem1.png">
 <meta property="og:site_name" content=" ">
-<meta name="twitter:title" content="Modelagem Baseada em Prototipagem Rápida –">
+<meta name="twitter:title" content="Modelagem Física –">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://robochicas.github.io/trainee/images/robotica-iStock.jpg">
+<meta name="twitter:image" content="https://robochicas.github.io/trainee/images/espaco_imagem1.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 13.html">Modelagem Baseada em Prototipagem Rápida</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 15.html">Modelagem Física</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -257,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../aulas/Aula 13.html" class="sidebar-item-text sidebar-link active">
+  <a href="../aulas/Aula 13.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Modelagem Baseada em Prototipagem Rápida</span></a>
   </div>
 </li>
@@ -275,7 +275,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../aulas/Aula 15.html" class="sidebar-item-text sidebar-link">
+  <a href="../aulas/Aula 15.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Modelagem Física</span></a>
   </div>
 </li>
@@ -303,9 +303,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#modelagem-baseada-em-prototipagem-rápida" id="toc-modelagem-baseada-em-prototipagem-rápida" class="nav-link active" data-scroll-target="#modelagem-baseada-em-prototipagem-rápida">Modelagem Baseada em Prototipagem Rápida</a></li>
+  <li><a href="#modelagem-física" id="toc-modelagem-física" class="nav-link active" data-scroll-target="#modelagem-física">Modelagem Física</a></li>
+  <li><a href="#modelagem-física-vs-montagem-física" id="toc-modelagem-física-vs-montagem-física" class="nav-link" data-scroll-target="#modelagem-física-vs-montagem-física">🔧 Modelagem Física vs Montagem Física</a>
+  <ul class="collapse">
+  <li><a href="#modelagem-física-1" id="toc-modelagem-física-1" class="nav-link" data-scroll-target="#modelagem-física-1">🧩 Modelagem Física</a></li>
+  <li><a href="#montagem-física" id="toc-montagem-física" class="nav-link" data-scroll-target="#montagem-física">🛠️ Montagem Física</a></li>
+  </ul></li>
   <li><a href="#exemplo-prático" id="toc-exemplo-prático" class="nav-link" data-scroll-target="#exemplo-prático">Exemplo prático</a></li>
-  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis">Links úteis</a></li>
   </ul>
 </nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
@@ -314,9 +318,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 13.html">Modelagem Baseada em Prototipagem Rápida</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 15.html">Modelagem Física</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Modelagem Baseada em Prototipagem Rápida</h1>
+<h1 class="title">Modelagem Física</h1>
 </div>
 
 
@@ -333,60 +337,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-layout-panel" data-layout="[10,70]">
+<div class="quarto-layout-panel" data-layout="[30,70]">
 <div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 12.5%;justify-content: flex-start;">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: flex-start;">
 <!-- Espaço reservado para imagem -->
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 87.5%;justify-content: center;">
-<p><img src="../images/robotica-iStock.jpg" class="img-fluid"></p>
+<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: center;">
+<p><img src="../images/espaco_imagem1.png" class="img-fluid"></p>
 </div>
 </div>
 </div>
-<section id="modelagem-baseada-em-prototipagem-rápida" class="level3">
-<h3 class="anchored" data-anchor-id="modelagem-baseada-em-prototipagem-rápida">Modelagem Baseada em Prototipagem Rápida</h3>
-<p>A modelagem baseada em prototipagem rápida é uma abordagem “mão na massa”, onde os alunos criam, testam e refinam protótipos de forma interativa. É comum que esse seja o primeiro contato dos estudantes com a modelagem, pois permite transformar ideias em soluções tangíveis rapidamente, contextualizando conceitos de robótica educacional na resolução de problemas reais.</p>
-<p>Essa metodologia se destaca por ser prática e iterativa, estimulando o envolvimento ativo dos alunos no desenvolvimento de produtos ou soluções. Ao invés de seguir um fluxo linear, incentiva-se a criação, o teste e o aprimoramento contínuo dos protótipos. O foco principal é transformar ideias conceituais em objetos concretos que podem ser avaliados e refinados rapidamente.</p>
-<section id="benefícios-da-abordagem" class="level4">
-<h4 class="anchored" data-anchor-id="benefícios-da-abordagem">Benefícios da abordagem</h4>
+<section id="modelagem-física" class="level2">
+<h2 class="anchored" data-anchor-id="modelagem-física">Modelagem Física</h2>
+<p>A modelagem física envolve a construção de robôs ou mecanismos reais utilizando peças, sensores e motores. É a forma mais tangível e concreta da robótica, permitindo que os alunos vejam, toquem e manipulem seus projetos no mundo real, tornando o processo de aprendizagem mais envolvente e prático.</p>
+<p>Principais recursos e ferramentas para modelagem física na robótica:</p>
 <ul>
-<li><strong>Aprendizagem Ativa e Experiencial:</strong> Os estudantes aprendem fazendo, fortalecendo tanto a compreensão teórica quanto o desenvolvimento de habilidades práticas.</li>
-<li><strong>Detecção Precoce de Problemas:</strong> Falhas e desafios são identificados logo no início, reduzindo custos e tempo associados a revisões posteriores.</li>
-<li><strong>Feedback Constante e Melhoria Contínua:</strong> O ciclo iterativo permite incorporar feedback dos usuários e stakeholders, garantindo que o produto final atenda às necessidades reais.</li>
-<li><strong>Estímulo à Criatividade e Resolução de Problemas:</strong> A flexibilidade da prototipagem rápida incentiva a experimentação e soluções inovadoras.</li>
-<li><strong>Desenvolvimento de Habilidades Colaborativas:</strong> Geralmente realizada em equipes, promove a comunicação e colaboração entre os estudantes.</li>
-<li><strong>Redução de Riscos:</strong> Testar ideias em pequena escala antes do desenvolvimento completo minimiza significativamente os riscos do projeto.</li>
+<li><strong>Peças de construção:</strong> Kits de robótica (LEGO Mindstorms, VEX Robotics), placas de prototipagem (Arduino, Raspberry Pi), materiais diversos como acrílico, madeira e metal.</li>
+<li><strong>Sensores:</strong> Sensores de distância (ultrassom, infravermelho), sensores de luz, sensores de toque, giroscópios, acelerômetros.</li>
+<li><strong>Motores:</strong> Servomotores, motores de corrente contínua, motores de passo.</li>
+<li><strong>Software de programação:</strong> IDEs como Arduino IDE, linguagens de programação (Python, C++), interfaces gráficas de programação por blocos (Scratch, Blockly).</li>
+<li><strong>Ferramentas manuais:</strong> Chaves de fenda, alicates, multímetros, soldadores. ::: {layout=“[30,70]”} <!-- Espaço reservado para imagem --> <img src="../images/espaco_imagem2.png" class="img-fluid"> :::</li>
 </ul>
-<div class="quarto-layout-panel" data-layout="[20,70]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 22.2%;justify-content: flex-start;">
-<!-- Espaço reservado para imagem -->
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 77.8%;justify-content: center;">
-<p><img src="../images/eletronic.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
+</section>
+<section id="modelagem-física-vs-montagem-física" class="level2">
+<h2 class="anchored" data-anchor-id="modelagem-física-vs-montagem-física">🔧 Modelagem Física vs Montagem Física</h2>
+<section id="modelagem-física-1" class="level3">
+<h3 class="anchored" data-anchor-id="modelagem-física-1">🧩 Modelagem Física</h3>
+<p>É a etapa criativa e exploratória em que os alunos experimentam formas, estruturas e mecanismos físicos, muitas vezes usando materiais simples como papelão, LEGO, kits didáticos ou protótipos rápidos.</p>
+<section id="envolve" class="level4">
+<h4 class="anchored" data-anchor-id="envolve">Envolve:</h4>
+<ul>
+<li><p>Testar diferentes formas e layouts.</p></li>
+<li><p>Criar mockups (maquetes) ou protótipos com materiais alternativos.</p></li>
+<li><p>Avaliar ergonomia, equilíbrio, distribuição de peso, etc.</p></li>
+</ul>
+<p><strong>Exemplo:</strong> Usar papelão e cola quente para criar uma versão inicial da estrutura de um robô antes de montar com peças definitivas.</p>
+<p>Palavra-chave: <strong>Explorar</strong> A modelagem física permite errar, ajustar, redesenhar e aprender com a prática.</p>
+</section>
+</section>
+<section id="montagem-física" class="level3">
+<h3 class="anchored" data-anchor-id="montagem-física">🛠️ Montagem Física</h3>
+<p>É a execução prática e final, onde as peças reais (motores, sensores, placas, chassi) são montadas de forma funcional para construir o robô ou sistema.</p>
+<section id="envolve-1" class="level4">
+<h4 class="anchored" data-anchor-id="envolve-1">Envolve:</h4>
+<ul>
+<li>Fixar componentes no chassi.</li>
+<li>Ligar motores, sensores, microcontrolador.</li>
+<li>Montar a estrutura definitiva com base no projeto ou protótipo.</li>
+</ul>
+<p><strong>Exemplo:</strong> Montar o robô final usando um kit Arduino, motores, sensores e uma base de acrílico cortada a laser.</p>
+<p>Palavra-chave: <strong>Construir</strong> É a fase de realização do projeto físico baseado nas etapas anteriores.</p>
+</section>
 </section>
 </section>
 <section id="exemplo-prático" class="level2">
 <h2 class="anchored" data-anchor-id="exemplo-prático">Exemplo prático</h2>
-<p><strong>Modelagem Baseada em Prototipagem Rápida</strong></p>
+<p><strong>Modelagem Física / Modelagem Digital para Fabricação (MDF):</strong></p>
 <blockquote class="blockquote">
-<p>Durante o desenvolvimento do robô, eles decidem criar um “braço personalizado” com uma garra adaptável usando impressão 3D. Os alunos percebem que antes de desenvolver o prototipo físico o ideal testar os principios de funcionamento elétricos e eletrônicos para segurar os conceitos visto nos livros. Para isso, começam desenhando o circuito eletrônico no Tinkercad, em seguida reúnem os componentes físicos para montagem e testes iniciais. Esse processo permite testar e ajustar rapidamente o projeto conforme necessário.</p>
+<p>Nesta etapa, a equipe começa a construir o robô de fato. Utilizam peças fabricadas em 3D para montar o chassi, rodas e um braço robótico simples. Adicionam sensores de cor para identificar os livros (usando uma faixa colorida para indicar o gênero) e sensores de distância para evitar obstáculos. Essa é a fase mais concreta, onde o projeto ganha forma no mundo real e os alunos podem testar e ajustar diretamente suas criações.</p>
 </blockquote>
-</section>
-<section id="links-úteis" class="level2">
-<h2 class="anchored" data-anchor-id="links-úteis">Links úteis</h2>
-<ul>
-<li><a href="https://www.tinkercad.com/">Tinkercad</a></li>
-<li><a href="https://www.autodesk.com/products/fusion-360/overview">Fusion 360</a></li>
-<li><a href="https://www.freecad.org/">FreeCAD</a></li>
-<li><a href="https://ultimaker.com/software/ultimaker-cura/">Ultimaker Cura</a></li>
-<li><a href="https://www.thingiverse.com/">Thingiverse</a></li>
-<li><a href="https://www.arduino.cc/">Arduino</a></li>
-<li><a href="https://www.printables.com/">PrusaPrinters</a></li>
-</ul>
 
 
 </section>
@@ -793,13 +802,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../aulas/Aula 12.html" class="pagination-link" aria-label="Modelagem Matemática">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Modelagem Matemática</span>
+      <a href="../aulas/Aula 14.html" class="pagination-link" aria-label="Modelagem Virtual (CAD / 3D)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Modelagem Virtual (CAD / 3D)</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../aulas/Aula 14.html" class="pagination-link" aria-label="Modelagem Virtual (CAD / 3D)">
-        <span class="nav-page-text">Modelagem Virtual (CAD / 3D)</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../aulas/Aula 16.html" class="pagination-link" aria-label="Modelagem de PCB com Sistemas Embarcados">
+        <span class="nav-page-text">Modelagem de PCB com Sistemas Embarcados</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Modelagem Baseada em Prototipagem Rápida –</title>
+<title>Desafio: Modelagem Virtual e Fabricação Digital –</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../aulas/Aula 14.html" rel="next">
-<link href="../aulas/Aula 12.html" rel="prev">
+<link href="../aulas/Aula 16.html" rel="prev">
 <link href=".././images/prancheta2_3.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -73,13 +72,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Modelagem Baseada em Prototipagem Rápida –">
+<meta property="og:title" content="Desafio: Modelagem Virtual e Fabricação Digital –">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://robochicas.github.io/trainee/images/robotica-iStock.jpg">
+<meta property="og:image" content="https://robochicas.github.io/trainee/images/pascal.gif">
 <meta property="og:site_name" content=" ">
-<meta name="twitter:title" content="Modelagem Baseada em Prototipagem Rápida –">
+<meta name="twitter:title" content="Desafio: Modelagem Virtual e Fabricação Digital –">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://robochicas.github.io/trainee/images/robotica-iStock.jpg">
+<meta name="twitter:image" content="https://robochicas.github.io/trainee/images/pascal.gif">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -134,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 13.html">Modelagem Baseada em Prototipagem Rápida</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 17.html">Desafio: Modelagem Virtual e Fabricação Digital</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -257,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../aulas/Aula 13.html" class="sidebar-item-text sidebar-link active">
+  <a href="../aulas/Aula 13.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Modelagem Baseada em Prototipagem Rápida</span></a>
   </div>
 </li>
@@ -287,7 +286,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../aulas/Aula 17.html" class="sidebar-item-text sidebar-link">
+  <a href="../aulas/Aula 17.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Desafio: Modelagem Virtual e Fabricação Digital</span></a>
   </div>
 </li>
@@ -303,9 +302,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#modelagem-baseada-em-prototipagem-rápida" id="toc-modelagem-baseada-em-prototipagem-rápida" class="nav-link active" data-scroll-target="#modelagem-baseada-em-prototipagem-rápida">Modelagem Baseada em Prototipagem Rápida</a></li>
-  <li><a href="#exemplo-prático" id="toc-exemplo-prático" class="nav-link" data-scroll-target="#exemplo-prático">Exemplo prático</a></li>
-  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis">Links úteis</a></li>
+  <li><a href="#desafio" id="toc-desafio" class="nav-link active" data-scroll-target="#desafio">Desafio</a></li>
+  <li><a href="#objetivo" id="toc-objetivo" class="nav-link" data-scroll-target="#objetivo">Objetivo</a>
+  <ul class="collapse">
+  <li><a href="#dicas" id="toc-dicas" class="nav-link" data-scroll-target="#dicas">Dicas</a></li>
+  </ul></li>
   </ul>
 </nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
@@ -314,9 +315,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 13.html">Modelagem Baseada em Prototipagem Rápida</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/Aula 9.html">Pilar 3</a></li><li class="breadcrumb-item"><a href="../aulas/Aula 17.html">Desafio: Modelagem Virtual e Fabricação Digital</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Modelagem Baseada em Prototipagem Rápida</h1>
+<h1 class="title">Desafio: Modelagem Virtual e Fabricação Digital</h1>
 </div>
 
 
@@ -333,62 +334,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-layout-panel" data-layout="[10,70]">
+<div class="quarto-layout-panel" data-layout="[30,70]">
 <div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 12.5%;justify-content: flex-start;">
-<!-- Espaço reservado para imagem -->
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="../images/pascal.gif" class="img-fluid"></p>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 87.5%;justify-content: center;">
-<p><img src="../images/robotica-iStock.jpg" class="img-fluid"></p>
+<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
+<p>Chegou a hora de transformar ideias em realidade! Neste desafio, você irá aplicar os conceitos de modelagem virtual (CAD/3D) para projetar, uma peça ou estrutura para um robô.</p>
 </div>
 </div>
 </div>
-<section id="modelagem-baseada-em-prototipagem-rápida" class="level3">
-<h3 class="anchored" data-anchor-id="modelagem-baseada-em-prototipagem-rápida">Modelagem Baseada em Prototipagem Rápida</h3>
-<p>A modelagem baseada em prototipagem rápida é uma abordagem “mão na massa”, onde os alunos criam, testam e refinam protótipos de forma interativa. É comum que esse seja o primeiro contato dos estudantes com a modelagem, pois permite transformar ideias em soluções tangíveis rapidamente, contextualizando conceitos de robótica educacional na resolução de problemas reais.</p>
-<p>Essa metodologia se destaca por ser prática e iterativa, estimulando o envolvimento ativo dos alunos no desenvolvimento de produtos ou soluções. Ao invés de seguir um fluxo linear, incentiva-se a criação, o teste e o aprimoramento contínuo dos protótipos. O foco principal é transformar ideias conceituais em objetos concretos que podem ser avaliados e refinados rapidamente.</p>
-<section id="benefícios-da-abordagem" class="level4">
-<h4 class="anchored" data-anchor-id="benefícios-da-abordagem">Benefícios da abordagem</h4>
+<section id="desafio" class="level2">
+<h2 class="anchored" data-anchor-id="desafio">Desafio</h2>
+<p>Com base nas aulas praticas da sessao <a href="../aulas/Aula 14.html">Modelagem Virtual</a>, faça adaptações nos desenhos aplicando uma contextualização criativa que possua uma finalidade real para uso em algum projeto de robotica.</p>
+</section>
+<section id="objetivo" class="level2">
+<h2 class="anchored" data-anchor-id="objetivo">Objetivo</h2>
+<p>Criar um modelo 3D de uma peça ou estrutura que possa ser fabricada digitalmente (corte a laser, impressão 3D, etc.) e que se encaixe em um projeto de robótica.</p>
+<section id="dicas" class="level3">
+<h3 class="anchored" data-anchor-id="dicas">Dicas</h3>
 <ul>
-<li><strong>Aprendizagem Ativa e Experiencial:</strong> Os estudantes aprendem fazendo, fortalecendo tanto a compreensão teórica quanto o desenvolvimento de habilidades práticas.</li>
-<li><strong>Detecção Precoce de Problemas:</strong> Falhas e desafios são identificados logo no início, reduzindo custos e tempo associados a revisões posteriores.</li>
-<li><strong>Feedback Constante e Melhoria Contínua:</strong> O ciclo iterativo permite incorporar feedback dos usuários e stakeholders, garantindo que o produto final atenda às necessidades reais.</li>
-<li><strong>Estímulo à Criatividade e Resolução de Problemas:</strong> A flexibilidade da prototipagem rápida incentiva a experimentação e soluções inovadoras.</li>
-<li><strong>Desenvolvimento de Habilidades Colaborativas:</strong> Geralmente realizada em equipes, promove a comunicação e colaboração entre os estudantes.</li>
-<li><strong>Redução de Riscos:</strong> Testar ideias em pequena escala antes do desenvolvimento completo minimiza significativamente os riscos do projeto.</li>
+<li>Use cores e detalhes para indicar onde serão instalados sensores e componentes eletrônicos.</li>
+<li>Pense em soluções simples e funcionais para facilitar a montagem.</li>
+<li>Não se preocupe com estética perfeita; foque na funcionalidade e viabilidade de fabricação.</li>
 </ul>
-<div class="quarto-layout-panel" data-layout="[20,70]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 22.2%;justify-content: flex-start;">
-<!-- Espaço reservado para imagem -->
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 77.8%;justify-content: center;">
-<p><img src="../images/eletronic.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section id="exemplo-prático" class="level2">
-<h2 class="anchored" data-anchor-id="exemplo-prático">Exemplo prático</h2>
-<p><strong>Modelagem Baseada em Prototipagem Rápida</strong></p>
-<blockquote class="blockquote">
-<p>Durante o desenvolvimento do robô, eles decidem criar um “braço personalizado” com uma garra adaptável usando impressão 3D. Os alunos percebem que antes de desenvolver o prototipo físico o ideal testar os principios de funcionamento elétricos e eletrônicos para segurar os conceitos visto nos livros. Para isso, começam desenhando o circuito eletrônico no Tinkercad, em seguida reúnem os componentes físicos para montagem e testes iniciais. Esse processo permite testar e ajustar rapidamente o projeto conforme necessário.</p>
-</blockquote>
-</section>
-<section id="links-úteis" class="level2">
-<h2 class="anchored" data-anchor-id="links-úteis">Links úteis</h2>
-<ul>
-<li><a href="https://www.tinkercad.com/">Tinkercad</a></li>
-<li><a href="https://www.autodesk.com/products/fusion-360/overview">Fusion 360</a></li>
-<li><a href="https://www.freecad.org/">FreeCAD</a></li>
-<li><a href="https://ultimaker.com/software/ultimaker-cura/">Ultimaker Cura</a></li>
-<li><a href="https://www.thingiverse.com/">Thingiverse</a></li>
-<li><a href="https://www.arduino.cc/">Arduino</a></li>
-<li><a href="https://www.printables.com/">PrusaPrinters</a></li>
-</ul>
+<p>Boa sorte! Mãos à obra!</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -793,14 +766,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../aulas/Aula 12.html" class="pagination-link" aria-label="Modelagem Matemática">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Modelagem Matemática</span>
+      <a href="../aulas/Aula 16.html" class="pagination-link" aria-label="Modelagem de PCB com Sistemas Embarcados">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Modelagem de PCB com Sistemas Embarcados</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../aulas/Aula 14.html" class="pagination-link" aria-label="Modelagem Virtual (CAD / 3D)">
-        <span class="nav-page-text">Modelagem Virtual (CAD / 3D)</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
