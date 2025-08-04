@@ -2,11 +2,6 @@
 title: "Modelagem Física"
 ---
 
-::: {layout="[30,70]"}
-
-<!-- Espaço reservado para imagem -->
-![](../images/espaco_imagem1.png)
-:::
 ## Modelagem Física
 
 A modelagem física envolve a construção de robôs ou mecanismos reais utilizando peças, sensores e motores. É a forma mais tangível e concreta da robótica, permitindo que os alunos vejam, toquem e manipulem seus projetos no mundo real, tornando o processo de aprendizagem mais envolvente e prático.
@@ -18,10 +13,7 @@ Principais recursos e ferramentas para modelagem física na robótica:
 - **Motores:** Servomotores, motores de corrente contínua, motores de passo.
 - **Software de programação:** IDEs como Arduino IDE, linguagens de programação (Python, C++), interfaces gráficas de programação por blocos (Scratch, Blockly).
 - **Ferramentas manuais:** Chaves de fenda, alicates, multímetros, soldadores.
-::: {layout="[30,70]"}
-<!-- Espaço reservado para imagem -->
-![](../images/espaco_imagem2.png)
-:::
+
 
 ## 🔧 Modelagem Física vs Montagem Física
 ### 🧩 Modelagem Física

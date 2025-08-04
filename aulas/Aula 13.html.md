@@ -2,11 +2,11 @@
 title: "Modelagem Baseada em Prototipagem Rápida"
 ---
 
-::: {layout="[10,70]"}
 
 <!-- Espaço reservado para imagem -->
-![](../images/robotica-iStock.jpg)
-:::
+![](../images/robotica-iStock.jpg){fig-align="center"}
+
+
 ### Modelagem Baseada em Prototipagem Rápida
 
 A modelagem baseada em prototipagem rápida é uma abordagem "mão na massa", onde os alunos criam, testam e refinam protótipos de forma interativa. É comum que esse seja o primeiro contato dos estudantes com a modelagem, pois permite transformar ideias em soluções tangíveis rapidamente, contextualizando conceitos de robótica educacional na resolução de problemas reais.
@@ -22,10 +22,9 @@ Essa metodologia se destaca por ser prática e iterativa, estimulando o envolvim
 - **Desenvolvimento de Habilidades Colaborativas:** Geralmente realizada em equipes, promove a comunicação e colaboração entre os estudantes.
 - **Redução de Riscos:** Testar ideias em pequena escala antes do desenvolvimento completo minimiza significativamente os riscos do projeto.
 
-::: {layout="[20,70]"}
 <!-- Espaço reservado para imagem -->
-![](../images/eletronic.png)
-:::
+![](../images/eletronic.png){fig-align="center"}
+
 
 ## Exemplo prático
 
