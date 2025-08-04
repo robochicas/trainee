@@ -24,11 +24,11 @@ A modelagem computacional ou simulação consiste na criação de modelos virtua
 
 ### Simulação no GAZEBO utilizando ROS - 😱ROBO DA TESLA😱
 
-<iframe width="514" height="289" src="https://www.youtube.com/watch?v=e4l5W7ajl5w" title="Estruturas de Seleção" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="514" height="289" src="https://www.youtube.com/embed/videoseries?si=AZr6cIDNMdldgzsf&amp;list=PLfTBmjS5EtQ3LnbYeCsozbOD7UEP_1HMI" title="Estruturas de Seleção" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Fazendo um robo para o GAZEBO
 
-<iframe width="514" height="289" src="https://www.youtube.com/watch?v=_qQAfTmB5wc" title="Estruturas de Seleção" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="514" height="289" src="https://www.youtube.com/embed/_qQAfTmB5wc?si=V1HhUjmc6r91hTlc"  title="Estruturas de Seleção" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 

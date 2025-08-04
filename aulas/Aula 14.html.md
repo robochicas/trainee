@@ -11,7 +11,7 @@ title: "Modelagem Virtual (CAD / 3D)"
 A modelagem virtual consiste na criação de modelos digitais tridimensionais de robôs ou peças específicas, utilizando softwares de CAD (Desenho Assistido por Computador) e modelagem 3D. Essa etapa é essencial para visualizar, testar e aperfeiçoar o design antes de passar para a fabricação ou impressão 3D.
 
 ## Como desenhar em 2D?
-<iframe width="514" height="289" src="https://youtu.be/MRRKD74pQ2o?si=kIHKj9GDC2TnPhzA" title="Introdução à Modelagem 3D para Robótica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="514" height="289" src="" title="Introdução à Modelagem 3D para Robótica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Como desenhar em 3D?
 
@@ -51,3 +51,4 @@ A modelagem virtual consiste na criação de modelos digitais tridimensionais de
 
 - [Tutorial de modelagem 3D para iniciantes (YouTube)](https://www.youtube.com/watch?v=_6j7eph9sX0)
 - [Exemplo de simulação de braço robótico no Fusion 360 (YouTube)](https://www.youtube.com/watch?v=5cW4C0wMZ9A)
+https://youtu.be/MRRKD74pQ2o?si=kIHKj9GDC2TnPhzA

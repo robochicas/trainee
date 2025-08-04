@@ -37,10 +37,10 @@ A modelagem de PCB permite:
 Somente após a validação virtual do projeto, a placa é fabricada e os componentes são soldados, resultando em um sistema embarcado compacto, funcional e pronto para ser integrado ao restante do projeto.
 
 ## Altium Designer Tutorial 
-<iframe width="514" height="289" src="https://youtu.be/xjJpiMlldoI?si=48puWZQ6sphv5czV" title="Introdução à Modelagem 3D para Robótica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="514" height="289" src="https://www.youtube.com/embed/xjJpiMlldoI?si=rZ9t0zGdfWHMJ3Cc" title="Introdução à Modelagem 3D para Robótica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Atividade bonus
-<iframe width="514" height="289" src="https://youtu.be/jxiaHpoSUno?si=DJET5qp5XjUISA8o" title="Introdução à Modelagem 3D para Robótica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="514" height="289" src="https://www.youtube.com/embed/jxiaHpoSUno?si=MpftE88GxSt_HCoK" title="Introdução à Modelagem 3D para Robótica" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## Exemplo prático
 
 **Modelagem de PCB com Sistemas Embarcados:**  
