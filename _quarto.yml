@@ -34,7 +34,7 @@ website:
       - about.qmd
     right:
       - icon: github
-        href: https://github.com/fastai/course22
+        href: https://github.com/robochicas
   sidebar:
     style: floating
 
