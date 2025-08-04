@@ -1,7 +1,7 @@
 project:
   type: website
   preview:
-    port: 3000
+    port: 8080
     browser: false
 
 format:
