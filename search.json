@@ -72,207 +72,27 @@
     ]
   },
   {
-    "objectID": "aulas/Aula 8.html",
-    "href": "aulas/Aula 8.html",
-    "title": "Desafio",
+    "objectID": "aulas/Aula 9.html",
+    "href": "aulas/Aula 9.html",
+    "title": "O pilar da Modelagem",
     "section": "",
-    "text": "Desafio Criativo: Evolua seu Primeiro Projeto!\n\n\n\nVocê já deu os primeiros passos: montou circuitos, programou a lógica e fez seu primeiro LED acender. Chegou a hora de transformar o simples em algo único. Seu desafio é reinventar o projeto da aula passada. Pense além de um único LED. E se você…\n…criasse um semáforo com LEDs vermelho, amarelo e verde?\n…adicionasse um botão para ligar e desligar uma sequência de luzes?\n…usasse um potenciômetro para controlar a velocidade com que os LEDs piscam?\n…melhorasse o código, criando funções para organizar a programação?\nEstas são apenas algumas ideias. Sinta-se livre para explorar, combinar componentes e criar um projeto que seja a sua cara.\n\n\n\n Back to top",
-    "crumbs": [
-      "Home",
-      "Pilar 2",
-      "Desafio"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 17.html",
-    "href": "aulas/Aula 17.html",
-    "title": "Desafio: Modelagem Virtual e Fabricação Digital",
-    "section": "",
-    "text": "Chegou a hora de transformar ideias em realidade! Neste desafio, você irá aplicar os conceitos de modelagem virtual (CAD/3D) para projetar, uma peça ou estrutura para um robô.",
+    "text": "E chegamos ao último e não menos importante pilar: A modelagem🎉.\nVista como um dos pilares centrais para a robótica educacional, a modelagem tem como objetivo principal possibilitar que os alunos representem sistemas reais ou abstratos de forma prática e interativa. Ela envolve o processo de criação de soluções físicas e digitais para representar ideias, resolver problemas ou simular comportamentos.",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "Desafio: Modelagem Virtual e Fabricação Digital"
+      "O pilar da Modelagem"
     ]
   },
   {
-    "objectID": "aulas/Aula 17.html#desafio",
-    "href": "aulas/Aula 17.html#desafio",
-    "title": "Desafio: Modelagem Virtual e Fabricação Digital",
-    "section": "Desafio",
-    "text": "Desafio\nCom base nas aulas praticas da sessao Modelagem Virtual, faça adaptações nos desenhos aplicando uma contextualização criativa que possua uma finalidade real para uso em algum projeto de robotica.",
+    "objectID": "aulas/Aula 9.html#subáreas-da-modelagem",
+    "href": "aulas/Aula 9.html#subáreas-da-modelagem",
+    "title": "O pilar da Modelagem",
+    "section": "Subáreas da modelagem",
+    "text": "Subáreas da modelagem\nNo contexto educacional, a modelagem nos ajuda a desenvolver pensamento computacional, criatividade e habilidades de engenharia e design. Neste tutorial, vamos apresentar cada tipo de modelagem acompanhada de um caso situacional hipotético para uma possível aplicação.\n\n\n\n\n\n\n\n\n\n\nNa Liga o enfoque é voltado para a robótica educacional, mas os conceitos podem ser aplicados em diversas áreas do conhecimento.",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "Desafio: Modelagem Virtual e Fabricação Digital"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 17.html#objetivo",
-    "href": "aulas/Aula 17.html#objetivo",
-    "title": "Desafio: Modelagem Virtual e Fabricação Digital",
-    "section": "Objetivo",
-    "text": "Objetivo\nCriar um modelo 3D de uma peça ou estrutura que possa ser fabricada digitalmente (corte a laser, impressão 3D, etc.) e que se encaixe em um projeto de robótica.\n\nDicas\n\nUse cores e detalhes para indicar onde serão instalados sensores e componentes eletrônicos.\nPense em soluções simples e funcionais para facilitar a montagem.\nNão se preocupe com estética perfeita; foque na funcionalidade e viabilidade de fabricação.\n\nBoa sorte! Mãos à obra!",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "Desafio: Modelagem Virtual e Fabricação Digital"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 11.html#o-que-é",
-    "href": "aulas/Aula 11.html#o-que-é",
-    "title": "Modelagem Computacional/Simulação",
-    "section": "O que é?",
-    "text": "O que é?\nA modelagem computacional ou simulação consiste na criação de modelos virtuais de robôs em softwares de simulação, permitindo testar comportamentos e validar ideias sem a necessidade de hardware físico. Essa abordagem é fundamental para prever desafios, otimizar soluções e economizar recursos durante o processo de desenvolvimento.\n\nPrincipais ferramentas :\n\nMATLAB/Simulink: Muito utilizado para modelagem, simulação e análise de sistemas dinâmicos.\nGazebo: Simulador 3D amplamente integrado ao ROS (Robot Operating System).\nV-REP (CoppeliaSim): Ambiente versátil para simulação em robótica, mecatrônica e automação.\nWebots: Simulador de robôs aplicado em pesquisa, ensino e indústria.\nOpenSim: Especializado em modelagem e simulação de sistemas musculoesqueléticos.\nAnsys: Ferramenta de engenharia para simulação multifísica (estrutural, fluidodinâmica, eletromagnética).\nAbaqus: Focado em análise por elementos finitos (FEA) para engenharia mecânica e estrutural.\nUnity: Engine de jogos cada vez mais utilizada em simulações robóticas e ambientes virtuais devido aos avançados recursos gráficos e de física.\nROS (Robot Operating System): Não é um simulador, mas integra-se a diversas ferramentas para controlar e testar robôs virtuais.\n\n\n\nSimulação no GAZEBO utilizando ROS - 😱ROBO DA TESLA😱\n\n\n\n\nFazendo um robo para o GAZEBO",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "Modelagem Computacional/Simulação"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 11.html#exemplo-prático",
-    "href": "aulas/Aula 11.html#exemplo-prático",
-    "title": "Modelagem Computacional/Simulação",
-    "section": "Exemplo prático",
-    "text": "Exemplo prático\nModelagem Computacional/Simulação:\n\nAntes de construir o robô, os alunos utilizam um software de simulação como Unity ou Gazebo para criar um ambiente virtual da biblioteca. Eles programam o robô virtual com os movimentos e velocidades calculados anteriormente, observando como ele se comporta e ajustando o código para evitar colisões e otimizar o percurso. Isso permite que eles “testem” o robô, economizando materiais físicos e tempo.",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "Modelagem Computacional/Simulação"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 11.html#links-úteis",
-    "href": "aulas/Aula 11.html#links-úteis",
-    "title": "Modelagem Computacional/Simulação",
-    "section": "Links úteis",
-    "text": "Links úteis\n\nGazebo\nCoppeliaSim (V-REP)\nWebots\nMATLAB/Simulink\nUnity\nOpenSim\nAnsys\nAbaqus\nROS",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "Modelagem Computacional/Simulação"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 3.html",
-    "href": "aulas/Aula 3.html",
-    "title": "Estruturas de Seleção",
-    "section": "",
-    "text": "Nesta aula você aprenderá sobre estruturas de seleção, que são fundamentais para criar programas que podem tomar decisões baseadas em condições. Você verá como usar if/else e switch/case para controlar o fluxo do seu programa.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Seleção"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 3.html#introdução-às-estruturas-de-seleção",
-    "href": "aulas/Aula 3.html#introdução-às-estruturas-de-seleção",
-    "title": "Estruturas de Seleção",
-    "section": "Introdução às Estruturas de Seleção",
-    "text": "Introdução às Estruturas de Seleção\nÉ uma estrutura usada para tomar decisões dentro do programa. Dependendo de uma condição, o programa pode seguir caminhos diferentes.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Seleção"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 3.html#ifelse",
-    "href": "aulas/Aula 3.html#ifelse",
-    "title": "Estruturas de Seleção",
-    "section": "3.1 If/Else",
-    "text": "3.1 If/Else\nPermite executar um bloco de código se uma condição for verdadeira, e outra se for falsa.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Seleção"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 3.html#switchcase",
-    "href": "aulas/Aula 3.html#switchcase",
-    "title": "Estruturas de Seleção",
-    "section": "3.2 Switch/Case",
-    "text": "3.2 Switch/Case\nUsado para escolher entre várias opções.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Seleção"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 4.html",
-    "href": "aulas/Aula 4.html",
-    "title": "Estruturas de Repetição",
-    "section": "",
-    "text": "Nesta aula você aprenderá sobre estruturas de repetição, que são usadas quando precisamos executar um bloco de código várias vezes. Você conhecerá os loops FOR e WHILE, entendendo quando usar cada um deles.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Repetição"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 4.html#introdução-às-estruturas-de-repetição",
-    "href": "aulas/Aula 4.html#introdução-às-estruturas-de-repetição",
-    "title": "Estruturas de Repetição",
-    "section": "Introdução às Estruturas de Repetição",
-    "text": "Introdução às Estruturas de Repetição\nAs estruturas de repetição são fundamentais quando precisamos executar um bloco de código múltiplas vezes de forma automatizada.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Repetição"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 4.html#loop-for",
-    "href": "aulas/Aula 4.html#loop-for",
-    "title": "Estruturas de Repetição",
-    "section": "4.1 Loop FOR",
-    "text": "4.1 Loop FOR\nO loop FOR é utilizado quando sabemos previamente o número de repetições que queremos executar.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Repetição"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 4.html#loop-while",
-    "href": "aulas/Aula 4.html#loop-while",
-    "title": "Estruturas de Repetição",
-    "section": "4.2 Loop WHILE",
-    "text": "4.2 Loop WHILE\nO loop WHILE continua executando enquanto uma determinada condição for verdadeira.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Estruturas de Repetição"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 13.html#exemplo-prático",
-    "href": "aulas/Aula 13.html#exemplo-prático",
-    "title": "Modelagem Baseada em Prototipagem Rápida",
-    "section": "Exemplo prático",
-    "text": "Exemplo prático\nModelagem Baseada em Prototipagem Rápida\n\nDurante o desenvolvimento do robô, eles decidem criar um “braço personalizado” com uma garra adaptável usando impressão 3D. Os alunos percebem que antes de desenvolver o prototipo físico o ideal testar os principios de funcionamento elétricos e eletrônicos para segurar os conceitos visto nos livros. Para isso, começam desenhando o circuito eletrônico no Tinkercad, em seguida reúnem os componentes físicos para montagem e testes iniciais. Esse processo permite testar e ajustar rapidamente o projeto conforme necessário.",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "Modelagem Baseada em Prototipagem Rápida"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 13.html#links-úteis",
-    "href": "aulas/Aula 13.html#links-úteis",
-    "title": "Modelagem Baseada em Prototipagem Rápida",
-    "section": "Links úteis",
-    "text": "Links úteis\n\nTinkercad\nFusion 360\nFreeCAD\nUltimaker Cura\nThingiverse\nArduino\nPrusaPrinters",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "Modelagem Baseada em Prototipagem Rápida"
+      "O pilar da Modelagem"
     ]
   },
   {
@@ -384,282 +204,123 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Os Três pilares da robótica",
-    "section": "",
-    "text": "Olá, Chicas ! Este pequeno material tem como objetivo introduzir vocês no universo da robotica, trazendo conceitos iniciais que servem como bases para seus estudos. Encarem este conteúdo como um guia de partida, com explicações simples e objetivas, além de links para vídeos que irão auxiliá-las no aprendizado. Claro, vocês têm toda a liberdade para explorar outros materiais complementares que julgarem úteis, o importante é entender de verdade! E acreditamos que explorar outros materiais, buscar fontes diferentes e aprender a aprender são passos essenciais para o crescimento. Fiquem à vontade para complementar seus estudos com o que acharem interessante.\nDesejamos a vocês uma ótima jornada de aprendizado. Que esse seja o primeiro passo de muitos!",
-    "crumbs": [
-      "Home",
-      "Os Três pilares da robótica"
-    ]
-  },
-  {
-    "objectID": "index.html#os-três-pilares-da-robótica",
-    "href": "index.html#os-três-pilares-da-robótica",
-    "title": "Os Três pilares da robótica",
-    "section": "Os Três pilares da robótica",
-    "text": "Os Três pilares da robótica\nAntes de entender se aprofundar no pilares da robótica, é importante entender ou relembrar alguns conceitos básicos",
-    "crumbs": [
-      "Home",
-      "Os Três pilares da robótica"
-    ]
-  },
-  {
-    "objectID": "index.html#video",
-    "href": "index.html#video",
-    "title": "Os Três pilares da robótica",
-    "section": "Video",
-    "text": "Video",
-    "crumbs": [
-      "Home",
-      "Os Três pilares da robótica"
-    ]
-  },
-  {
-    "objectID": "index.html#recursos",
-    "href": "index.html#recursos",
-    "title": "Os Três pilares da robótica",
-    "section": "Recursos 📹",
-    "text": "Recursos 📹\n\nPlaylist completa de lógica de programação\nPlaylist: Conceitos Básicos de Eletrônica\nMaterial complementar sobre algoritmos",
-    "crumbs": [
-      "Home",
-      "Os Três pilares da robótica"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 10.html",
-    "href": "aulas/Aula 10.html",
-    "title": "Modelagem Conceitual/Abstrata",
-    "section": "",
-    "text": "A modelagem conceitual ou abstrata diz respeito ao planejamento lógico de um robô antes da sua construção física, utilizando diagramas, fluxogramas ou pseudocódigo. Essa etapa é fundamental para estruturar ideias e prever desafios, tornando a execução mais eficiente.\nFerramentas comuns para modelagem conceitual/abstrata incluem:\n\nLinguagens de Modelagem Gráfica: UML (Unified Modeling Language) é amplamente utilizada para software, enquanto BPMN (Business Process Model and Notation) é voltada para processos de negócios.\nFerramentas de Diagramação: Microsoft Visio, Lucidchart, draw.io e StarUML são populares para criar fluxogramas, diagramas de classes e outros tipos de diagramas.\nPseudocódigo e Fluxogramas: Ideais para representar a lógica do robô de forma simples e abstrata.",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "Modelagem Conceitual/Abstrata"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 10.html#o-que-é",
-    "href": "aulas/Aula 10.html#o-que-é",
-    "title": "Modelagem Conceitual/Abstrata",
-    "section": "",
-    "text": "A modelagem conceitual ou abstrata diz respeito ao planejamento lógico de um robô antes da sua construção física, utilizando diagramas, fluxogramas ou pseudocódigo. Essa etapa é fundamental para estruturar ideias e prever desafios, tornando a execução mais eficiente.\nFerramentas comuns para modelagem conceitual/abstrata incluem:\n\nLinguagens de Modelagem Gráfica: UML (Unified Modeling Language) é amplamente utilizada para software, enquanto BPMN (Business Process Model and Notation) é voltada para processos de negócios.\nFerramentas de Diagramação: Microsoft Visio, Lucidchart, draw.io e StarUML são populares para criar fluxogramas, diagramas de classes e outros tipos de diagramas.\nPseudocódigo e Fluxogramas: Ideais para representar a lógica do robô de forma simples e abstrata.",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "Modelagem Conceitual/Abstrata"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 10.html#exemplo-prático",
-    "href": "aulas/Aula 10.html#exemplo-prático",
-    "title": "Modelagem Conceitual/Abstrata",
-    "section": "Exemplo prático",
-    "text": "Exemplo prático\nImagine uma turma do ensino fundamental com o desafio de criar um robô para ajudar a organizar a biblioteca da escola, empilhando livros em prateleiras específicas.\n\nModelagem Conceitual/Abstrata:\nOs alunos começam com um brainstorming, desenhando em um quadro como o robô deveria se mover, quais ações ele realizaria (pegar, transportar, soltar) e como ele saberia onde colocar cada livro. Eles criam um fluxograma simples:\n\n“Se o robô detectar um livro na mesa, ele o pega. Se o livro for de ficção, ele segue para a prateleira A. Se for de não-ficção, ele segue para a prateleira B.”\n\n\nNeste momento, a criatividade e o raciocínio lógico são estimulados, preparando o caminho para a próxima etapa: a modelagem física ou computacional.",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "Modelagem Conceitual/Abstrata"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 10.html#links-úteis",
-    "href": "aulas/Aula 10.html#links-úteis",
-    "title": "Modelagem Conceitual/Abstrata",
-    "section": "Links úteis",
-    "text": "Links úteis\n\nLucidchart\ndraw.io\nStarUML\nMicrosoft Visio\nUML Tutorial\nBPMN Tutorial",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "Modelagem Conceitual/Abstrata"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 12.html#o-que-é",
-    "href": "aulas/Aula 12.html#o-que-é",
-    "title": "Modelagem Matemática",
+    "objectID": "aulas/Aula 11.html#o-que-é",
+    "href": "aulas/Aula 11.html#o-que-é",
+    "title": "Modelagem Computacional/Simulação",
     "section": "O que é?",
-    "text": "O que é?\nA modelagem matemática envolve o uso de fórmulas e equações para prever ou descrever o comportamento de um robô. É fundamental, por exemplo, para calcular a velocidade, trajetória, força ou outros parâmetros essenciais para o funcionamento eficiente do sistema robótico.\nFerramentas frequentemente utilizadas para modelagem matemática incluem:\n\nMATLAB: Muito usado para cálculos, simulações e modelagem matemática avançada.\nPython: Com bibliotecas como NumPy, SciPy e SymPy para manipulação numérica e simbólica.\nSimulink: Integrado ao MATLAB, ideal para simulação de sistemas dinâmicos.\nSoftwares de CAD/CAE: SolidWorks, AutoCAD ou ANSYS são exemplos para análises estruturais, simulações mecânicas e cálculos de engenharia.",
+    "text": "O que é?\nA modelagem computacional ou simulação consiste na criação de modelos virtuais de robôs em softwares de simulação, permitindo testar comportamentos e validar ideias sem a necessidade de hardware físico. Essa abordagem é fundamental para prever desafios, otimizar soluções e economizar recursos durante o processo de desenvolvimento.\n\nPrincipais ferramentas :\n\nMATLAB/Simulink: Muito utilizado para modelagem, simulação e análise de sistemas dinâmicos.\nGazebo: Simulador 3D amplamente integrado ao ROS (Robot Operating System).\nV-REP (CoppeliaSim): Ambiente versátil para simulação em robótica, mecatrônica e automação.\nWebots: Simulador de robôs aplicado em pesquisa, ensino e indústria.\nOpenSim: Especializado em modelagem e simulação de sistemas musculoesqueléticos.\nAnsys: Ferramenta de engenharia para simulação multifísica (estrutural, fluidodinâmica, eletromagnética).\nAbaqus: Focado em análise por elementos finitos (FEA) para engenharia mecânica e estrutural.\nUnity: Engine de jogos cada vez mais utilizada em simulações robóticas e ambientes virtuais devido aos avançados recursos gráficos e de física.\nROS (Robot Operating System): Não é um simulador, mas integra-se a diversas ferramentas para controlar e testar robôs virtuais.\n\n\n\nSimulação no GAZEBO utilizando ROS - 😱ROBO DA TESLA😱\n\n\n\n\nFazendo um robo para o GAZEBO",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "Modelagem Matemática"
+      "Modelagem Computacional/Simulação"
     ]
   },
   {
-    "objectID": "aulas/Aula 12.html#exemplo-prático",
-    "href": "aulas/Aula 12.html#exemplo-prático",
-    "title": "Modelagem Matemática",
+    "objectID": "aulas/Aula 11.html#exemplo-prático",
+    "href": "aulas/Aula 11.html#exemplo-prático",
+    "title": "Modelagem Computacional/Simulação",
     "section": "Exemplo prático",
-    "text": "Exemplo prático\nModelagem Matemática:\n\nApós a modelagem conceitual e a simulação, os alunos precisam determinar qual velocidade o robô deve ter para se mover de um ponto a outro sem colidir com obstáculos. Utilizando uma régua e um cronômetro, calculam a distância entre a mesa de coleta e as prateleiras. Com base no tempo desejado para o deslocamento, aplicam a fórmula:\n\n\nVelocidade = Distância / Tempo\n\n\nAssim, determinam a velocidade ideal dos motores do robô para realizar a tarefa de forma eficiente e segura.",
+    "text": "Exemplo prático\nModelagem Computacional/Simulação:\n\nAntes de construir o robô, os alunos utilizam um software de simulação como Unity ou Gazebo para criar um ambiente virtual da biblioteca. Eles programam o robô virtual com os movimentos e velocidades calculados anteriormente, observando como ele se comporta e ajustando o código para evitar colisões e otimizar o percurso. Isso permite que eles “testem” o robô, economizando materiais físicos e tempo.",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "Modelagem Matemática"
+      "Modelagem Computacional/Simulação"
     ]
   },
   {
-    "objectID": "aulas/Aula 12.html#links-úteis",
-    "href": "aulas/Aula 12.html#links-úteis",
-    "title": "Modelagem Matemática",
+    "objectID": "aulas/Aula 11.html#links-úteis",
+    "href": "aulas/Aula 11.html#links-úteis",
+    "title": "Modelagem Computacional/Simulação",
     "section": "Links úteis",
-    "text": "Links úteis\n\nMATLAB\nSimulink\nNumPy\nSciPy\nSymPy\nSolidWorks\nAutoCAD\nANSYS",
+    "text": "Links úteis\n\nGazebo\nCoppeliaSim (V-REP)\nWebots\nMATLAB/Simulink\nUnity\nOpenSim\nAnsys\nAbaqus\nROS",
     "crumbs": [
       "Home",
       "Pilar 3",
-      "Modelagem Matemática"
+      "Modelagem Computacional/Simulação"
     ]
   },
   {
-    "objectID": "aulas/Aula 2.html",
-    "href": "aulas/Aula 2.html",
-    "title": "Operadores",
+    "objectID": "aulas/Aula 17.html",
+    "href": "aulas/Aula 17.html",
+    "title": "Desafio: Modelagem Virtual e Fabricação Digital",
     "section": "",
-    "text": "Nesta aula você aprenderá sobre os diferentes tipos de operadores em programação, incluindo operadores relacionais, aritméticos e lógicos. Estes são fundamentais para realizar comparações, cálculos e combinações lógicas em seus programas.",
+    "text": "Chegou a hora de transformar ideias em realidade! Neste desafio, você irá aplicar os conceitos de modelagem virtual (CAD/3D) para projetar, uma peça ou estrutura para um robô.",
     "crumbs": [
       "Home",
-      "Pilar 1",
-      "Operadores"
+      "Pilar 3",
+      "Desafio: Modelagem Virtual e Fabricação Digital"
     ]
   },
   {
-    "objectID": "aulas/Aula 2.html#introdução-aos-operadores",
-    "href": "aulas/Aula 2.html#introdução-aos-operadores",
-    "title": "Operadores",
-    "section": "Introdução aos Operadores",
-    "text": "Introdução aos Operadores\nOs operadores são símbolos usados para realizar operações, como cálculos e comparações. Os tipos principais de operadores são:",
+    "objectID": "aulas/Aula 17.html#desafio",
+    "href": "aulas/Aula 17.html#desafio",
+    "title": "Desafio: Modelagem Virtual e Fabricação Digital",
+    "section": "Desafio",
+    "text": "Desafio\nCom base nas aulas praticas da sessao Modelagem Virtual, faça adaptações nos desenhos aplicando uma contextualização criativa que possua uma finalidade real para uso em algum projeto de robotica.",
     "crumbs": [
       "Home",
-      "Pilar 1",
-      "Operadores"
+      "Pilar 3",
+      "Desafio: Modelagem Virtual e Fabricação Digital"
     ]
   },
   {
-    "objectID": "aulas/Aula 2.html#operadores-relacionais",
-    "href": "aulas/Aula 2.html#operadores-relacionais",
-    "title": "Operadores",
-    "section": "2.1 Operadores Relacionais",
-    "text": "2.1 Operadores Relacionais\nOs operadores relacionais são utilizados para comparar dois valores.\n\n\n\nOperador\nSignificado\n\n\n\n\n&gt;\nMaior que\n\n\n&lt;\nMenor que\n\n\n&gt;=\nMaior ou igual\n\n\n&lt;=\nMenor ou igual\n\n\n==\nIgual a\n\n\n!=\nDiferente de\n\n\n\n\n\n\n\n\n\nExemplo de operações lógicas",
+    "objectID": "aulas/Aula 17.html#objetivo",
+    "href": "aulas/Aula 17.html#objetivo",
+    "title": "Desafio: Modelagem Virtual e Fabricação Digital",
+    "section": "Objetivo",
+    "text": "Objetivo\nCriar um modelo 3D de uma peça ou estrutura que possa ser fabricada digitalmente (corte a laser, impressão 3D, etc.) e que se encaixe em um projeto de robótica.\n\nDicas\n\nUse cores e detalhes para indicar onde serão instalados sensores e componentes eletrônicos.\nPense em soluções simples e funcionais para facilitar a montagem.\nNão se preocupe com estética perfeita; foque na funcionalidade e viabilidade de fabricação.\n\nBoa sorte! Mãos à obra!",
     "crumbs": [
       "Home",
-      "Pilar 1",
-      "Operadores"
+      "Pilar 3",
+      "Desafio: Modelagem Virtual e Fabricação Digital"
     ]
   },
   {
-    "objectID": "aulas/Aula 2.html#operadores-aritméticos",
-    "href": "aulas/Aula 2.html#operadores-aritméticos",
-    "title": "Operadores",
-    "section": "2.2 Operadores Aritméticos",
-    "text": "2.2 Operadores Aritméticos\nOs operadores aritméticos são utilizados para realizar operações matemáticas.\n\n\n\nOperador\nOperação\n\n\n\n\n+\nAdição\n\n\n-\nSubtração\n\n\n*\nMultiplicação\n\n\n/\nDivisão\n\n\n%\nResto da divisão\n\n\n**\nExponenciação",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Operadores"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 2.html#operadores-lógicos",
-    "href": "aulas/Aula 2.html#operadores-lógicos",
-    "title": "Operadores",
-    "section": "2.3 Operadores Lógicos",
-    "text": "2.3 Operadores Lógicos\nOs operadores lógicos são utilizados para combinar condições.\n\n\n\nOperador\nSignificado\n\n\n\n\nAND (&&)\nE lógico\n\n\nOR (\n\n\n\nNOT (!)\nNÃO lógico\n\n\nNOT (!!)\nDupla negação",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Operadores"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 1.html",
-    "href": "aulas/Aula 1.html",
-    "title": "Conceitos Importantes",
+    "objectID": "aulas/Aula 3.html",
+    "href": "aulas/Aula 3.html",
+    "title": "Estruturas de Seleção",
     "section": "",
-    "text": "Nesta aula você aprenderá os conceitos fundamentais de programação, incluindo o que são programas, lógica de programação, algoritmos, pseudocódigo e variáveis. Estes conceitos são essenciais para começar sua jornada em desenvolvimento de software.",
+    "text": "Nesta aula você aprenderá sobre estruturas de seleção, que são fundamentais para criar programas que podem tomar decisões baseadas em condições. Você verá como usar if/else e switch/case para controlar o fluxo do seu programa.",
     "crumbs": [
       "Home",
       "Pilar 1",
-      "Conceitos Importantes"
+      "Estruturas de Seleção"
     ]
   },
   {
-    "objectID": "aulas/Aula 1.html#vídeo-de-apoio-geral",
-    "href": "aulas/Aula 1.html#vídeo-de-apoio-geral",
-    "title": "Conceitos Importantes",
-    "section": "Vídeo de Apoio Geral",
-    "text": "Vídeo de Apoio Geral",
+    "objectID": "aulas/Aula 3.html#introdução-às-estruturas-de-seleção",
+    "href": "aulas/Aula 3.html#introdução-às-estruturas-de-seleção",
+    "title": "Estruturas de Seleção",
+    "section": "Introdução às Estruturas de Seleção",
+    "text": "Introdução às Estruturas de Seleção\nÉ uma estrutura usada para tomar decisões dentro do programa. Dependendo de uma condição, o programa pode seguir caminhos diferentes.",
     "crumbs": [
       "Home",
       "Pilar 1",
-      "Conceitos Importantes"
+      "Estruturas de Seleção"
     ]
   },
   {
-    "objectID": "aulas/Aula 1.html#programa",
-    "href": "aulas/Aula 1.html#programa",
-    "title": "Conceitos Importantes",
-    "section": "1.1 Programa",
-    "text": "1.1 Programa\nÉ um conjunto de instruções que descrevem uma tarefa a ser realizada pelo computador.",
+    "objectID": "aulas/Aula 3.html#ifelse",
+    "href": "aulas/Aula 3.html#ifelse",
+    "title": "Estruturas de Seleção",
+    "section": "3.1 If/Else",
+    "text": "3.1 If/Else\nPermite executar um bloco de código se uma condição for verdadeira, e outra se for falsa.",
     "crumbs": [
       "Home",
       "Pilar 1",
-      "Conceitos Importantes"
+      "Estruturas de Seleção"
     ]
   },
   {
-    "objectID": "aulas/Aula 1.html#lógica-de-programação",
-    "href": "aulas/Aula 1.html#lógica-de-programação",
-    "title": "Conceitos Importantes",
-    "section": "1.2 Lógica de Programação",
-    "text": "1.2 Lógica de Programação\nA lógica de programação é a organização de ideias e instruções de forma lógica, com o objetivo de resolver problemas ou realizar tarefas de maneira automatizada. Ou seja, é o raciocínio usado para escrever um código que o computador consiga entender. Com a lógica de programação, conseguimos pensar passo a passo em uma solução e depois transformá-la em instruções.",
+    "objectID": "aulas/Aula 3.html#switchcase",
+    "href": "aulas/Aula 3.html#switchcase",
+    "title": "Estruturas de Seleção",
+    "section": "3.2 Switch/Case",
+    "text": "3.2 Switch/Case\nUsado para escolher entre várias opções.",
     "crumbs": [
       "Home",
       "Pilar 1",
-      "Conceitos Importantes"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 1.html#algoritmos",
-    "href": "aulas/Aula 1.html#algoritmos",
-    "title": "Conceitos Importantes",
-    "section": "1.3 Algoritmos",
-    "text": "1.3 Algoritmos\n\n\n\n\n\n\nFluxgrama simples\n\n\n\n\n\nOs algoritmos são uma sequência de passo a passo, com a finalidade de resolver um problema ou executar uma tarefa.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Conceitos Importantes"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 1.html#pseudocódigo",
-    "href": "aulas/Aula 1.html#pseudocódigo",
-    "title": "Conceitos Importantes",
-    "section": "1.4 Pseudocódigo",
-    "text": "1.4 Pseudocódigo\n\n\n\nExemplo pseudocódigo\n\n\nO pseudocódigo é uma forma de escrever um algoritmo usando uma linguagem similar à linguagem humana. Ela serve para planejar o raciocínio antes de programar.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Conceitos Importantes"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 1.html#variáveis-e-constantes",
-    "href": "aulas/Aula 1.html#variáveis-e-constantes",
-    "title": "Conceitos Importantes",
-    "section": "1.5 Variáveis e Constantes",
-    "text": "1.5 Variáveis e Constantes\nA variável é um objeto que armazena os dados que precisamos no algoritmo, e o seu valor pode ser alterado durante a execução do programa. Já a constante, é uma valor que é pré definido no algoritmo. Ou seja, ela não muda na execução do programa.",
-    "crumbs": [
-      "Home",
-      "Pilar 1",
-      "Conceitos Importantes"
+      "Estruturas de Seleção"
     ]
   },
   {
@@ -696,30 +357,6 @@
       "Home",
       "Pilar 2",
       "Entendendo a Eletricidade"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 9.html",
-    "href": "aulas/Aula 9.html",
-    "title": "O pilar da Modelagem",
-    "section": "",
-    "text": "E chegamos ao último e não menos importante pilar: A modelagem🎉.\nVista como um dos pilares centrais para a robótica educacional, a modelagem tem como objetivo principal possibilitar que os alunos representem sistemas reais ou abstratos de forma prática e interativa. Ela envolve o processo de criação de soluções físicas e digitais para representar ideias, resolver problemas ou simular comportamentos.",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "O pilar da Modelagem"
-    ]
-  },
-  {
-    "objectID": "aulas/Aula 9.html#subáreas-da-modelagem",
-    "href": "aulas/Aula 9.html#subáreas-da-modelagem",
-    "title": "O pilar da Modelagem",
-    "section": "Subáreas da modelagem",
-    "text": "Subáreas da modelagem\nNo contexto educacional, a modelagem nos ajuda a desenvolver pensamento computacional, criatividade e habilidades de engenharia e design. Neste tutorial, vamos apresentar cada tipo de modelagem acompanhada de um caso situacional hipotético para uma possível aplicação.\n\n\n\n\n\n\n\n\n\n\nNa Liga o enfoque é voltado para a robótica educacional, mas os conceitos podem ser aplicados em diversas áreas do conhecimento.",
-    "crumbs": [
-      "Home",
-      "Pilar 3",
-      "O pilar da Modelagem"
     ]
   },
   {
@@ -819,6 +456,129 @@
     ]
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Os Três pilares da robótica",
+    "section": "",
+    "text": "Olá, Chicas ! Este pequeno material tem como objetivo introduzir vocês no universo da robotica, trazendo conceitos iniciais que servem como bases para seus estudos. Encarem este conteúdo como um guia de partida, com explicações simples e objetivas, além de links para vídeos que irão auxiliá-las no aprendizado. Claro, vocês têm toda a liberdade para explorar outros materiais complementares que julgarem úteis, o importante é entender de verdade! E acreditamos que explorar outros materiais, buscar fontes diferentes e aprender a aprender são passos essenciais para o crescimento. Fiquem à vontade para complementar seus estudos com o que acharem interessante.\nDesejamos a vocês uma ótima jornada de aprendizado. Que esse seja o primeiro passo de muitos!",
+    "crumbs": [
+      "Home",
+      "Os Três pilares da robótica"
+    ]
+  },
+  {
+    "objectID": "index.html#os-três-pilares-da-robótica",
+    "href": "index.html#os-três-pilares-da-robótica",
+    "title": "Os Três pilares da robótica",
+    "section": "Os Três pilares da robótica",
+    "text": "Os Três pilares da robótica\nAntes de entender se aprofundar no pilares da robótica, é importante entender ou relembrar alguns conceitos básicos",
+    "crumbs": [
+      "Home",
+      "Os Três pilares da robótica"
+    ]
+  },
+  {
+    "objectID": "index.html#video",
+    "href": "index.html#video",
+    "title": "Os Três pilares da robótica",
+    "section": "Video",
+    "text": "Video",
+    "crumbs": [
+      "Home",
+      "Os Três pilares da robótica"
+    ]
+  },
+  {
+    "objectID": "index.html#recursos",
+    "href": "index.html#recursos",
+    "title": "Os Três pilares da robótica",
+    "section": "Recursos 📹",
+    "text": "Recursos 📹\n\nPlaylist completa de lógica de programação\nPlaylist: Conceitos Básicos de Eletrônica\nMaterial complementar sobre algoritmos",
+    "crumbs": [
+      "Home",
+      "Os Três pilares da robótica"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html",
+    "href": "aulas/Aula 2.html",
+    "title": "Operadores",
+    "section": "",
+    "text": "Nesta aula você aprenderá sobre os diferentes tipos de operadores em programação, incluindo operadores relacionais, aritméticos e lógicos. Estes são fundamentais para realizar comparações, cálculos e combinações lógicas em seus programas.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#introdução-aos-operadores",
+    "href": "aulas/Aula 2.html#introdução-aos-operadores",
+    "title": "Operadores",
+    "section": "Introdução aos Operadores",
+    "text": "Introdução aos Operadores\nOs operadores são símbolos usados para realizar operações, como cálculos e comparações. Os tipos principais de operadores são:",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#operadores-relacionais",
+    "href": "aulas/Aula 2.html#operadores-relacionais",
+    "title": "Operadores",
+    "section": "2.1 Operadores Relacionais",
+    "text": "2.1 Operadores Relacionais\nOs operadores relacionais são utilizados para comparar dois valores.\n\n\n\nOperador\nSignificado\n\n\n\n\n&gt;\nMaior que\n\n\n&lt;\nMenor que\n\n\n&gt;=\nMaior ou igual\n\n\n&lt;=\nMenor ou igual\n\n\n==\nIgual a\n\n\n!=\nDiferente de\n\n\n\n\n\n\n\n\n\nExemplo de operações lógicas",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#operadores-aritméticos",
+    "href": "aulas/Aula 2.html#operadores-aritméticos",
+    "title": "Operadores",
+    "section": "2.2 Operadores Aritméticos",
+    "text": "2.2 Operadores Aritméticos\nOs operadores aritméticos são utilizados para realizar operações matemáticas.\n\n\n\nOperador\nOperação\n\n\n\n\n+\nAdição\n\n\n-\nSubtração\n\n\n*\nMultiplicação\n\n\n/\nDivisão\n\n\n%\nResto da divisão\n\n\n**\nExponenciação",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 2.html#operadores-lógicos",
+    "href": "aulas/Aula 2.html#operadores-lógicos",
+    "title": "Operadores",
+    "section": "2.3 Operadores Lógicos",
+    "text": "2.3 Operadores Lógicos\nOs operadores lógicos são utilizados para combinar condições.\n\n\n\nOperador\nSignificado\n\n\n\n\nAND (&&)\nE lógico\n\n\nOR (\n\n\n\nNOT (!)\nNÃO lógico\n\n\nNOT (!!)\nDupla negação",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Operadores"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 8.html",
+    "href": "aulas/Aula 8.html",
+    "title": "Desafio",
+    "section": "",
+    "text": "Desafio Criativo: Evolua seu Primeiro Projeto!\n\n\n\nVocê já deu os primeiros passos: montou circuitos, programou a lógica e fez seu primeiro LED acender. Chegou a hora de transformar o simples em algo único. Seu desafio é reinventar o projeto da aula passada. Pense além de um único LED. E se você…\n…criasse um semáforo com LEDs vermelho, amarelo e verde?\n…adicionasse um botão para ligar e desligar uma sequência de luzes?\n…usasse um potenciômetro para controlar a velocidade com que os LEDs piscam?\n…melhorasse o código, criando funções para organizar a programação?\nEstas são apenas algumas ideias. Sinta-se livre para explorar, combinar componentes e criar um projeto que seja a sua cara.\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "Pilar 2",
+      "Desafio"
+    ]
+  },
+  {
     "objectID": "aulas/Aula 6.html",
     "href": "aulas/Aula 6.html",
     "title": "Componentes eletrônicos",
@@ -888,6 +648,246 @@
       "Home",
       "Pilar 2",
       "Componentes eletrônicos"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 4.html",
+    "href": "aulas/Aula 4.html",
+    "title": "Estruturas de Repetição",
+    "section": "",
+    "text": "Nesta aula você aprenderá sobre estruturas de repetição, que são usadas quando precisamos executar um bloco de código várias vezes. Você conhecerá os loops FOR e WHILE, entendendo quando usar cada um deles.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Repetição"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 4.html#introdução-às-estruturas-de-repetição",
+    "href": "aulas/Aula 4.html#introdução-às-estruturas-de-repetição",
+    "title": "Estruturas de Repetição",
+    "section": "Introdução às Estruturas de Repetição",
+    "text": "Introdução às Estruturas de Repetição\nAs estruturas de repetição são fundamentais quando precisamos executar um bloco de código múltiplas vezes de forma automatizada.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Repetição"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 4.html#loop-for",
+    "href": "aulas/Aula 4.html#loop-for",
+    "title": "Estruturas de Repetição",
+    "section": "4.1 Loop FOR",
+    "text": "4.1 Loop FOR\nO loop FOR é utilizado quando sabemos previamente o número de repetições que queremos executar.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Repetição"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 4.html#loop-while",
+    "href": "aulas/Aula 4.html#loop-while",
+    "title": "Estruturas de Repetição",
+    "section": "4.2 Loop WHILE",
+    "text": "4.2 Loop WHILE\nO loop WHILE continua executando enquanto uma determinada condição for verdadeira.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Estruturas de Repetição"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 13.html#exemplo-prático",
+    "href": "aulas/Aula 13.html#exemplo-prático",
+    "title": "Modelagem Baseada em Prototipagem Rápida",
+    "section": "Exemplo prático",
+    "text": "Exemplo prático\nModelagem Baseada em Prototipagem Rápida\n\nDurante o desenvolvimento do robô, eles decidem criar um “braço personalizado” com uma garra adaptável usando impressão 3D. Os alunos percebem que antes de desenvolver o prototipo físico o ideal testar os principios de funcionamento elétricos e eletrônicos para segurar os conceitos visto nos livros. Para isso, começam desenhando o circuito eletrônico no Tinkercad, em seguida reúnem os componentes físicos para montagem e testes iniciais. Esse processo permite testar e ajustar rapidamente o projeto conforme necessário.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Baseada em Prototipagem Rápida"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 13.html#links-úteis",
+    "href": "aulas/Aula 13.html#links-úteis",
+    "title": "Modelagem Baseada em Prototipagem Rápida",
+    "section": "Links úteis",
+    "text": "Links úteis\n\nTinkercad\nFusion 360\nFreeCAD\nUltimaker Cura\nThingiverse\nArduino\nPrusaPrinters",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Baseada em Prototipagem Rápida"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 12.html#o-que-é",
+    "href": "aulas/Aula 12.html#o-que-é",
+    "title": "Modelagem Matemática",
+    "section": "O que é?",
+    "text": "O que é?\nA modelagem matemática envolve o uso de fórmulas e equações para prever ou descrever o comportamento de um robô. É fundamental, por exemplo, para calcular a velocidade, trajetória, força ou outros parâmetros essenciais para o funcionamento eficiente do sistema robótico.\nFerramentas frequentemente utilizadas para modelagem matemática incluem:\n\nMATLAB: Muito usado para cálculos, simulações e modelagem matemática avançada.\nPython: Com bibliotecas como NumPy, SciPy e SymPy para manipulação numérica e simbólica.\nSimulink: Integrado ao MATLAB, ideal para simulação de sistemas dinâmicos.\nSoftwares de CAD/CAE: SolidWorks, AutoCAD ou ANSYS são exemplos para análises estruturais, simulações mecânicas e cálculos de engenharia.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Matemática"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 12.html#exemplo-prático",
+    "href": "aulas/Aula 12.html#exemplo-prático",
+    "title": "Modelagem Matemática",
+    "section": "Exemplo prático",
+    "text": "Exemplo prático\nModelagem Matemática:\n\nApós a modelagem conceitual e a simulação, os alunos precisam determinar qual velocidade o robô deve ter para se mover de um ponto a outro sem colidir com obstáculos. Utilizando uma régua e um cronômetro, calculam a distância entre a mesa de coleta e as prateleiras. Com base no tempo desejado para o deslocamento, aplicam a fórmula:\n\n\nVelocidade = Distância / Tempo\n\n\nAssim, determinam a velocidade ideal dos motores do robô para realizar a tarefa de forma eficiente e segura.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Matemática"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 12.html#links-úteis",
+    "href": "aulas/Aula 12.html#links-úteis",
+    "title": "Modelagem Matemática",
+    "section": "Links úteis",
+    "text": "Links úteis\n\nMATLAB\nSimulink\nNumPy\nSciPy\nSymPy\nSolidWorks\nAutoCAD\nANSYS",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Matemática"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html",
+    "href": "aulas/Aula 1.html",
+    "title": "Conceitos Importantes",
+    "section": "",
+    "text": "Nesta aula você aprenderá os conceitos fundamentais de programação, incluindo o que são programas, lógica de programação, algoritmos, pseudocódigo e variáveis. Estes conceitos são essenciais para começar sua jornada em desenvolvimento de software.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#vídeo-de-apoio-geral",
+    "href": "aulas/Aula 1.html#vídeo-de-apoio-geral",
+    "title": "Conceitos Importantes",
+    "section": "Vídeo de Apoio Geral",
+    "text": "Vídeo de Apoio Geral",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#programa",
+    "href": "aulas/Aula 1.html#programa",
+    "title": "Conceitos Importantes",
+    "section": "1.1 Programa",
+    "text": "1.1 Programa\nÉ um conjunto de instruções que descrevem uma tarefa a ser realizada pelo computador.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#lógica-de-programação",
+    "href": "aulas/Aula 1.html#lógica-de-programação",
+    "title": "Conceitos Importantes",
+    "section": "1.2 Lógica de Programação",
+    "text": "1.2 Lógica de Programação\nA lógica de programação é a organização de ideias e instruções de forma lógica, com o objetivo de resolver problemas ou realizar tarefas de maneira automatizada. Ou seja, é o raciocínio usado para escrever um código que o computador consiga entender. Com a lógica de programação, conseguimos pensar passo a passo em uma solução e depois transformá-la em instruções.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#algoritmos",
+    "href": "aulas/Aula 1.html#algoritmos",
+    "title": "Conceitos Importantes",
+    "section": "1.3 Algoritmos",
+    "text": "1.3 Algoritmos\n\n\n\n\n\n\nFluxgrama simples\n\n\n\n\n\nOs algoritmos são uma sequência de passo a passo, com a finalidade de resolver um problema ou executar uma tarefa.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#pseudocódigo",
+    "href": "aulas/Aula 1.html#pseudocódigo",
+    "title": "Conceitos Importantes",
+    "section": "1.4 Pseudocódigo",
+    "text": "1.4 Pseudocódigo\n\n\n\nExemplo pseudocódigo\n\n\nO pseudocódigo é uma forma de escrever um algoritmo usando uma linguagem similar à linguagem humana. Ela serve para planejar o raciocínio antes de programar.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 1.html#variáveis-e-constantes",
+    "href": "aulas/Aula 1.html#variáveis-e-constantes",
+    "title": "Conceitos Importantes",
+    "section": "1.5 Variáveis e Constantes",
+    "text": "1.5 Variáveis e Constantes\nA variável é um objeto que armazena os dados que precisamos no algoritmo, e o seu valor pode ser alterado durante a execução do programa. Já a constante, é uma valor que é pré definido no algoritmo. Ou seja, ela não muda na execução do programa.",
+    "crumbs": [
+      "Home",
+      "Pilar 1",
+      "Conceitos Importantes"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 10.html",
+    "href": "aulas/Aula 10.html",
+    "title": "Modelagem Conceitual/Abstrata",
+    "section": "",
+    "text": "A modelagem conceitual ou abstrata diz respeito ao planejamento lógico de um robô antes da sua construção física, utilizando diagramas, fluxogramas ou pseudocódigo. Essa etapa é fundamental para estruturar ideias e prever desafios, tornando a execução mais eficiente.\nFerramentas comuns para modelagem conceitual/abstrata incluem:\n\nLinguagens de Modelagem Gráfica: UML (Unified Modeling Language) é amplamente utilizada para software, enquanto BPMN (Business Process Model and Notation) é voltada para processos de negócios.\nFerramentas de Diagramação: Microsoft Visio, Lucidchart, draw.io e StarUML são populares para criar fluxogramas, diagramas de classes e outros tipos de diagramas.\nPseudocódigo e Fluxogramas: Ideais para representar a lógica do robô de forma simples e abstrata.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Conceitual/Abstrata"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 10.html#o-que-é",
+    "href": "aulas/Aula 10.html#o-que-é",
+    "title": "Modelagem Conceitual/Abstrata",
+    "section": "",
+    "text": "A modelagem conceitual ou abstrata diz respeito ao planejamento lógico de um robô antes da sua construção física, utilizando diagramas, fluxogramas ou pseudocódigo. Essa etapa é fundamental para estruturar ideias e prever desafios, tornando a execução mais eficiente.\nFerramentas comuns para modelagem conceitual/abstrata incluem:\n\nLinguagens de Modelagem Gráfica: UML (Unified Modeling Language) é amplamente utilizada para software, enquanto BPMN (Business Process Model and Notation) é voltada para processos de negócios.\nFerramentas de Diagramação: Microsoft Visio, Lucidchart, draw.io e StarUML são populares para criar fluxogramas, diagramas de classes e outros tipos de diagramas.\nPseudocódigo e Fluxogramas: Ideais para representar a lógica do robô de forma simples e abstrata.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Conceitual/Abstrata"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 10.html#exemplo-prático",
+    "href": "aulas/Aula 10.html#exemplo-prático",
+    "title": "Modelagem Conceitual/Abstrata",
+    "section": "Exemplo prático",
+    "text": "Exemplo prático\nImagine uma turma do ensino fundamental com o desafio de criar um robô para ajudar a organizar a biblioteca da escola, empilhando livros em prateleiras específicas.\n\nModelagem Conceitual/Abstrata:\nOs alunos começam com um brainstorming, desenhando em um quadro como o robô deveria se mover, quais ações ele realizaria (pegar, transportar, soltar) e como ele saberia onde colocar cada livro. Eles criam um fluxograma simples:\n\n“Se o robô detectar um livro na mesa, ele o pega. Se o livro for de ficção, ele segue para a prateleira A. Se for de não-ficção, ele segue para a prateleira B.”\n\n\nNeste momento, a criatividade e o raciocínio lógico são estimulados, preparando o caminho para a próxima etapa: a modelagem física ou computacional.",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Conceitual/Abstrata"
+    ]
+  },
+  {
+    "objectID": "aulas/Aula 10.html#links-úteis",
+    "href": "aulas/Aula 10.html#links-úteis",
+    "title": "Modelagem Conceitual/Abstrata",
+    "section": "Links úteis",
+    "text": "Links úteis\n\nLucidchart\ndraw.io\nStarUML\nMicrosoft Visio\nUML Tutorial\nBPMN Tutorial",
+    "crumbs": [
+      "Home",
+      "Pilar 3",
+      "Modelagem Conceitual/Abstrata"
     ]
   }
 ]
