@@ -3,7 +3,7 @@ title: "Os Três pilares da robótica"
 ---
 
 ::: {layout="[30,60]"}
-![](./images/ChatGPT Image Sep 4, 2025, 08_44_07 AM (1).png)
+![](./images/imageSep4.png)
 
 Olá, Chicas ! Este pequeno material tem como objetivo introduzir vocês no universo da robotica, trazendo conceitos iniciais que servem como bases para seus estudos. Encarem este conteúdo como um guia de partida, com explicações simples e objetivas, além de links para vídeos que irão auxiliá-las no aprendizado. Claro, vocês têm toda a liberdade para explorar outros materiais complementares que julgarem úteis, o importante é entender de verdade! E acreditamos que explorar outros materiais, buscar fontes diferentes e aprender a aprender são passos essenciais para o crescimento. Fiquem à vontade para complementar seus estudos com o que acharem interessante.
 :::
