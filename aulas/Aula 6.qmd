@@ -70,3 +70,18 @@ Os motores são componentes indispensáveis em projetos de automação e robóti
 
 <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/ApuPtPZeUf0" title="DC Motor" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Componentes SMD
+
+O QUE É ISSO? 
+
+<iframe  src="https://www.youtube.com/embed/_DX52l05Pbw?si=fiR_c9wF6YY3Qr1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Resistores 
+<iframe  src="https://www.youtube.com/embed/oR3CObZwqkc?si=WVrLxItafMpZYQvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe  src="https://www.youtube.com/embed/Eyn73ScKhWA?si=BOIuH2WJHmcUgMCV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Capacitores
+<iframe  src="https://www.youtube.com/embed/XUk760Ol1Gk?si=_GKO_cjhpBOOfqRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/--aBHMKtiA0?si=-c8Xy5x5kQ4jEFN2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
